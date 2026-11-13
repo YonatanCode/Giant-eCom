@@ -1,45 +1,50 @@
 # Giant eCom prototype
 
-Two Next.js prototypes that link into one journey:
+One Next.js app covering a single shopping journey for Giant in the Netherlands:
 
-| Folder | What it is | Local port |
-| --- | --- | --- |
-| `giant-store-connect/` | Store finder and store pages (the journey starts here) | 3001 |
-| `giant-product-pages/` | Product listing (PLP) and product page (PDP) | 3002 |
+**store finder → store page → product listing (PLP) → product page (PDP)**
 
-**Journey:** store finder → store page → a bike card under "Store inventory" → PLP with that
-store pre-filled under Availability → PDP showing the same store under "Collect in store".
+1. `/` — the store finder.
+2. `/store/<slug>` — a store page. The six bike cards under "Store inventory" open the
+   listing for that category with the store attached.
+3. `/nl/bikes/<category>?store=<slug>` — the PLP, opening with that store filled in under
+   Availability and "Available on location" ticked.
+4. `/nl/bikes/<category>/<product>?store=<slug>` — the PDP, showing the same store under
+   "Collect in store".
+
 "Find a store" in the PLP/PDP header leads back to the store finder.
 
-This is a prototype, not production code. Prices are GB prices converted to euros at a flat
-rate, and store stock is invented. See each folder's README for detail.
+This is a prototype, not production code. Prices are Giant's GB prices converted to euros at
+a flat rate, the range and copy are the GB ones, and store stock is invented.
 
-## Run locally
+## Run
 
 ```bash
-cd giant-store-connect && pnpm install --ignore-scripts && pnpm dev -p 3001
-cd giant-product-pages && pnpm install --ignore-scripts && pnpm dev -p 3002
+pnpm install --ignore-scripts
+pnpm dev
 ```
 
-Then open http://localhost:3001.
+`pnpm build` type-checks and builds; `pnpm test` runs the unit tests (`node:test`).
 
-## Host on Vercel
+## Deploy
 
-The two apps are separate, so create **two Vercel projects from this one repository**, each
-with its own Root Directory:
+It is a standard Next.js app at the repository root: import the repo in Vercel and deploy.
+No environment variables or root-directory setting are needed.
 
-| Vercel project | Root Directory | Environment variable |
-| --- | --- | --- |
-| Store finder | `giant-store-connect` | `NEXT_PUBLIC_PRODUCT_PAGES_URL` = URL of the product pages project |
-| Product pages | `giant-product-pages` | `NEXT_PUBLIC_STORE_FINDER_URL` = URL of the store finder project |
+## How the two halves fit in one app
 
-Each app needs the other's URL, and the variables are read at build time, so:
+The app was merged from two prototypes that each have their own design-system stylesheet,
+so each half keeps its own root layout and CSS through route groups:
 
-1. Deploy both projects once to get their URLs.
-2. Add the variable to each project (no trailing slash needed).
-3. Redeploy both.
+| Route group | Routes | Stylesheet | Components |
+| --- | --- | --- | --- |
+| `src/app/(finder)/` | `/`, `/store/...`, `/catalog` | Tailwind tokens in its `globals.css` | `src/components/{finder,store,editor,catalog}` |
+| `src/app/(shop)/` | `/nl/bikes/...` | plain CSS + `src/design-system/` | `src/components/{plp,pdp,SiteHeader,...}` |
 
-Share the store finder URL; that is where the journey begins.
+Moving between the two halves is a full page load (different root layouts), which is what
+keeps the two stylesheets from leaking into each other. Both halves share one store
+dataset: `src/data/stores-nl.ts` is the source, and `pnpm import:stores` derives
+`public/giant-stores-nl.json` from it, so a store's slug is its id everywhere.
 
-These copies are synced from the two source repositories; the original commit history
-lives there.
+More detail on each half: `docs/store-finder.md` and `docs/product-pages.md`. `CLAUDE.md`
+holds the CSS conventions for the `(shop)` half.

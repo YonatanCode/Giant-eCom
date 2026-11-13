@@ -1,0 +1,31 @@
+{
+  "name": "giant-ecom-prototype",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "tokens": "python3 scripts/gen-css.py",
+    "test": "node --import ./scripts/ts-resolve.mjs --test",
+    "import": "node scripts/import-category.mjs",
+    "import:stores": "node scripts/import-stores.mjs",
+    "import:places": "node scripts/import-places.mjs"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.1",
+    "maplibre-gl": "^5.24.0",
+    "next": "^16.2.9",
+    "react": "^19.1.0",
+    "react-custom-scroll": "^7.2.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.8.0"
+  }
+}
