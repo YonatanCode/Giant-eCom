@@ -1,0 +1,820 @@
+{
+  "slug": "kids-bikes",
+  "title": "Kids bikes",
+  "market": "GB",
+  "currency": "GBP",
+  "generatedAt": "2026-09-15T15:34:53.210Z",
+  "source": "https://www.giant-bicycles.com/gb/bikes/kids-bikes",
+  "filterGroups": [
+    {
+      "id": "bestfor",
+      "label": "Best For",
+      "options": [
+        {
+          "id": "best-for-all-rounder",
+          "label": "All-Rounder",
+          "info": "For road riders who like to mix it up, from the hills to the flats, on variable roads and bike paths."
+        },
+        {
+          "id": "best-for-first-bike",
+          "label": "First Bike",
+          "info": "Purpose-built to help young riders embark on their first two-wheeled adventures."
+        },
+        {
+          "id": "best-for-race",
+          "label": "Race",
+          "info": "For competitive road racers who want to climb, corner and descend with greater speed and efficiency."
+        },
+        {
+          "id": "best-for-trail",
+          "label": "Trail",
+          "info": "For mountain bikers who enjoy a mix of climbs and descents on flow trails, singletrack and technical terrain."
+        },
+        {
+          "id": "best-for-xc",
+          "label": "XC",
+          "info": "For mountain bikers focused on greater efficiency and control while riding fast and flowy XC trails and racetracks."
+        },
+        {
+          "id": "best-for-dirt-jumper",
+          "label": "Dirt Jumper"
+        }
+      ]
+    },
+    {
+      "id": "suspension",
+      "label": "Suspension",
+      "options": [
+        {
+          "id": "suspension-full-suspension",
+          "label": "Full Suspension"
+        },
+        {
+          "id": "suspension-front-suspension",
+          "label": "Front Suspension"
+        },
+        {
+          "id": "suspension-hardtail",
+          "label": "Hardtail"
+        }
+      ]
+    },
+    {
+      "id": "wheelsize",
+      "label": "Wheel Size",
+      "options": [
+        {
+          "id": "wheel-size-650b",
+          "label": "650b"
+        },
+        {
+          "id": "wheel-size-27-5",
+          "label": "27.5\""
+        },
+        {
+          "id": "wheel-size-26",
+          "label": "26\""
+        },
+        {
+          "id": "wheel-size-24",
+          "label": "24\""
+        },
+        {
+          "id": "wheel-size-20",
+          "label": "20\""
+        },
+        {
+          "id": "wheel-size-16",
+          "label": "16\""
+        }
+      ]
+    },
+    {
+      "id": "braketype",
+      "label": "Brake Type",
+      "options": [
+        {
+          "id": "brake-type-disc-brake",
+          "label": "Disc Brake"
+        },
+        {
+          "id": "brake-type-rim-brake",
+          "label": "Rim Brake"
+        }
+      ]
+    },
+    {
+      "id": "seatposttype",
+      "label": "Seatpost Type",
+      "options": [
+        {
+          "id": "seatpost-type-dropper",
+          "label": "Dropper"
+        },
+        {
+          "id": "seatpost-type-adjustable",
+          "label": "Adjustable"
+        }
+      ]
+    }
+  ],
+  "sizes": [
+    "One Size",
+    "Regular"
+  ],
+  "products": [
+    {
+      "id": "seek",
+      "availabilityMiles": 64,
+      "stock": {
+        "skus": 2,
+        "inStock": 2,
+        "sizes": [
+          "One Size"
+        ]
+      },
+      "title": "Seek",
+      "url": "https://www.giant-bicycles.com/gb/bikes-seek",
+      "description": "The new Seek was created for one reason: to transform the road riding experience for kids and give them the same feeling of speed, efficiency and control that adult road riders enjoy. To achieve this, we designed, developed and purpose-built a new range of bikes that stands apart from previous Giant youth road bikes and sets a new standard in the category.",
+      "price": {
+        "mode": "from",
+        "amount": "£1,399"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-race",
+        "wheel-size-650b",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "key": "purple-storm",
+          "label": "Purple Storm",
+          "colors": [
+            "#4b2e6b"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xj4pj8pjpksq2oxu4isl/MY26Seek1-Giant_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/rrrhdp4izpccsmk0ithh/MY26Seek1-Giant_ColorA-Front.jpg"
+          ]
+        },
+        {
+          "key": "raw-aluminum",
+          "label": "Raw Aluminum",
+          "colors": [
+            "#b9bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xj4pj8pjpksq2oxu4isl/MY26Seek1-Giant_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/rrrhdp4izpccsmk0ithh/MY26Seek1-Giant_ColorA-Front.jpg"
+          ]
+        },
+        {
+          "key": "abyss-black",
+          "label": "Abyss Black",
+          "colors": [
+            "#121316"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/jyjvy94nbjta8tqu87pe/seek-2.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stp-20",
+      "availabilityMiles": 72,
+      "stock": {
+        "skus": 1,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "STP 20",
+      "url": "https://www.giant-bicycles.com/gb/bikes-stp-20",
+      "description": "Dirt skills start here. With a lightweight aluminum frame that has a low stand-over height, a smooth-riding composite fork, and 20-inch wheels, the new STP 20 gives kids the confidence and maneuverability they need to start leaning into the turns, shifting their weight, and popping some air.",
+      "price": {
+        "mode": "regular",
+        "amount": "£650"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-dirt-jumper",
+        "suspension-hardtail",
+        "wheel-size-20",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "key": "teal",
+          "label": "Teal",
+          "colors": [
+            "#167f7f"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/k3dtkln4xb85jn1fvvll/MY26STP20FS-Giant_ColorATeal.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/scyvwkbkj6zu3hxb2m4t/MY26STP20FS-Giant_ColorATeal-Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stp-24",
+      "availabilityMiles": 76,
+      "stock": {
+        "skus": 1,
+        "inStock": 1,
+        "sizes": [
+          "One Size"
+        ]
+      },
+      "title": "STP 24",
+      "url": "https://www.giant-bicycles.com/gb/bikes-stp-24",
+      "description": "Made to help young riders have fun and show off their skills, this mini dirt shredder features a purpose-built aluminum frame and 100mm suspension fork with 24-inch wheels. Trail-worthy MTB components including hydraulic brakes and a dropper seatpost add to its capabilities, giving kids what they need to follow their dirt dreams.",
+      "price": {
+        "mode": "regular",
+        "amount": "£999"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-dirt-jumper",
+        "suspension-front-suspension",
+        "wheel-size-24",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "key": "black-chrome",
+          "label": "Black Chrome",
+          "colors": [
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/qdjkige2x6pc4vhysuj9/MY26STP24-Giant_ColorABlackChrome1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ydlicnzj7pe7zgaomd8a/MY26STP24-Giant_ColorABlackChrome-Rear.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stp-26",
+      "availabilityMiles": 78,
+      "stock": {
+        "skus": 1,
+        "inStock": 1,
+        "sizes": [
+          "One Size"
+        ]
+      },
+      "title": "STP 26",
+      "url": "https://www.giant-bicycles.com/gb/bikes-stp-26",
+      "description": "Rail the corner, boost a jump, give it a go on that tricky line. The all-new STP 26 is built for pushing limits.",
+      "price": {
+        "mode": "regular",
+        "amount": "£1,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-dirt-jumper",
+        "suspension-front-suspension",
+        "wheel-size-26",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "key": "quicksilver",
+          "label": "Quicksilver",
+          "colors": [
+            "#c2c6ca"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/vj5rbubtwusallysktg0/MY26STP26-Giant_ColorABrushAluminum1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/w7ubsdt8yw0mx7ymvhsy/MY26STP26-Giant_ColorABrushAluminum-Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faith-2025",
+      "availabilityMiles": 92,
+      "stock": {
+        "skus": 1,
+        "inStock": 1,
+        "sizes": [
+          "One Size"
+        ]
+      },
+      "title": "Faith",
+      "url": "https://www.giant-bicycles.com/gb/bikes-faith-2025",
+      "description": "Small but mighty, this highly capable trail bike is for little rippers with big ambitions. Its lightweight alloy frame, high-performance wheels, and youth-tuned suspension balance efficient climbing, loads of traction, and confident handling to help young trail riders take it to the next level.",
+      "price": {
+        "mode": "regular",
+        "amount": "£2,399"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-trail",
+        "suspension-full-suspension",
+        "wheel-size-27-5",
+        "wheel-size-26",
+        "brake-type-disc-brake",
+        "seatpost-type-dropper"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "key": "copper",
+          "label": "Copper",
+          "colors": [
+            "#a35f38"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kmhxx539vwia1yajgm8d/MY25Faith-Giant_ColorACopper.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/nbtphqb4pj3wq1udhir7/MY25Faith-Giant_ColorACopper-Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faith-24-2025",
+      "availabilityMiles": 118,
+      "stock": {
+        "skus": 1,
+        "inStock": 1,
+        "sizes": [
+          "One Size"
+        ]
+      },
+      "title": "Faith 24",
+      "url": "https://www.giant-bicycles.com/gb/bikes-faith-24-2025",
+      "description": "Small but mighty, this highly capable new trail bike is made for little rippers with big ambitions. With a lightweight alloy frame, 24-inch wheels, and youth-tuned suspension, it balances efficient climbing, loads of traction, and confident handling to help young riders take it to the next level.",
+      "price": {
+        "mode": "regular",
+        "amount": "£2,399"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-trail",
+        "suspension-full-suspension",
+        "wheel-size-24",
+        "brake-type-disc-brake",
+        "seatpost-type-dropper"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "key": "raw-aluminium",
+          "label": "Raw Aluminium",
+          "colors": [
+            "#b9bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/rbzqxupizw3dse3fi2ah/MY25Faith24-Giant_ColorARawAluminum.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/yffrgpo9cfiszx8jvu4b/MY25Faith24-Giant_ColorARawAluminum-Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stp-26-2025",
+      "availabilityMiles": 19,
+      "stock": {
+        "skus": 1,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "STP 26",
+      "url": "https://www.giant-bicycles.com/gb/bikes-stp-26-2025",
+      "description": "Make the world your playground with STP. A longtime favourite for dirt jumping, street shredding and whatever style you dream up, it’s powered by a lightweight, super-strong frame and responsive 26-inch wheels.",
+      "price": {
+        "mode": "regular",
+        "amount": "£999"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-trail",
+        "suspension-hardtail",
+        "wheel-size-26",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "Regular"
+      ],
+      "colors": [
+        {
+          "key": "quicksilver",
+          "label": "Quicksilver",
+          "colors": [
+            "#c2c6ca"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kt9tvsmsrgasb4fy7jwd/MY25STP26-Giant_ColorAQuicksilver.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arx-20-2025",
+      "availabilityMiles": 67,
+      "stock": {
+        "skus": 4,
+        "inStock": 1,
+        "sizes": [
+          "One Size"
+        ]
+      },
+      "title": "ARX 20",
+      "url": "https://www.giant-bicycles.com/gb/bikes-arx-20-2025",
+      "description": "Why should lightweight performance be limited to adult bikes? This sleek aluminium kids’ bike is the lightest in its category and has stable geometry that makes it easy for young riders to get rolling.",
+      "price": {
+        "mode": "regular",
+        "amount": "£429"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-all-rounder",
+        "wheel-size-20",
+        "brake-type-rim-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "key": "phoenix-fire",
+          "label": "Phoenix Fire",
+          "colors": [
+            "#d8502a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/shofsae0ji732liuuvub/MY24ARX20_ColorAPhoenixFire1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/liu0h9f2pvnabbd00bti/MY24ARX20_ColorBCobalt1.jpg"
+          ]
+        },
+        {
+          "key": "cobalt",
+          "label": "Cobalt",
+          "colors": [
+            "#1b3a6b"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/shofsae0ji732liuuvub/MY24ARX20_ColorAPhoenixFire1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/liu0h9f2pvnabbd00bti/MY24ARX20_ColorBCobalt1.jpg"
+          ]
+        },
+        {
+          "key": "soap-suds",
+          "label": "Soap Suds",
+          "colors": [
+            "#e8f0f2"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/shofsae0ji732liuuvub/MY24ARX20_ColorAPhoenixFire1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/liu0h9f2pvnabbd00bti/MY24ARX20_ColorBCobalt1.jpg"
+          ]
+        },
+        {
+          "key": "lime-punch",
+          "label": "Lime Punch",
+          "colors": [
+            "#8bc34a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/shofsae0ji732liuuvub/MY24ARX20_ColorAPhoenixFire1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/liu0h9f2pvnabbd00bti/MY24ARX20_ColorBCobalt1.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arx-24-2025",
+      "availabilityMiles": 12,
+      "stock": {
+        "skus": 4,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "ARX 24",
+      "url": "https://www.giant-bicycles.com/gb/bikes-arx-24-2025",
+      "description": "Why should lightweight performance be limited to adult bikes? This sleek aluminium kids’ bike is the lightest in its category and has stable geometry that makes it easy for young riders to get rolling.",
+      "price": {
+        "mode": "regular",
+        "amount": "£439"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-all-rounder",
+        "wheel-size-24",
+        "brake-type-rim-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "key": "phoenix-fire",
+          "label": "Phoenix Fire",
+          "colors": [
+            "#d8502a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ceicimgdnnlyrypabb9g/MY24ARX24_ColorAPhoenixFire1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xx5gjrsm3cjv56dpk6sw/MY24ARX24_ColorBCobalt.jpg"
+          ]
+        },
+        {
+          "key": "cobalt",
+          "label": "Cobalt",
+          "colors": [
+            "#1b3a6b"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ceicimgdnnlyrypabb9g/MY24ARX24_ColorAPhoenixFire1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xx5gjrsm3cjv56dpk6sw/MY24ARX24_ColorBCobalt.jpg"
+          ]
+        },
+        {
+          "key": "soap-suds",
+          "label": "Soap Suds",
+          "colors": [
+            "#e8f0f2"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ceicimgdnnlyrypabb9g/MY24ARX24_ColorAPhoenixFire1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xx5gjrsm3cjv56dpk6sw/MY24ARX24_ColorBCobalt.jpg"
+          ]
+        },
+        {
+          "key": "lime-punch",
+          "label": "Lime Punch",
+          "colors": [
+            "#8bc34a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ceicimgdnnlyrypabb9g/MY24ARX24_ColorAPhoenixFire1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xx5gjrsm3cjv56dpk6sw/MY24ARX24_ColorBCobalt.jpg"
+          ]
+        },
+        {
+          "key": "metallic-green",
+          "label": "Metallic Green",
+          "colors": [
+            "#2b623a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ceicimgdnnlyrypabb9g/MY24ARX24_ColorAPhoenixFire1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xx5gjrsm3cjv56dpk6sw/MY24ARX24_ColorBCobalt.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arx-26-2025",
+      "availabilityMiles": 95,
+      "stock": {
+        "skus": 3,
+        "inStock": 2,
+        "sizes": [
+          "One Size"
+        ]
+      },
+      "title": "ARX 26",
+      "url": "https://www.giant-bicycles.com/gb/bikes-arx-26-2025",
+      "description": "Why should lightweight performance be limited to adult bikes? This sleek aluminium flyer is the lightest in its category and has stable geometry that makes it easy for young riders to get going.",
+      "price": {
+        "mode": "regular",
+        "amount": "£449"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-all-rounder",
+        "wheel-size-26",
+        "brake-type-rim-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "key": "phoenix-fire",
+          "label": "Phoenix Fire",
+          "colors": [
+            "#d8502a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/zhkhvrrrquhlxzs5ixjx/MY24ARX26_ColorAPhoenixFire1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ccjlalefhfeeu05phuez/MY24ARX26_ColorBCobalt1.jpg"
+          ]
+        },
+        {
+          "key": "black",
+          "label": "Black",
+          "colors": [
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/zhkhvrrrquhlxzs5ixjx/MY24ARX26_ColorAPhoenixFire1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ccjlalefhfeeu05phuez/MY24ARX26_ColorBCobalt1.jpg"
+          ]
+        },
+        {
+          "key": "cobalt",
+          "label": "Cobalt",
+          "colors": [
+            "#1b3a6b"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/zhkhvrrrquhlxzs5ixjx/MY24ARX26_ColorAPhoenixFire1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ccjlalefhfeeu05phuez/MY24ARX26_ColorBCobalt1.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stp-20-2024",
+      "availabilityMiles": 95,
+      "stock": {
+        "skus": 1,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "STP 20",
+      "url": "https://www.giant-bicycles.com/gb/bikes-stp-20-2024",
+      "description": "From the driveway to the bike park, STP 20 helps young riders make the transition from wobbly laps around the block to having fun on trails and off-road terrain.",
+      "price": {
+        "mode": "regular",
+        "amount": "£549"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-xc",
+        "suspension-hardtail",
+        "wheel-size-20",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "key": "blue-palace",
+          "label": "Blue Palace",
+          "colors": [
+            "#1f4e9c"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/jq3h4xzjuw6pn6ilywpc/MY24STP20FS-Giant_ColorABluePalace.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stp-24-2024",
+      "availabilityMiles": 40,
+      "stock": {
+        "skus": 1,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "STP 24",
+      "url": "https://www.giant-bicycles.com/gb/bikes-stp-24-2024",
+      "description": "Designed for young riders looking to hit the dirt, pump track or bike park, this little shredder is built on a lightweight, durable aluminium frame and perfectly sized 24-inch wheels.",
+      "price": {
+        "mode": "regular",
+        "amount": "£599"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-xc",
+        "suspension-hardtail",
+        "wheel-size-24",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "key": "black",
+          "label": "Black",
+          "colors": [
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/dgax0plxuafecyuz6fw3/MY24STP24FS-Giant_ColorABlack.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arx-16-2024",
+      "availabilityMiles": 70,
+      "stock": {
+        "skus": 4,
+        "inStock": 2,
+        "sizes": []
+      },
+      "title": "ARX 16",
+      "url": "https://www.giant-bicycles.com/gb/bikes-arx-16-2024",
+      "description": "Why should lightweight performance be limited to adult bikes? This sleek aluminium kids’ bike is the lightest in its category and has stable geometry that makes it easy for young riders to get rolling.",
+      "price": {
+        "mode": "regular",
+        "amount": "£349"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-first-bike",
+        "wheel-size-16",
+        "brake-type-rim-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "key": "phoenix-fire",
+          "label": "Phoenix Fire",
+          "colors": [
+            "#d8502a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ytcom47ezwrqwmimccao/MY24ARX16F_W_ColorAPhoenixFire.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wn90p0pdscd7dq9l7n8i/MY24ARX16F_W_ColorBCobalt.jpg"
+          ]
+        },
+        {
+          "key": "cobalt",
+          "label": "Cobalt",
+          "colors": [
+            "#1b3a6b"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ytcom47ezwrqwmimccao/MY24ARX16F_W_ColorAPhoenixFire.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wn90p0pdscd7dq9l7n8i/MY24ARX16F_W_ColorBCobalt.jpg"
+          ]
+        },
+        {
+          "key": "soap-suds",
+          "label": "Soap Suds",
+          "colors": [
+            "#e8f0f2"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ytcom47ezwrqwmimccao/MY24ARX16F_W_ColorAPhoenixFire.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wn90p0pdscd7dq9l7n8i/MY24ARX16F_W_ColorBCobalt.jpg"
+          ]
+        },
+        {
+          "key": "lime-punch",
+          "label": "Lime Punch",
+          "colors": [
+            "#8bc34a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ytcom47ezwrqwmimccao/MY24ARX16F_W_ColorAPhoenixFire.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wn90p0pdscd7dq9l7n8i/MY24ARX16F_W_ColorBCobalt.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

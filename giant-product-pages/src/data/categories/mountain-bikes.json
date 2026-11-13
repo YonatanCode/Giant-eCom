@@ -1,0 +1,1682 @@
+{
+  "slug": "mountain-bikes",
+  "title": "Mountain bikes",
+  "market": "GB",
+  "currency": "GBP",
+  "generatedAt": "2026-09-15T15:34:53.029Z",
+  "source": "https://www.giant-bicycles.com/gb/bikes/mountain-bikes",
+  "filterGroups": [
+    {
+      "id": "bestfor",
+      "label": "Best For",
+      "options": [
+        {
+          "id": "best-for-enduro",
+          "label": "Enduro",
+          "info": "For riders who enjoy aggressive descents, technical trails, and the dynamic nature of enduro racing."
+        },
+        {
+          "id": "best-for-downhill",
+          "label": "Downhill",
+          "info": "For gravity-fueled DH riders who like to challenge themselves to go fast on steep, rough and technical descents."
+        },
+        {
+          "id": "best-for-trail",
+          "label": "Trail",
+          "info": "For mountain bikers who enjoy a mix of climbs and descents on flow trails, singletrack and technical terrain."
+        },
+        {
+          "id": "best-for-xc",
+          "label": "XC",
+          "info": "For mountain bikers focused on greater efficiency and control while riding fast and flowy XC trails and racetracks."
+        }
+      ]
+    },
+    {
+      "id": "suspension",
+      "label": "Suspension",
+      "options": [
+        {
+          "id": "suspension-full-suspension",
+          "label": "Full Suspension"
+        },
+        {
+          "id": "suspension-hardtail",
+          "label": "Hardtail"
+        }
+      ]
+    },
+    {
+      "id": "framematerial",
+      "label": "Frame Material",
+      "options": [
+        {
+          "id": "frame-material-composite-carbon",
+          "label": "Carbon"
+        },
+        {
+          "id": "frame-material-aluminium",
+          "label": "Aluminium"
+        }
+      ]
+    },
+    {
+      "id": "wheelsize",
+      "label": "Wheel Size",
+      "options": [
+        {
+          "id": "wheel-size-29",
+          "label": "29\""
+        },
+        {
+          "id": "wheel-size-27-5",
+          "label": "27.5\""
+        },
+        {
+          "id": "wheel-size-26",
+          "label": "26\""
+        },
+        {
+          "id": "wheel-size-mixed-27-5-29",
+          "label": "Mixed 27.5/29\""
+        }
+      ]
+    },
+    {
+      "id": "batterycapacity",
+      "label": "Battery Capacity",
+      "options": [
+        {
+          "id": "battery-capacity-400-wh",
+          "label": "400 Wh"
+        },
+        {
+          "id": "battery-capacity-500-wh",
+          "label": "500 Wh"
+        },
+        {
+          "id": "battery-capacity-560-wh",
+          "label": "560 Wh"
+        },
+        {
+          "id": "battery-capacity-625-wh",
+          "label": "625 Wh"
+        },
+        {
+          "id": "battery-capacity-750-wh",
+          "label": "750 Wh"
+        },
+        {
+          "id": "battery-capacity-800-wh",
+          "label": "800 Wh"
+        }
+      ]
+    },
+    {
+      "id": "batterytype",
+      "label": "Battery Type",
+      "options": [
+        {
+          "id": "battery-type-downtube",
+          "label": "Downtube"
+        },
+        {
+          "id": "battery-type-integrated",
+          "label": "Integrated"
+        },
+        {
+          "id": "battery-type-side-release",
+          "label": "Side Release"
+        }
+      ]
+    },
+    {
+      "id": "seatposttype",
+      "label": "Seatpost Type",
+      "options": [
+        {
+          "id": "seatpost-type-dropper",
+          "label": "Dropper"
+        },
+        {
+          "id": "seatpost-type-adjustable",
+          "label": "Adjustable"
+        }
+      ]
+    },
+    {
+      "id": "sale",
+      "label": "Sale",
+      "options": [
+        {
+          "id": "sale-product",
+          "label": "On Sale"
+        }
+      ]
+    }
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "S/M",
+    "M",
+    "M/L",
+    "L",
+    "L/XL",
+    "XL",
+    "XXL",
+    "One Size"
+  ],
+  "products": [
+    {
+      "id": "reign-advanced-eplus",
+      "availabilityMiles": 86,
+      "stock": {
+        "skus": 12,
+        "inStock": 10,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Reign Advanced E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-reign-advanced-eplus",
+      "description": "Everything about the new Reign Advanced E+ is designed to make it the best descending E-MTB ever. From the bottomless feeling Maestro suspension with 170mm of rear travel (and a 180mm fork) to the punchy new SyncDrive Pro 3 motor and its lightweight, stiff and ultra-adjustable composite frame.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£4,549",
+        "oldAmount": "£6,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-enduro",
+        "suspension-full-suspension",
+        "frame-material-composite-carbon",
+        "wheel-size-mixed-27-5-29",
+        "battery-capacity-560-wh",
+        "battery-type-downtube",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "purple-haze-metallic-navy",
+          "label": "Purple Haze/Metallic Navy",
+          "colors": [
+            "#5b2f7a",
+            "#1d2b4a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/parohl5a3hwdgkl3fevq/MY26ReignAdvancedE0_ColorA_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ygi8j5sgtc9msuesatqa/MY26ReignAdvancedE0_ColorAwithrangeextender.jpg"
+          ]
+        },
+        {
+          "key": "mercury-carbon-smoke",
+          "label": "Mercury/Carbon Smoke",
+          "colors": [
+            "#b4b8bc",
+            "#3a3b3d"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/mlwzd7xrll2clxrcjen2/MY26ReignAdvancedE1_ColorAMercury_CarbonSmoke1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ku6dt4kvzmrprljzuyyj/MY26ReignAdvancedE1_ColorAMercury_CarbonSmoke-Rear.jpg"
+          ]
+        },
+        {
+          "key": "moon-dust",
+          "label": "Moon Dust",
+          "colors": [
+            "#b9b2a6"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/mfcoaeynetzwqc2a9cf0/MY26ReignAdvancedE2_ColorAMoonDust.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kispv8ampwkevtmov3wr/MY26ReignAdvancedE2_ColorAMoonDust_Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stance-eplus-2027",
+      "availabilityMiles": 46,
+      "stock": {
+        "skus": 12,
+        "inStock": 12,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Stance E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-stance-eplus-2027",
+      "description": "More power. More confidence.",
+      "price": {
+        "mode": "from",
+        "amount": "£3,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-trail",
+        "suspension-full-suspension",
+        "frame-material-aluminium",
+        "wheel-size-29",
+        "battery-capacity-800-wh",
+        "battery-type-integrated",
+        "seatpost-type-dropper",
+        "battery-capacity-625-wh"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "default",
+          "label": "Default",
+          "colors": [
+            "#6b7280"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_333%2Cq_80%2Cw_500/ypsujudna4ll1jopacih/MY27StanceE0_ColorADeepLake_Black_ColorA.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anthem-advanced-sl",
+      "availabilityMiles": 109,
+      "stock": {
+        "skus": 16,
+        "inStock": 12,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Anthem Advanced SL",
+      "url": "https://www.giant-bicycles.com/gb/bikes-anthem-advanced-sl",
+      "description": "Developed to help Giant pro Alan Hatherly win the 2025 Elite Men’s XCO World Championship, this superlight XC composite flyer is engineered with a semi-integrated 120mm FlexPoint Pro rear suspension system and a flip chip to adjust geometry for any racecourse or XC terrain.",
+      "price": {
+        "mode": "from",
+        "amount": "£5,299"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-xc",
+        "suspension-full-suspension",
+        "frame-material-composite-carbon",
+        "wheel-size-29",
+        "seatpost-type-dropper"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "white-carbon",
+          "label": "White/Carbon",
+          "colors": [
+            "#f5f5f3",
+            "#2b2b2d"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xh7hoizdzglnpwdlweyd/MY26AnthemAdvancedSLSE_ColorAWhite_Carbon.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/txuzigkygagpe5wssuvb/MY26AnthemAdvancedSLSE_ColorAWhite_Carbon-Front.jpg"
+          ]
+        },
+        {
+          "key": "gloss-raw-carbon-matte-raw-carbon",
+          "label": "Gloss Raw Carbon/Matte Raw Carbon",
+          "colors": [
+            "#2b2b2d",
+            "#2b2b2d"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/jrdzu5eb2zuk56qmftln/MY26AnthemAdvancedSL0_ColorARawCarbon.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/nxcf7zzoy2h581szvfmt/MY26AnthemAdvancedSL0_ColorARawCarbon-Front1.jpg"
+          ]
+        },
+        {
+          "key": "rainbow-black-rainbow-charcoal",
+          "label": "Rainbow Black/Rainbow Charcoal",
+          "colors": [
+            "#151515",
+            "#3c3f41"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/v6m4ogbnfa7e0avztyvp/MY26AnthemAdvancedSL1_ColorARainbowBlack.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/isc97oozgzuiti9yeijp/MY26AnthemAdvancedSL1_ColorARainbowBlack-Front.jpg"
+          ]
+        },
+        {
+          "key": "mariana-blue-icicle-white",
+          "label": "Mariana Blue/Icicle White",
+          "colors": [
+            "#1c3f6e",
+            "#eef2f4"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/hgyz9ytw481t5o3wf0yx/MY26AnthemAdvancedSL2_ColorAMarianaBlue.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/en5iirhlavhaxjgamp1p/MY26AnthemAdvancedSL2_ColorAMarianaBlue-Rear.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anthem-advanced-sl-frame",
+      "availabilityMiles": 119,
+      "stock": {
+        "skus": 4,
+        "inStock": 4,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Anthem Advanced SL Frame",
+      "url": "https://www.giant-bicycles.com/gb/bikes-anthem-advanced-sl-frame",
+      "description": "Developed to help Giant pro Alan Hatherly win the 2025 Elite Men’s XCO World Championship, this superlight XC composite flyer is engineered with a semi-integrated 120mm FlexPoint Pro rear suspension system and a flip chip to adjust geometry for any racecourse or XC terrain.",
+      "price": {
+        "mode": "regular",
+        "amount": "£3,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-xc",
+        "suspension-full-suspension",
+        "frame-material-composite-carbon",
+        "wheel-size-29"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "electrical-storm",
+          "label": "Electrical Storm",
+          "colors": [
+            "#6a7078"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/hbvjwoxk3fv7xa1qoxtw/MY26AnthemAdvancedSL-FR_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/itufccwqmvcmgxqi2rd3/MY26AnthemAdvancedSL-FR_ColorA-Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anthem-advanced-sl-se-world-champion-frameset",
+      "availabilityMiles": 82,
+      "stock": {
+        "skus": 3,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "Anthem Advanced SL SE World Champion Frameset",
+      "url": "https://www.giant-bicycles.com/gb/bikes-anthem-advanced-sl-se-world-champion-frameset",
+      "description": "Now you can own the same superlight frameset Alan Hatherly rode to the 2025 XCO World Championship title. This limited-edition Anthem Advanced SL frameset includes the new semi-integrated FlexPoint Pro suspension system with 120mm of smooth, active rear travel.",
+      "price": {
+        "mode": "regular",
+        "amount": "£3,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-xc",
+        "suspension-full-suspension",
+        "frame-material-composite-carbon",
+        "wheel-size-29"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "se-world-champion",
+          "label": "SE World Champion",
+          "colors": [
+            "#f0efec"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/mch3j9vczziiam91rskv/MY26AnthemAdvancedSL-FR_ColorCWorldChampions1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/gzffm2j8n1htdyhungoc/MY26AnthemAdvancedSL-FR_ColorCWorldChampions-Front2.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anthem-x-advanced-sl",
+      "availabilityMiles": 35,
+      "stock": {
+        "skus": 8,
+        "inStock": 6,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Anthem X Advanced SL",
+      "url": "https://www.giant-bicycles.com/gb/bikes-anthem-x-advanced-sl",
+      "description": "Built to slay singletrack with blazing speed, the new Anthem X Advanced SL blurs the lines between XC and trail performance. The lightweight composite frame features a new semi-integrated FlexPoint Pro rear suspension setup with 120mm of travel plus a flip chip to adjust geometry.",
+      "price": {
+        "mode": "from",
+        "amount": "£4,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-xc",
+        "suspension-full-suspension",
+        "frame-material-composite-carbon",
+        "wheel-size-29",
+        "seatpost-type-dropper"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "solar-prominence",
+          "label": "Solar Prominence",
+          "colors": [
+            "#d53700"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/qbyplgjseicqyfzptegh/MY26AnthemXAdvancedSL1_ColorASolarProminence.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/cmmc7cebz92rqvfanzqn/MY26AnthemXAdvancedSL1_ColorASolarProminence-Front.jpg"
+          ]
+        },
+        {
+          "key": "dark-jungle",
+          "label": "Dark Jungle",
+          "colors": [
+            "#1d3222"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/qrpwlnj9j1d6wfjiv5mc/MY26AnthemXAdvancedSL2_ColorADarkJungle.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/vov07sjl11zhthvh6ret/MY26AnthemXAdvancedSL2_ColorADarkJungle-Rear.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xtc-slr",
+      "availabilityMiles": 14,
+      "stock": {
+        "skus": 4,
+        "inStock": 4,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "XTC SLR",
+      "url": "https://www.giant-bicycles.com/gb/bikes-xtc-slr",
+      "description": "",
+      "price": {
+        "mode": "discount",
+        "amount": "£1,199",
+        "oldAmount": "£1,599"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-xc",
+        "suspension-hardtail",
+        "frame-material-aluminium",
+        "wheel-size-29",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "abyss-black",
+          "label": "Abyss Black",
+          "colors": [
+            "#121316"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/icilecda6iut82h6nduf/MY26XTCSLR291_ColorAAbyssBlack.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "talon-eplus",
+      "availabilityMiles": 79,
+      "stock": {
+        "skus": 12,
+        "inStock": 12,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Talon E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-talon-eplus",
+      "description": "Whether you’re riding trails, exploring dirt roads, or putting some zip in your daily commute, riding an E-bike doesn’t have to be complicated. The all-new Talon E+ range lets you do it all, combining the exhilarating sensation of pedal-assist power with light and agile off-road handling.",
+      "price": {
+        "mode": "regular",
+        "amount": "£2,299"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-trail",
+        "suspension-hardtail",
+        "frame-material-aluminium",
+        "wheel-size-29",
+        "battery-capacity-500-wh",
+        "battery-type-side-release",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "asphalt-green",
+          "label": "Asphalt Green",
+          "colors": [
+            "#004814"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/swqogbgs0mm6zjmu0pbw/MY26TalonE_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/amo1b3k9g427cnohvtcj/MY26TalonE_ColorA-Front.jpg"
+          ]
+        },
+        {
+          "key": "electric-blue",
+          "label": "Electric Blue",
+          "colors": [
+            "#4c71b0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/eml79ayh59tjigetk1iu/MY26TalonE_ColorB.jpg"
+          ]
+        },
+        {
+          "key": "meteor-storm",
+          "label": "Meteor Storm",
+          "colors": [
+            "#6a7078"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/swqogbgs0mm6zjmu0pbw/MY26TalonE_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/amo1b3k9g427cnohvtcj/MY26TalonE_ColorA-Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fathom-eplus",
+      "availabilityMiles": 21,
+      "stock": {
+        "skus": 4,
+        "inStock": 4,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Fathom E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-fathom-eplus",
+      "description": "Take control of the trail with this fun new hardtail E-bike. Now you can climb with greater ease and ride farther, the perfect formula for a great day on the trail.",
+      "price": {
+        "mode": "discount",
+        "amount": "£2,399",
+        "oldAmount": "£2,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-trail",
+        "suspension-hardtail",
+        "frame-material-aluminium",
+        "wheel-size-29",
+        "battery-capacity-750-wh",
+        "battery-type-integrated",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "deep-lake",
+          "label": "Deep Lake",
+          "colors": [
+            "#1e4d67"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/j7pxmcxk75e9inzgvbku/MY26_Fathom_E_black_tires.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/sykybb3qxi9f5myvdonr/MY26FathomE_ColorA-D1.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "talon-eplus-ex",
+      "availabilityMiles": 13,
+      "stock": {
+        "skus": 4,
+        "inStock": 4,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Talon E+ EX",
+      "url": "https://www.giant-bicycles.com/gb/bikes-talon-eplus-ex",
+      "description": "Whether you’re riding trails, exploring dirt roads, or putting some zip in your daily commute, riding an E-bike doesn’t have to be complicated. The all-new Talon E+ range lets you do it all, combining the exhilarating sensation of pedal-assist power with light and agile off-road handling.",
+      "price": {
+        "mode": "regular",
+        "amount": "£2,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-trail",
+        "suspension-hardtail",
+        "frame-material-aluminium",
+        "wheel-size-29",
+        "battery-capacity-500-wh",
+        "battery-type-side-release",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "metallic-navy",
+          "label": "Metallic Navy",
+          "colors": [
+            "#1d2b4a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/narqlbnul83ksaqvbbew/MY26TalonEEX_ColorAMetallicNavy.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/rbr7pvrwwayhze1z8wpi/MY26TalonEEX_ColorAMetallicNavy-D2.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stance",
+      "availabilityMiles": 88,
+      "stock": {
+        "skus": 4,
+        "inStock": 4,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Stance",
+      "url": "https://www.giant-bicycles.com/gb/bikes-stance",
+      "description": "Nothing beats that feeling of being one with the trail. Stance helps you tap into it, delivering smooth control with a new aluminum frameset and 130mm of FlexPoint rear suspension featuring a new semi-integrated design.",
+      "price": {
+        "mode": "regular",
+        "amount": "£1,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-trail",
+        "suspension-full-suspension",
+        "frame-material-aluminium",
+        "wheel-size-29",
+        "seatpost-type-dropper"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "black",
+          "label": "Black",
+          "colors": [
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wo8qsyv3fzdkz1csnlya/MY26Stance_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/gsxmuz172jhdzjwbp6ce/MY26Stance_ColorA-Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anthem-advanced-29-frameset-2025",
+      "availabilityMiles": 25,
+      "stock": {
+        "skus": 4,
+        "inStock": 3,
+        "sizes": [
+          "S",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Anthem Advanced 29 Frameset",
+      "url": "https://www.giant-bicycles.com/gb/bikes-anthem-advanced-29-frameset-2025",
+      "description": "",
+      "price": {
+        "mode": "discount",
+        "amount": "£1,799",
+        "oldAmount": "£2,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-xc",
+        "suspension-full-suspension",
+        "frame-material-composite-carbon",
+        "wheel-size-29",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-fluid-iridescence-iris",
+          "label": "Gloss Fluid Iridescence/Iris",
+          "colors": [
+            "#9ab0c4",
+            "#6b5bb5"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/bnxmlqeuucmphaghq8kv/MY25AnthemAdvanced29-FR_ColorAFluidIridescence.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ehfla4fge4llgcusg9ml/MY25AnthemAdvanced29-FR_ColorAFluidIridescence_Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xtc-advanced-sl-frameset-2025",
+      "availabilityMiles": 34,
+      "stock": {
+        "skus": 4,
+        "inStock": 4,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "XTC Advanced SL Frameset",
+      "url": "https://www.giant-bicycles.com/gb/bikes-xtc-advanced-sl-frameset-2025",
+      "description": "",
+      "price": {
+        "mode": "discount",
+        "amount": "£1,399",
+        "oldAmount": "£1,899"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-xc",
+        "suspension-hardtail",
+        "frame-material-composite-carbon",
+        "wheel-size-29",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-sunset-dune-chrome",
+          "label": "Gloss Sunset Dune/Chrome",
+          "colors": [
+            "#cbb490",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/zw11dxjhhzdwqhkmykwd/MY25XTCAdvancedSL29-FR_ColorASunsetDune.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/odtamyzzqtpkznwrqh2x/MY25XTCAdvancedSL29-FR_ColorASunsetDune_Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "talon-2025",
+      "availabilityMiles": 53,
+      "stock": {
+        "skus": 72,
+        "inStock": 46,
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "title": "Talon",
+      "url": "https://www.giant-bicycles.com/gb/bikes-talon-2025",
+      "description": "The mountain bike experience starts here. With a redesigned frame that’s now lighter and more durable, along with a smooth-riding suspension fork, thru-axle hubs*, and a 1x drivetrain*, this aluminium hardtail is everything an aspiring MTB rider needs to evolve and advance.",
+      "price": {
+        "mode": "from",
+        "amount": "£525"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-xc",
+        "suspension-hardtail",
+        "frame-material-aluminium",
+        "wheel-size-29",
+        "wheel-size-27-5",
+        "seatpost-type-dropper",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-mars-dust-black-chrome",
+          "label": "Gloss Mars Dust/Black/Chrome",
+          "colors": [
+            "#b9b2a6",
+            "#151515",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/nxeilhy6ylmxz28a0fwc/MY25Talon290_ColorAUltraNavy.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/lajntqrzniwj3v7txkab/MY25Talon290_ColorAUltraNavy-Front.jpg"
+          ]
+        },
+        {
+          "key": "gloss-ultra-navy-chrome",
+          "label": "Gloss Ultra Navy/Chrome",
+          "colors": [
+            "#1d2b4a",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/nxeilhy6ylmxz28a0fwc/MY25Talon290_ColorAUltraNavy.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/lajntqrzniwj3v7txkab/MY25Talon290_ColorAUltraNavy-Front.jpg"
+          ]
+        },
+        {
+          "key": "gloss-metallic-blue",
+          "label": "Gloss Metallic Blue",
+          "colors": [
+            "#1d4890"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ryyrkxdkbhg1nsyagchl/MY25Talon291_ColorACharcoal.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/tly2fb1zfserkaav5o7t/MY25Talon291_ColorACharcoal-Front.jpg"
+          ]
+        },
+        {
+          "key": "satin-charcoal",
+          "label": "Satin Charcoal",
+          "colors": [
+            "#3c3f41"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ryyrkxdkbhg1nsyagchl/MY25Talon291_ColorACharcoal.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/tly2fb1zfserkaav5o7t/MY25Talon291_ColorACharcoal-Front.jpg"
+          ]
+        },
+        {
+          "key": "gloss-asphalt-green",
+          "label": "Gloss Asphalt Green",
+          "colors": [
+            "#004814"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wajuq4zawnoylmfywmcs/MY25Talon292_ColorAAsphaltGreen.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/igussvzity3zjfmvlzsx/MY25Talon292_ColorAAsphaltGreen-Rear.jpg"
+          ]
+        },
+        {
+          "key": "gloss-pure-red",
+          "label": "Gloss Pure Red",
+          "colors": [
+            "#ff170d"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wajuq4zawnoylmfywmcs/MY25Talon292_ColorAAsphaltGreen.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/igussvzity3zjfmvlzsx/MY25Talon292_ColorAAsphaltGreen-Rear.jpg"
+          ]
+        },
+        {
+          "key": "gloss-dried-matcha",
+          "label": "Gloss Dried Matcha",
+          "colors": [
+            "#97936b"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wajuq4zawnoylmfywmcs/MY25Talon292_ColorAAsphaltGreen.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/igussvzity3zjfmvlzsx/MY25Talon292_ColorAAsphaltGreen-Rear.jpg"
+          ]
+        },
+        {
+          "key": "gloss-frost-silver",
+          "label": "Gloss Frost Silver",
+          "colors": [
+            "#c2c6ca"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/f3yqr1zhkt542piutlfk/MY25Talon293_ColorAPanther.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ey0o03v07vgvybnpwdgj/MY25Talon293_ColorAPanther-Front.jpg"
+          ]
+        },
+        {
+          "key": "gloss-beeswax",
+          "label": "Gloss Beeswax",
+          "colors": [
+            "#d9a441"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/f3yqr1zhkt542piutlfk/MY25Talon293_ColorAPanther.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ey0o03v07vgvybnpwdgj/MY25Talon293_ColorAPanther-Front.jpg"
+          ]
+        },
+        {
+          "key": "gloss-panther",
+          "label": "Gloss Panther",
+          "colors": [
+            "#1a1a1c"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/f3yqr1zhkt542piutlfk/MY25Talon293_ColorAPanther.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ey0o03v07vgvybnpwdgj/MY25Talon293_ColorAPanther-Front.jpg"
+          ]
+        },
+        {
+          "key": "gloss-radiant-orange",
+          "label": "Gloss Radiant Orange",
+          "colors": [
+            "#e0642c"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/laijrx875ivdiotsd1di/MY25Talon294_ColorABlack.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/sgzycysizsnhtm9mastm/MY25Talon294_ColorABlack-Rear.jpg"
+          ]
+        },
+        {
+          "key": "satin-black",
+          "label": "Satin Black",
+          "colors": [
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/laijrx875ivdiotsd1di/MY25Talon294_ColorABlack.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/sgzycysizsnhtm9mastm/MY25Talon294_ColorABlack-Rear.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faith-2025",
+      "availabilityMiles": 92,
+      "stock": {
+        "skus": 1,
+        "inStock": 1,
+        "sizes": [
+          "One Size"
+        ]
+      },
+      "title": "Faith",
+      "url": "https://www.giant-bicycles.com/gb/bikes-faith-2025",
+      "description": "Small but mighty, this highly capable trail bike is for little rippers with big ambitions. Its lightweight alloy frame, high-performance wheels, and youth-tuned suspension balance efficient climbing, loads of traction, and confident handling to help young trail riders take it to the next level.",
+      "price": {
+        "mode": "regular",
+        "amount": "£2,399"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-trail",
+        "suspension-full-suspension",
+        "frame-material-aluminium",
+        "wheel-size-27-5",
+        "wheel-size-26",
+        "seatpost-type-dropper"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "key": "copper",
+          "label": "Copper",
+          "colors": [
+            "#a35f38"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kmhxx539vwia1yajgm8d/MY25Faith-Giant_ColorACopper.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/nbtphqb4pj3wq1udhir7/MY25Faith-Giant_ColorACopper-Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reign-advanced-frameset-2025",
+      "availabilityMiles": 104,
+      "stock": {
+        "skus": 4,
+        "inStock": 2,
+        "sizes": [
+          "M",
+          "XL"
+        ]
+      },
+      "title": "Reign Advanced Frameset",
+      "url": "https://www.giant-bicycles.com/gb/bikes-reign-advanced-frameset-2025",
+      "description": "Go fast, get rowdy and nail new lines. With a full-composite chassis, developed with Giant’s enduro racing pros, this frame has 160mm of Maestro rear suspension, adjustable geometry, and the option to switch to a 29-inch rear wheel.",
+      "price": {
+        "mode": "discount",
+        "amount": "£2,625",
+        "oldAmount": "£3,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-enduro",
+        "suspension-full-suspension",
+        "frame-material-composite-carbon",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-impressionism-flash",
+          "label": "Gloss Impressionism Flash",
+          "colors": [
+            "#6b7280"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/arjz8ymmc4ifdtj3fxxw/MY25ReignAdvanced-FR_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/pekucayas3krdbtyyk5s/MY25ReignAdvanced-FR_ColorA-Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reign-sx-2025",
+      "availabilityMiles": 7,
+      "stock": {
+        "skus": 3,
+        "inStock": 3,
+        "sizes": [
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Reign SX",
+      "url": "https://www.giant-bicycles.com/gb/bikes-reign-sx-2025",
+      "description": "Big hits and all-out descents. This trail-crushing enduro machine delivers confidence and control for the rowdiest terrain.",
+      "price": {
+        "mode": "discount",
+        "amount": "£3,599",
+        "oldAmount": "£4,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-enduro",
+        "suspension-full-suspension",
+        "frame-material-aluminium",
+        "wheel-size-mixed-27-5-29",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "moonstone",
+          "label": "Moonstone",
+          "colors": [
+            "#dcdce4"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/qhh0sgpqafgwykpq4juk/MY25ReignSX_ColorAMoonstone.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reign-2025",
+      "availabilityMiles": 84,
+      "stock": {
+        "skus": 4,
+        "inStock": 3,
+        "sizes": [
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Reign",
+      "url": "https://www.giant-bicycles.com/gb/bikes-reign-2025",
+      "description": "Push new limits on challenging terrain. This enduro ripper has 160mm of rear suspension that eats up rocks, drops and whatever comes your way.",
+      "price": {
+        "mode": "discount",
+        "amount": "£2,799",
+        "oldAmount": "£3,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-enduro",
+        "suspension-full-suspension",
+        "frame-material-aluminium",
+        "wheel-size-mixed-27-5-29",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "mineral-green",
+          "label": "Mineral Green",
+          "colors": [
+            "#2f6b3f"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kurtsmltndxpebjymnca/MY25Reign2_ColorAMineralGreen.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glory-advanced-frameset-2025",
+      "availabilityMiles": 66,
+      "stock": {
+        "skus": 3,
+        "inStock": 1,
+        "sizes": [
+          "M/L"
+        ]
+      },
+      "title": "Glory Advanced Frameset",
+      "url": "https://www.giant-bicycles.com/gb/bikes-glory-advanced-frameset-2025",
+      "description": "From early pioneers like Rob Warner in the 1990s to world champions including Myles Rockwell (2000) and Danny Hart (2011), many of downhill racing’s greatest legends have flown the flag for Giant over the years. This special-edition frameset celebrates that heritage with vintage Giant colors and design.",
+      "price": {
+        "mode": "discount",
+        "amount": "£2,999",
+        "oldAmount": "£3,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-downhill",
+        "suspension-full-suspension",
+        "frame-material-composite-carbon",
+        "wheel-size-29",
+        "wheel-size-mixed-27-5-29",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S/M",
+        "M/L",
+        "L/XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-quarry-chrome",
+          "label": "Gloss Quarry/Chrome",
+          "colors": [
+            "#8d8f8c",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/uxdkmhb0jhoswgjrfb0b/MY25GloryAdvanced-FR_ColorAQuarry.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/haok8oicabz2psmngutt/MY25GloryAdvanced-FR_ColorAQuarry_Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fathom-eplus-2024",
+      "availabilityMiles": 85,
+      "stock": {
+        "skus": 4,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "Fathom E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-fathom-eplus-2024",
+      "description": "Take control of the trail with this fun new hardtail E-bike. Now you can climb with greater ease and ride farther, the perfect formula for a great day on the trail.",
+      "price": {
+        "mode": "regular",
+        "amount": "£2,999"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-trail",
+        "suspension-hardtail",
+        "frame-material-aluminium",
+        "wheel-size-29",
+        "battery-capacity-500-wh",
+        "battery-type-integrated",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "sangria",
+          "label": "Sangria",
+          "colors": [
+            "#7b1f33"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/w1rhoxx9celbnyvbmz1b/MY24FathomEplus3_ColorASangria.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wzi0hypd8jvazo54t3gg/MY24FathomEplus3_ColorASangria_Rear.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trance-x-advanced-2024",
+      "availabilityMiles": 50,
+      "stock": {
+        "skus": 4,
+        "inStock": 3,
+        "sizes": [
+          "S",
+          "M",
+          "XL"
+        ]
+      },
+      "title": "Trance X Advanced",
+      "url": "https://www.giant-bicycles.com/gb/bikes-trance-x-advanced-2024",
+      "description": "Float up technical climbs and sail down chunky descents. This all-new, full-composite trail bike gives you 140mm of smooth Maestro rear suspension and all sorts of adjustability.",
+      "price": {
+        "mode": "discount",
+        "amount": "£4,799",
+        "oldAmount": "£5,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-trail",
+        "suspension-full-suspension",
+        "frame-material-composite-carbon",
+        "wheel-size-29",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-arctic-light-chrome",
+          "label": "Gloss Arctic Light/Chrome",
+          "colors": [
+            "#dfe7ec",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/pkokypjnwieg1ie0vzgn/MY24TranceXAdvanced1_ColorARawCarbon_ArcticLigh.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/oz38c5qtwsal8j8whdko/MY24TranceXAdvanced1_ColorARawCarbon_ArcticLigh_Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trance-x-2024",
+      "availabilityMiles": 111,
+      "stock": {
+        "skus": 8,
+        "inStock": 4,
+        "sizes": [
+          "M",
+          "L"
+        ]
+      },
+      "title": "Trance X",
+      "url": "https://www.giant-bicycles.com/gb/bikes-trance-x-2024",
+      "description": "Find your flow on technical trails. With adjustable geometry, the option to change rear wheel size, and a new 140mm Maestro rear suspension setup, this versatile trail bike steamrolls singletrack with confidence and control.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£2,639",
+        "oldAmount": "£3,299"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-trail",
+        "suspension-full-suspension",
+        "frame-material-aluminium",
+        "wheel-size-29",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "smoke-metal-chrome",
+          "label": "Smoke Metal/Chrome",
+          "colors": [
+            "#6e7275",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/cmhownlanobt8ymokxik/MY24TranceX1_ColorASmokeMetal.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ntgswl3pjeklch6mh5ld/MY24TranceX1_ColorASmokeMetal_Front.jpg"
+          ]
+        },
+        {
+          "key": "gloss-sandstorm",
+          "label": "Gloss Sandstorm",
+          "colors": [
+            "#c9b287"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/jii14p83jnxowl0gc9wt/MY24TranceX2_ColorBSandstorm.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trance-x-advanced-eplus-elite-2023",
+      "availabilityMiles": 19,
+      "stock": {
+        "skus": 4,
+        "inStock": 2,
+        "sizes": [
+          "M",
+          "L"
+        ]
+      },
+      "title": "Trance X Advanced E+ Elite",
+      "url": "https://www.giant-bicycles.com/gb/bikes-trance-x-advanced-eplus-elite-2023",
+      "description": "Accelerate up climbs, float through rock gardens, experience more power, agility and control with this lightweight, full-suspension E-MTB. A new ultra-slim battery minimises weight so you can ride technical trails the way you always dreamed of.",
+      "price": {
+        "mode": "discount",
+        "amount": "£5,399",
+        "oldAmount": "£8,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-trail",
+        "suspension-full-suspension",
+        "frame-material-composite-carbon",
+        "wheel-size-mixed-27-5-29",
+        "battery-capacity-400-wh",
+        "battery-type-integrated",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gunmetal-black-black",
+          "label": "Gunmetal Black/Black",
+          "colors": [
+            "#151515",
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/yue3j1ifhbvfqdps16dg/TranceXAdvancedEplusElite1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ehcbhov4aoszuht870oz/MY23TranceXAdvancedEplusEL1_ColorAGunmetalBlack_Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trance-x-advanced-eplus-2023",
+      "availabilityMiles": 42,
+      "stock": {
+        "skus": 4,
+        "inStock": 1,
+        "sizes": [
+          "XL"
+        ]
+      },
+      "title": "Trance X Advanced E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-trance-x-advanced-eplus-2023",
+      "description": "A new breed of trail bike that blends power, performance and flat-out fun. With its lightweight composite frame, plush suspension and new motor technology, you’ll never want the ride to end.",
+      "price": {
+        "mode": "discount",
+        "amount": "£5,599",
+        "oldAmount": "£7,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-trail",
+        "suspension-full-suspension",
+        "frame-material-composite-carbon",
+        "wheel-size-29",
+        "battery-capacity-800-wh",
+        "battery-type-integrated",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "airglow-carbon-smoke",
+          "label": "Airglow/Carbon Smoke",
+          "colors": [
+            "#5f8f8a",
+            "#3a3b3d"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/zrcltb5xkbzhoqiostsk/MY23TranceXAdvancedEplus1_ColorAAirglow.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wqwpryjm7zh3jzvcmrwl/MY23TranceXAdvancedEplus1_ColorAAirglow_Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reign-advanced-pro-2023",
+      "availabilityMiles": 83,
+      "stock": {
+        "skus": 4,
+        "inStock": 2,
+        "sizes": [
+          "S",
+          "XL"
+        ]
+      },
+      "title": "Reign Advanced Pro",
+      "url": "https://www.giant-bicycles.com/gb/bikes-reign-advanced-pro-2023",
+      "description": "This all-new composite chassis is built strong, light and fast for Giant enduro pros. A new suspension setup been developed, tested and raced at the highest levels.",
+      "price": {
+        "mode": "discount",
+        "amount": "£6,249",
+        "oldAmount": "£12,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-enduro",
+        "suspension-full-suspension",
+        "frame-material-composite-carbon",
+        "wheel-size-29",
+        "wheel-size-27-5",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-messier-matt-carbon-smoke",
+          "label": "Gloss Messier/Matt Carbon Smoke",
+          "colors": [
+            "#6b7280",
+            "#3a3b3d"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/utmio1amptfesxvgktwu/MY23ReignAdvancedPro0ColorA_Messier_Carbon.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wzemmnck90vyu61fiqps/MY23ReignAdvancedPro0ColorA_MTB-6.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

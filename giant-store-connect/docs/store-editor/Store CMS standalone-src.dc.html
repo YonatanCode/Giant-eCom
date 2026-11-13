@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="ext-resource-dependency" content="https://static.giant-bicycles.com/Images/StoreSites/Banners/1920x600_1675345157.jpg" data-resource-id="heroPhoto" />
+<meta name="ext-resource-dependency" content="https://giant-store-connect.vercel.app/images/banner.jpg" data-resource-id="promoBanner" />
+<meta name="ext-resource-dependency" content="https://giant-store-connect.vercel.app/images/store-gallery/gallery1.jpg" data-resource-id="gallery1" />
+<meta name="ext-resource-dependency" content="https://giant-store-connect.vercel.app/images/store-gallery/gallery2.jpg" data-resource-id="gallery2" />
+<meta name="ext-resource-dependency" content="https://giant-store-connect.vercel.app/images/store-gallery/gallery3.jpg" data-resource-id="gallery3" />
+<meta name="ext-resource-dependency" content="https://giant-store-connect.vercel.app/images/store-gallery/gallery4.jpg" data-resource-id="gallery4" />
+<meta name="ext-resource-dependency" content="https://giant-store-connect.vercel.app/images/store-gallery/gallery5.jpg" data-resource-id="gallery5" />
+<meta name="ext-resource-dependency" content="https://giant-store-connect.vercel.app/images/employees/Avatar.jpg" data-resource-id="avatar0" />
+<meta name="ext-resource-dependency" content="https://giant-store-connect.vercel.app/images/employees/Avatar-1.jpg" data-resource-id="avatar1" />
+<meta name="ext-resource-dependency" content="https://giant-store-connect.vercel.app/images/employees/Avatar-2.jpg" data-resource-id="avatar2" />
+<meta name="ext-resource-dependency" content="https://giant-store-connect.vercel.app/images/employees/Avatar-3.jpg" data-resource-id="avatar3" />
+<template id="__bundler_thumbnail" data-bg-color="#14161a">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#14161a"/>
+    <rect x="360" y="240" width="480" height="60" rx="10" fill="#2350cf"/>
+    <rect x="360" y="330" width="480" height="34" rx="8" fill="#3a3f47"/>
+    <rect x="360" y="392" width="360" height="34" rx="8" fill="#3a3f47"/>
+    <rect x="360" y="454" width="420" height="34" rx="8" fill="#3a3f47"/>
+    <rect x="240" y="240" width="80" height="248" rx="10" fill="#26292f"/>
+  </svg>
+</template>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700;800&family=Open+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+  html, body { margin: 0; padding: 0; background: #f4f5f7; }
+  * { -webkit-font-smoothing: antialiased; }
+  a { color: #2350cf; text-decoration: none; }
+  a:hover { color: #1a3da3; text-decoration: underline; }
+  input, textarea, select, button { font-family: 'Open Sans', Helvetica, sans-serif; }
+  input:focus, textarea:focus, select:focus { border-color: #2350cf !important; box-shadow: 0 0 0 3px rgba(35,80,207,.13); }
+  textarea { resize: vertical; }
+  ::placeholder { color: #a9aeb8; }
+</style>
+</helmet>
+
+<div style="display:grid;grid-template-columns:272px 1fr;min-height:100vh;width:100%;background:#f4f5f7;font-family:'Open Sans',Helvetica,sans-serif;color:#14161a">
+
+  <aside style="background:#14161a;display:flex;flex-direction:column;padding:0;position:sticky;top:0;align-self:start;height:100vh">
+    <div style="padding:26px 24px 22px;border-bottom:1px solid #26292f;display:flex;flex-direction:column;gap:16px">
+      <img src="https://giant-store-connect.vercel.app/images/giant-logo.svg" alt="Giant" style="height:19px;width:auto;filter:brightness(0) invert(1);align-self:flex-start"/>
+      <div style="display:flex;flex-direction:column;gap:3px">
+        <span style="font:700 10px/1 Overpass;letter-spacing:.12em;text-transform:uppercase;color:#7c828e">Store page editor</span>
+        <span style="font:700 16px/1.3 Overpass;letter-spacing:-.018em;color:#fff">Giant Bennebroek</span>
+      </div>
+    </div>
+
+    <nav style="flex:1;padding:20px 14px;display:flex;flex-direction:column;gap:22px;overflow:auto">
+      <sc-for list="{{ nav }}" as="group" hint-placeholder-count="2">
+        <div style="display:flex;flex-direction:column;gap:2px">
+          <span style="font:700 10px/1 Overpass;letter-spacing:.12em;text-transform:uppercase;color:#6c7280;padding:0 10px 10px">{{ group.title }}</span>
+          <sc-for list="{{ group.items }}" as="item" hint-placeholder-count="5">
+            <button type="button" onClick="{{ item.onClick }}" style="{{ item.style }}">
+              <span>{{ item.label }}</span>
+              <sc-if value="{{ item.locked }}">
+                <span style="font:700 9px/1 Overpass;letter-spacing:.09em;padding:4px 6px;border:1px solid #3a3f47;border-radius:4px;color:#7c828e">GIANT</span>
+              </sc-if>
+            </button>
+          </sc-for>
+        </div>
+      </sc-for>
+    </nav>
+
+    <div style="padding:16px 20px;border-top:1px solid #26292f;display:flex;align-items:center;gap:11px">
+      <img src="{{ userAvatar }}" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:cover"/>
+      <div style="display:flex;flex-direction:column;gap:1px;min-width:0">
+        <span style="font:500 13px/1.3 'Open Sans';color:#fff">Olaf Verhoeve</span>
+        <span style="font:400 11px/1.3 'Open Sans';color:#7c828e">Store owner</span>
+      </div>
+    </div>
+  </aside>
+
+  <main style="display:flex;flex-direction:column;min-width:0">
+    <header style="display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 44px;background:#fff;border-bottom:1px solid #e4e7ec;position:sticky;top:0;z-index:5">
+      <div style="display:flex;flex-direction:column;gap:4px">
+        <span style="font:700 20px/1.2 Overpass;letter-spacing:-.022em">{{ pageTitle }}</span>
+        <span style="font:400 12px/1.2 'IBM Plex Mono',monospace;color:#8a9099">giant-bicycles.com/store/giant-store-bennebroek</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px">
+        <a href="https://giant-store-connect.vercel.app/store/giant-store-bennebroek" target="_blank" style="font:500 14px/1 'Open Sans';color:#14161a;padding:12px 16px;border:1px solid #d9dde4;border-radius:8px;background:#fff" style-hover="background:#f4f5f7;text-decoration:none">View my page</a>
+        <button type="button" onClick="{{ onSave }}" style="{{ saveStyle }}">{{ saveLabel }}</button>
+      </div>
+    </header>
+
+    <div style="flex:1;padding:36px 44px 80px;display:flex;justify-content:center">
+      <div style="width:100%;max-width:780px;display:flex;flex-direction:column;gap:20px">
+
+        <sc-if value="{{ isHeader }}" hint-placeholder-val="{{ true }}">
+          <div style="display:flex;flex-direction:column;gap:20px">
+            <div style="display:flex;flex-direction:column;gap:7px">
+              <h1 style="margin:0;font:700 26px/1.2 Overpass;letter-spacing:-.028em">Hero &amp; contact</h1>
+              <p style="margin:0;font:400 15px/1.6 'Open Sans';color:#6a7080;max-width:60ch;text-wrap:pretty">The top of your store page: the photo people see first, your name, and how they reach you.</p>
+            </div>
+
+            <section style="background:#fff;border:1px solid #e4e7ec;border-radius:14px;padding:26px 28px;display:flex;flex-direction:column;gap:22px">
+              <div style="display:flex;flex-direction:column;gap:9px">
+                <label style="font:700 12px/1.4 Overpass;letter-spacing:.04em;text-transform:uppercase;color:#6a7080">Hero photo</label>
+                <div style="position:relative;border-radius:10px;overflow:hidden;border:1px solid #e4e7ec">
+                  <img src="{{ v.hero }}" alt="" style="display:block;width:100%;height:196px;object-fit:cover"/>
+                  <div style="position:absolute;right:12px;bottom:12px;display:flex;gap:8px">
+                    <button type="button" style="font:500 13px/1 'Open Sans';padding:10px 14px;border-radius:7px;border:none;background:#fff;color:#14161a;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.2)">Replace photo</button>
+                    <button type="button" style="font:500 13px/1 'Open Sans';padding:10px 14px;border-radius:7px;border:none;background:rgba(20,22,26,.72);color:#fff;cursor:pointer">Remove</button>
+                  </div>
+                </div>
+                <p style="margin:0;font:400 13px/1.5 'Open Sans';color:#8a9099">Landscape photo of your storefront or showroom. At least 1920 × 600 pixels, JPG or PNG.</p>
+              </div>
+
+              <div style="display:grid;grid-template-columns:1fr;gap:9px">
+                <label style="font:700 12px/1.4 Overpass;letter-spacing:.04em;text-transform:uppercase;color:#6a7080">Store name</label>
+                <input type="text" value="{{ v.storeName }}" onChange="{{ h.storeName }}" style="width:100%;box-sizing:border-box;padding:12px 13px;font:400 15px/1.4 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"/>
+              </div>
+
+              <div style="display:grid;grid-template-columns:1fr;gap:9px">
+                <label style="font:700 12px/1.4 Overpass;letter-spacing:.04em;text-transform:uppercase;color:#6a7080">Welcome line</label>
+                <textarea rows="3" value="{{ v.intro }}" onChange="{{ h.intro }}" style="width:100%;box-sizing:border-box;padding:12px 13px;font:400 15px/1.6 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"></textarea>
+                <div style="display:flex;justify-content:space-between;gap:16px">
+                  <p style="margin:0;font:400 13px/1.5 'Open Sans';color:#8a9099">One or two sentences, right under the header. Say what makes your shop yours.</p>
+                  <span style="font:400 12px/1.5 'IBM Plex Mono',monospace;color:#a9aeb8;white-space:nowrap">{{ v.introCount }}</span>
+                </div>
+              </div>
+            </section>
+
+            <section style="background:#fff;border:1px solid #e4e7ec;border-radius:14px;padding:26px 28px;display:flex;flex-direction:column;gap:22px">
+              <h2 style="margin:0;font:700 17px/1.3 Overpass;letter-spacing:-.018em">How people reach you</h2>
+              <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:18px">
+                <div style="display:flex;flex-direction:column;gap:9px">
+                  <label style="font:700 12px/1.4 Overpass;letter-spacing:.04em;text-transform:uppercase;color:#6a7080">Street and number</label>
+                  <input type="text" value="{{ v.street }}" onChange="{{ h.street }}" style="width:100%;box-sizing:border-box;padding:12px 13px;font:400 15px/1.4 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"/>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:9px">
+                  <label style="font:700 12px/1.4 Overpass;letter-spacing:.04em;text-transform:uppercase;color:#6a7080">Town</label>
+                  <input type="text" value="{{ v.city }}" onChange="{{ h.city }}" style="width:100%;box-sizing:border-box;padding:12px 13px;font:400 15px/1.4 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"/>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:9px">
+                  <label style="font:700 12px/1.4 Overpass;letter-spacing:.04em;text-transform:uppercase;color:#6a7080">Phone</label>
+                  <input type="tel" value="{{ v.phone }}" onChange="{{ h.phone }}" style="width:100%;box-sizing:border-box;padding:12px 13px;font:400 15px/1.4 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"/>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:9px">
+                  <label style="font:700 12px/1.4 Overpass;letter-spacing:.04em;text-transform:uppercase;color:#6a7080">Email</label>
+                  <input type="email" value="{{ v.email }}" onChange="{{ h.email }}" style="width:100%;box-sizing:border-box;padding:12px 13px;font:400 15px/1.4 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"/>
+                </div>
+              </div>
+              <div style="display:flex;gap:12px;align-items:flex-start;padding:14px 16px;background:#f4f5f7;border-radius:9px">
+                <span style="width:7px;height:7px;border-radius:50%;background:#2350cf;margin-top:7px;flex:none"></span>
+                <p style="margin:0;font:400 13px/1.6 'Open Sans';color:#6a7080">Your address also sets the map pin and the "Get directions" button further down the page.</p>
+              </div>
+            </section>
+
+            <section style="background:#fff;border:1px solid #e4e7ec;border-radius:14px;padding:26px 28px;display:flex;flex-direction:column;gap:16px">
+              <div style="display:flex;flex-direction:column;gap:6px">
+                <h2 style="margin:0;font:700 17px/1.3 Overpass;letter-spacing:-.018em">What you offer</h2>
+                <p style="margin:0;font:400 14px/1.6 'Open Sans';color:#6a7080">Tap to switch a service on or off. These appear as the list beside your address.</p>
+              </div>
+              <div style="display:flex;flex-wrap:wrap;gap:10px">
+                <sc-for list="{{ services }}" as="chip" hint-placeholder-count="5">
+                  <button type="button" onClick="{{ chip.onClick }}" style="{{ chip.style }}">{{ chip.label }}</button>
+                </sc-for>
+              </div>
+            </section>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ isHours }}">
+          <div style="display:flex;flex-direction:column;gap:20px">
+            <div style="display:flex;flex-direction:column;gap:7px">
+              <h1 style="margin:0;font:700 26px/1.2 Overpass;letter-spacing:-.028em">Opening hours</h1>
+              <p style="margin:0;font:400 15px/1.6 'Open Sans';color:#6a7080;max-width:60ch;text-wrap:pretty">These hours drive the "Open now" line at the top of your page, so keep them current.</p>
+            </div>
+
+            <section style="background:#fff;border:1px solid #e4e7ec;border-radius:14px;padding:12px 28px 22px;display:flex;flex-direction:column">
+              <sc-for list="{{ hours }}" as="row" hint-placeholder-count="7">
+                <div style="display:grid;grid-template-columns:118px 1fr 18px 1fr 130px;align-items:center;gap:12px;padding:15px 0;border-bottom:1px solid #eef0f3">
+                  <span style="font:600 15px/1.3 'Open Sans'">{{ row.day }}</span>
+                  <input type="text" value="{{ row.open }}" onChange="{{ row.onOpen }}" disabled="{{ row.closed }}" placeholder="Closed" style="{{ row.inputStyle }}"/>
+                  <span style="font:400 15px/1 'Open Sans';color:#a9aeb8;text-align:center">–</span>
+                  <input type="text" value="{{ row.close }}" onChange="{{ row.onClose }}" disabled="{{ row.closed }}" placeholder="Closed" style="{{ row.inputStyle }}"/>
+                  <button type="button" onClick="{{ row.onToggle }}" style="{{ row.toggleStyle }}">
+                    <span style="{{ row.trackStyle }}"><span style="{{ row.knobStyle }}"></span></span>
+                    <span>Closed</span>
+                  </button>
+                </div>
+              </sc-for>
+              <div style="display:flex;flex-direction:column;gap:9px;padding-top:22px">
+                <label style="font:700 12px/1.4 Overpass;letter-spacing:.04em;text-transform:uppercase;color:#6a7080">Holiday or exception note</label>
+                <input type="text" value="{{ v.hoursNote }}" onChange="{{ h.hoursNote }}" placeholder="e.g. Closed 24 December from 16:00" style="width:100%;box-sizing:border-box;padding:12px 13px;font:400 15px/1.4 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"/>
+                <p style="margin:0;font:400 13px/1.5 'Open Sans';color:#8a9099">Shown as a short line above your hours. Leave empty if there is nothing to say.</p>
+              </div>
+            </section>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ isPromo }}">
+          <div style="display:flex;flex-direction:column;gap:20px">
+            <div style="display:flex;flex-direction:column;gap:7px">
+              <h1 style="margin:0;font:700 26px/1.2 Overpass;letter-spacing:-.028em">Promo banner</h1>
+              <p style="margin:0;font:400 15px/1.6 'Open Sans';color:#6a7080;max-width:60ch;text-wrap:pretty">One wide banner in the middle of your page. Use it for a campaign, an event, or a bike you want to move.</p>
+            </div>
+
+            <section style="background:#fff;border:1px solid #e4e7ec;border-radius:14px;padding:26px 28px;display:flex;flex-direction:column;gap:22px">
+              <div style="display:flex;flex-direction:column;gap:9px">
+                <label style="font:700 12px/1.4 Overpass;letter-spacing:.04em;text-transform:uppercase;color:#6a7080">Banner image</label>
+                <div style="position:relative;border-radius:10px;overflow:hidden;border:1px solid #e4e7ec">
+                  <img src="{{ v.promoImage }}" alt="" style="display:block;width:100%;height:180px;object-fit:cover"/>
+                  <div style="position:absolute;right:12px;bottom:12px">
+                    <button type="button" style="font:500 13px/1 'Open Sans';padding:10px 14px;border-radius:7px;border:none;background:#fff;color:#14161a;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.2)">Replace image</button>
+                  </div>
+                </div>
+                <p style="margin:0;font:400 13px/1.5 'Open Sans';color:#8a9099">Pick from the Giant campaign library, or upload your own at 2400 × 900 pixels.</p>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:9px">
+                <label style="font:700 12px/1.4 Overpass;letter-spacing:.04em;text-transform:uppercase;color:#6a7080">Headline</label>
+                <input type="text" value="{{ v.promoTitle }}" onChange="{{ h.promoTitle }}" style="width:100%;box-sizing:border-box;padding:12px 13px;font:600 18px/1.3 Overpass;letter-spacing:-.02em;color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"/>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:9px">
+                <label style="font:700 12px/1.4 Overpass;letter-spacing:.04em;text-transform:uppercase;color:#6a7080">Supporting line</label>
+                <input type="text" value="{{ v.promoSub }}" onChange="{{ h.promoSub }}" style="width:100%;box-sizing:border-box;padding:12px 13px;font:400 15px/1.4 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"/>
+              </div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px">
+                <div style="display:flex;flex-direction:column;gap:9px">
+                  <label style="font:700 12px/1.4 Overpass;letter-spacing:.04em;text-transform:uppercase;color:#6a7080">Button label</label>
+                  <input type="text" value="{{ v.promoBtn }}" onChange="{{ h.promoBtn }}" style="width:100%;box-sizing:border-box;padding:12px 13px;font:400 15px/1.4 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"/>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:9px">
+                  <label style="font:700 12px/1.4 Overpass;letter-spacing:.04em;text-transform:uppercase;color:#6a7080">Button link</label>
+                  <input type="text" value="{{ v.promoUrl }}" onChange="{{ h.promoUrl }}" placeholder="https://" style="width:100%;box-sizing:border-box;padding:12px 13px;font:400 14px/1.4 'IBM Plex Mono',monospace;color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"/>
+                </div>
+              </div>
+            </section>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ isAbout }}">
+          <div style="display:flex;flex-direction:column;gap:20px">
+            <div style="display:flex;flex-direction:column;gap:7px">
+              <h1 style="margin:0;font:700 26px/1.2 Overpass;letter-spacing:-.028em">About your store</h1>
+              <p style="margin:0;font:400 15px/1.6 'Open Sans';color:#6a7080;max-width:60ch;text-wrap:pretty">The long read. Write it the way you would tell it to someone standing in the shop.</p>
+            </div>
+
+            <section style="background:#fff;border:1px solid #e4e7ec;border-radius:14px;padding:26px 28px;display:flex;flex-direction:column;gap:22px">
+              <div style="display:flex;flex-direction:column;gap:9px">
+                <label style="font:700 12px/1.4 Overpass;letter-spacing:.04em;text-transform:uppercase;color:#6a7080">Section heading</label>
+                <input type="text" value="{{ v.aboutHeading }}" onChange="{{ h.aboutHeading }}" style="width:100%;box-sizing:border-box;padding:12px 13px;font:400 15px/1.4 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"/>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:9px">
+                <label style="font:700 12px/1.4 Overpass;letter-spacing:.04em;text-transform:uppercase;color:#6a7080">Your story</label>
+                <textarea rows="10" value="{{ v.aboutBody }}" onChange="{{ h.aboutBody }}" style="width:100%;box-sizing:border-box;padding:14px 15px;font:400 15px/1.75 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"></textarea>
+                <div style="display:flex;justify-content:space-between;gap:16px">
+                  <p style="margin:0;font:400 13px/1.5 'Open Sans';color:#8a9099">Leave a blank line between paragraphs.</p>
+                  <span style="font:400 12px/1.5 'IBM Plex Mono',monospace;color:#a9aeb8;white-space:nowrap">{{ v.aboutCount }}</span>
+                </div>
+              </div>
+            </section>
+
+            <section style="background:#fff;border:1px solid #e4e7ec;border-radius:14px;padding:26px 28px;display:flex;flex-direction:column;gap:18px">
+              <div style="display:flex;flex-direction:column;gap:6px">
+                <h2 style="margin:0;font:700 17px/1.3 Overpass;letter-spacing:-.018em">Three numbers about the shop</h2>
+                <p style="margin:0;font:400 14px/1.6 'Open Sans';color:#6a7080">Shown as a row of figures beside your story.</p>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:14px">
+                <sc-for list="{{ stats }}" as="stat" hint-placeholder-count="3">
+                  <div style="display:grid;grid-template-columns:1fr 190px;gap:12px;align-items:center">
+                    <input type="text" value="{{ stat.label }}" onChange="{{ stat.onLabel }}" style="width:100%;box-sizing:border-box;padding:12px 13px;font:400 15px/1.4 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"/>
+                    <input type="text" value="{{ stat.value }}" onChange="{{ stat.onValue }}" style="width:100%;box-sizing:border-box;padding:12px 13px;font:600 15px/1.4 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"/>
+                  </div>
+                </sc-for>
+              </div>
+            </section>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ isGallery }}">
+          <div style="display:flex;flex-direction:column;gap:20px">
+            <div style="display:flex;flex-direction:column;gap:7px">
+              <h1 style="margin:0;font:700 26px/1.2 Overpass;letter-spacing:-.028em">Photo gallery</h1>
+              <p style="margin:0;font:400 15px/1.6 'Open Sans';color:#6a7080;max-width:60ch;text-wrap:pretty">Up to eight photos of the shop, in the order shown here. Drag a photo to move it.</p>
+            </div>
+
+            <section style="background:#fff;border:1px solid #e4e7ec;border-radius:14px;padding:26px 28px;display:flex;flex-direction:column;gap:20px">
+              <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+                <sc-for list="{{ gallery }}" as="tile" hint-placeholder-count="5">
+                  <div style="display:flex;flex-direction:column;gap:9px">
+                    <div style="position:relative;border-radius:10px;overflow:hidden;border:1px solid #e4e7ec;background:#eef0f3">
+                      <img src="{{ tile.src }}" alt="" style="display:block;width:100%;height:126px;object-fit:cover"/>
+                      <span style="position:absolute;left:8px;top:8px;font:600 11px/1 'IBM Plex Mono',monospace;background:rgba(20,22,26,.72);color:#fff;padding:5px 7px;border-radius:5px">{{ tile.num }}</span>
+                      <button type="button" onClick="{{ tile.onRemove }}" style="position:absolute;right:8px;top:8px;width:26px;height:26px;border:none;border-radius:6px;background:rgba(20,22,26,.72);color:#fff;font:500 15px/1 'Open Sans';cursor:pointer">×</button>
+                    </div>
+                    <input type="text" value="{{ tile.caption }}" onChange="{{ tile.onCaption }}" placeholder="Add a caption" style="width:100%;box-sizing:border-box;padding:9px 11px;font:400 13px/1.4 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:7px;outline:none"/>
+                  </div>
+                </sc-for>
+                <button type="button" onClick="{{ onAddPhoto }}" style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;height:126px;border:1.5px dashed #cfd4dc;border-radius:10px;background:#fbfbfc;cursor:pointer;color:#6a7080" style-hover="border-color:#2350cf;color:#2350cf;background:#f7f9ff">
+                  <span style="font:400 22px/1 'Open Sans'">+</span>
+                  <span style="font:500 13px/1 'Open Sans'">Add photo</span>
+                </button>
+              </div>
+              <p style="margin:0;font:400 13px/1.5 'Open Sans';color:#8a9099">Landscape photos work best. Avoid photos with people whose permission you do not have.</p>
+            </section>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ isTeam }}">
+          <div style="display:flex;flex-direction:column;gap:20px">
+            <div style="display:flex;flex-direction:column;gap:7px">
+              <h1 style="margin:0;font:700 26px/1.2 Overpass;letter-spacing:-.028em">Meet the team</h1>
+              <p style="margin:0;font:400 15px/1.6 'Open Sans';color:#6a7080;max-width:60ch;text-wrap:pretty">The people customers will meet. A short, human line about each one goes further than a job title.</p>
+            </div>
+
+            <sc-for list="{{ team }}" as="member" hint-placeholder-count="4">
+              <section style="background:#fff;border:1px solid #e4e7ec;border-radius:14px;padding:22px 24px;display:grid;grid-template-columns:82px 1fr;gap:20px;align-items:start">
+                <div style="display:flex;flex-direction:column;gap:8px;align-items:center">
+                  <img src="{{ member.avatar }}" alt="" style="width:72px;height:72px;border-radius:50%;object-fit:cover;background:#eef0f3"/>
+                  <button type="button" style="font:500 12px/1 'Open Sans';color:#2350cf;background:none;border:none;padding:0;cursor:pointer">Change</button>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:14px;min-width:0">
+                  <div style="display:grid;grid-template-columns:1fr 1fr 34px;gap:12px;align-items:center">
+                    <input type="text" value="{{ member.name }}" onChange="{{ member.onName }}" placeholder="Full name" style="width:100%;box-sizing:border-box;padding:11px 13px;font:600 15px/1.4 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"/>
+                    <input type="text" value="{{ member.role }}" onChange="{{ member.onRole }}" placeholder="Role in the shop" style="width:100%;box-sizing:border-box;padding:11px 13px;font:400 15px/1.4 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"/>
+                    <button type="button" onClick="{{ member.onRemove }}" title="Remove" style="width:34px;height:34px;border:1px solid #e4e7ec;border-radius:8px;background:#fff;color:#8a9099;font:400 16px/1 'Open Sans';cursor:pointer" style-hover="border-color:#e0b4b4;color:#b23c3c;background:#fdf6f6">×</button>
+                  </div>
+                  <textarea rows="3" value="{{ member.bio }}" onChange="{{ member.onBio }}" placeholder="One or two sentences" style="width:100%;box-sizing:border-box;padding:12px 13px;font:400 14px/1.7 'Open Sans';color:#14161a;background:#fff;border:1px solid #d9dde4;border-radius:8px;outline:none"></textarea>
+                </div>
+              </section>
+            </sc-for>
+
+            <button type="button" onClick="{{ onAddMember }}" style="display:flex;align-items:center;justify-content:center;gap:9px;padding:18px;border:1.5px dashed #cfd4dc;border-radius:14px;background:#fbfbfc;cursor:pointer;color:#6a7080;font:500 15px/1 'Open Sans'" style-hover="border-color:#2350cf;color:#2350cf;background:#f7f9ff">
+              <span style="font:400 19px/1 'Open Sans'">+</span>
+              <span>Add a team member</span>
+            </button>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ isFaq }}">
+          <div style="display:flex;flex-direction:column;gap:20px">
+            <div style="display:flex;flex-direction:column;gap:7px">
+              <h1 style="margin:0;font:700 26px/1.2 Overpass;letter-spacing:-.028em">Frequently asked questions</h1>
+              <p style="margin:0;font:400 15px/1.6 'Open Sans';color:#6a7080;max-width:60ch;text-wrap:pretty">The questions you answer on the phone every week. Answering them here saves you the call.</p>
+            </div>
+
+            <section style="background:#fff;border:1px solid #e4e7ec;border-radius:14px;padding:8px 0;display:flex;flex-direction:column">
+              <sc-for list="{{ faq }}" as="item" hint-placeholder-count="5">
+                <div style="{{ item.wrapStyle }}">
+                  <div style="display:grid;grid-template-columns:1fr 34px 34px;gap:10px;align-items:center;padding:0 24px">
+                    <input type="text" value="{{ item.q }}" onChange="{{ item.onQ }}" placeholder="Question" style="width:100%;box-sizing:border-box;padding:11px 0;font:600 15px/1.4 'Open Sans';color:#14161a;background:transparent;border:none;outline:none"/>
+                    <button type="button" onClick="{{ item.onRemove }}" title="Remove" style="width:34px;height:34px;border:1px solid #e4e7ec;border-radius:8px;background:#fff;color:#8a9099;font:400 16px/1 'Open Sans';cursor:pointer" style-hover="border-color:#e0b4b4;color:#b23c3c;background:#fdf6f6">×</button>
+                    <button type="button" onClick="{{ item.onToggle }}" style="{{ item.caretStyle }}">{{ item.caret }}</button>
+                  </div>
+                  <sc-if value="{{ item.open }}">
+                    <div style="padding:4px 24px 18px">
+                      <textarea rows="3" value="{{ item.a }}" onChange="{{ item.onA }}" placeholder="Your answer" style="width:100%;box-sizing:border-box;padding:12px 13px;font:400 14px/1.7 'Open Sans';color:#14161a;background:#fbfbfc;border:1px solid #d9dde4;border-radius:8px;outline:none"></textarea>
+                    </div>
+                  </sc-if>
+                </div>
+              </sc-for>
+              <div style="padding:16px 24px 12px">
+                <button type="button" onClick="{{ onAddFaq }}" style="display:flex;align-items:center;gap:9px;padding:12px 16px;border:1px solid #d9dde4;border-radius:8px;background:#fff;cursor:pointer;color:#14161a;font:500 14px/1 'Open Sans'" style-hover="border-color:#2350cf;color:#2350cf">
+                  <span style="font:400 17px/1 'Open Sans'">+</span>
+                  <span>Add a question</span>
+                </button>
+              </div>
+            </section>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ isLocked }}">
+          <div style="display:flex;flex-direction:column;gap:20px">
+            <div style="display:flex;flex-direction:column;gap:7px">
+              <div style="display:flex;align-items:center;gap:12px">
+                <h1 style="margin:0;font:700 26px/1.2 Overpass;letter-spacing:-.028em">{{ locked.title }}</h1>
+                <span style="font:700 10px/1 Overpass;letter-spacing:.1em;padding:6px 8px;border:1px solid #d9dde4;border-radius:5px;color:#6a7080;background:#fff">MANAGED BY GIANT</span>
+              </div>
+              <p style="margin:0;font:400 15px/1.6 'Open Sans';color:#6a7080;max-width:60ch;text-wrap:pretty">{{ locked.desc }}</p>
+            </div>
+
+            <section style="background:#fff;border:1px solid #e4e7ec;border-radius:14px;padding:8px 28px;display:flex;flex-direction:column">
+              <sc-for list="{{ locked.rows }}" as="row" hint-placeholder-count="4">
+                <div style="display:grid;grid-template-columns:210px 1fr;gap:18px;align-items:start;padding:17px 0;border-bottom:1px solid #eef0f3">
+                  <span style="font:600 13px/1.5 'Open Sans';color:#6a7080">{{ row.label }}</span>
+                  <span style="font:400 15px/1.6 'Open Sans';color:#8a9099;text-wrap:pretty">{{ row.value }}</span>
+                </div>
+              </sc-for>
+            </section>
+
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 24px;background:#fff;border:1px solid #e4e7ec;border-radius:14px">
+              <p style="margin:0;font:400 14px/1.6 'Open Sans';color:#6a7080;max-width:52ch;text-wrap:pretty">Something wrong here? Send it to your Giant account manager and they will update it for every store at once.</p>
+              <button type="button" style="font:500 14px/1 'Open Sans';padding:13px 18px;border:1px solid #14161a;border-radius:8px;background:#fff;color:#14161a;cursor:pointer;white-space:nowrap" style-hover="background:#14161a;color:#fff">Request a change</button>
+            </div>
+          </div>
+        </sc-if>
+
+      </div>
+    </div>
+  </main>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;defaultSection&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;header&quot;,&quot;hours&quot;,&quot;about&quot;,&quot;gallery&quot;,&quot;team&quot;,&quot;faq&quot;,&quot;promo&quot;,&quot;service&quot;,&quot;inventory&quot;,&quot;dcf&quot;,&quot;directions&quot;,&quot;news&quot;,&quot;brands&quot;],&quot;default&quot;:&quot;header&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Prototype&quot;},&quot;showManagedSections&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Prototype&quot;}}">
+const INPUT = "width:100%;box-sizing:border-box;padding:11px 13px;font:400 15px/1.4 'Open Sans';color:#14161a;border:1px solid #d9dde4;border-radius:8px;outline:none;";
+const NAV_BASE = "display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;text-align:left;padding:10px 11px;border:none;border-radius:8px;cursor:pointer;font:500 14px/1.3 'Open Sans';";
+
+const LOCKED = {
+  service: {
+    title: "Book an appointment",
+    desc: "The booking widget and its service types come from Giant's central appointment system. Your available slots are managed in the Service planner, not here.",
+    rows: [
+      { label: "Intro copy", value: "At Giant's Customization Service, you can design a bike that truly represents you\u2026" },
+      { label: "Bookable services", value: "Bike repair \u00b7 Dynamic Cycling Fit \u00b7 Bike rental \u00b7 Bike customization \u00b7 Test ride" },
+      { label: "Calendar", value: "Connected \u2014 Giant Service Planner" },
+      { label: "Confirmation email", value: "Giant standard template (NL)" }
+    ]
+  },
+  inventory: {
+    title: "Store inventory",
+    desc: "Categories follow the live product feed for your store. Add or remove a range in the dealer portal and it appears here within an hour.",
+    rows: [
+      { label: "Bikes", value: "Road \u00b7 Mountain \u00b7 Cross & Gravel \u00b7 City \u00b7 E-bikes \u00b7 Kids" },
+      { label: "Gear", value: "Rider Gear \u00b7 Bike Gear \u00b7 Service Gear \u00b7 Components" },
+      { label: "Other", value: "Used bikes (Marktplaats) \u00b7 Cargo Bikes" },
+      { label: "Feed status", value: "Synced 27 Aug 2026, 06:12" }
+    ]
+  },
+  dcf: {
+    title: "Dynamic Cycling Fit",
+    desc: "The DCF explainer and the five fitting steps are the same for every certified partner. Your tier badge is set by Giant when you certify.",
+    rows: [
+      { label: "Your tier", value: "Certified DCF Supreme Partner" },
+      { label: "Steps shown", value: "Interview \u2192 Measurement \u2192 Physical assessment \u2192 Pedal and saddle \u2192 App profile" },
+      { label: "Booking button", value: "Book a fitting session \u2014 links to your service form" },
+      { label: "Certified until", value: "31 March 2027" }
+    ]
+  },
+  directions: {
+    title: "Directions & parking",
+    desc: "Route text and the map are generated from your address. Update the address under Hero & contact and this section follows.",
+    rows: [
+      { label: "Map pin", value: "52.321475, 4.600587 \u2014 from your address" },
+      { label: "By public transport", value: "Train to Heemstede-Aerdenhout, then bus 50 toward Bennebroek." },
+      { label: "By car", value: "Bennebroekerlaan (N208); from the A4 take the Nieuw-Vennep/Bennebroek exit." },
+      { label: "Parking", value: "Limited parking in front of the store; free lot at De Glip 4." }
+    ]
+  },
+  news: {
+    title: "News",
+    desc: "Articles are published by Giant and shown to every store. Local news is on the roadmap for spring 2027.",
+    rows: [
+      { label: "Latest", value: "Cycle Shop Innovations \u2014 21 Aug 2026" },
+      { label: "Also showing", value: "Bike Shop Innovations \u00b7 Cycle Shop Creations" },
+      { label: "Articles shown", value: "3 most recent" }
+    ]
+  },
+  brands: {
+    title: "Brands",
+    desc: "Logos are drawn from the brands you are an authorised dealer for. Your dealer agreements decide what appears.",
+    rows: [
+      { label: "Bikes", value: "Giant \u00b7 Liv \u00b7 CADEX" },
+      { label: "Gear & components", value: "Shimano \u00b7 SRAM \u00b7 Selle Royal \u00b7 AGU \u00b7 Vaude \u00b7 Enjoy" },
+      { label: "Last reviewed", value: "12 Aug 2026" }
+    ]
+  }
+};
+
+const NAV = [
+  { title: "Your store", items: [
+    { id: "header", label: "Hero & contact" },
+    { id: "hours", label: "Opening hours" },
+    { id: "about", label: "About your store" },
+    { id: "gallery", label: "Photo gallery" },
+    { id: "team", label: "Meet the team" },
+    { id: "faq", label: "FAQ" }
+  ]},
+  { title: "Campaigns", items: [{ id: "promo", label: "Promo banner" }]},
+  { title: "Set by Giant", items: [
+    { id: "service", label: "Book an appointment", locked: true },
+    { id: "inventory", label: "Store inventory", locked: true },
+    { id: "dcf", label: "Dynamic Cycling Fit", locked: true },
+    { id: "directions", label: "Directions & parking", locked: true },
+    { id: "news", label: "News", locked: true },
+    { id: "brands", label: "Brands", locked: true }
+  ]}
+];
+
+const TITLES = { header: "Hero & contact", hours: "Opening hours", about: "About your store", gallery: "Photo gallery", team: "Meet the team", faq: "FAQ", promo: "Promo banner" };
+
+class Component extends DCLogic {
+  state = {
+    active: null,
+    dirty: false,
+    openFaq: 0,
+    d: {
+      storeName: "Giant Bennebroek",
+      hero: window.__resources.heroPhoto,
+      intro: "Welcome to Giant Bennebroek, a family-run shop with over 40 years of experience dedicated to road bikes and a wide range of e-bikes. Where passion for cycling meets personalized service.",
+      street: "Bennebroekerlaan 83",
+      city: "Bennebroek",
+      phone: "023-5840654",
+      email: "giant-bennebroek@giant-bicycles.com",
+      services: [
+        { label: "Repairs and servicing", on: true },
+        { label: "New bike pick-up", on: true },
+        { label: "Dynamic Cycling Fit", on: true },
+        { label: "Bike customisation", on: true },
+        { label: "Test rides", on: true },
+        { label: "Bike rental", on: false },
+        { label: "Wheel building", on: false }
+      ],
+      hours: [
+        { day: "Monday", open: "", close: "", closed: true },
+        { day: "Tuesday", open: "09:00", close: "18:00", closed: false },
+        { day: "Wednesday", open: "09:00", close: "18:00", closed: false },
+        { day: "Thursday", open: "09:00", close: "18:00", closed: false },
+        { day: "Friday", open: "09:00", close: "18:00", closed: false },
+        { day: "Saturday", open: "09:00", close: "17:00", closed: false },
+        { day: "Sunday", open: "", close: "", closed: true }
+      ],
+      hoursNote: "",
+      promoImage: window.__resources.promoBanner,
+      promoTitle: "Ultimate Speed",
+      promoSub: "Discover our all-new Propel Range",
+      promoBtn: "Discover",
+      promoUrl: "https://www.giant-bicycles.com/nl/propel",
+      aboutHeading: "Giant Bennebroek",
+      aboutBody: "A warm welcome to Giant Bennebroek. Here you will find passionate cycling professionals who have been active in the trade for many years. With knowledge, but above all a great love for everything related to cycling, we are at your service.\n\nWith a wide range of electric bikes, road bikes, gravel bikes, mountain bikes, and of course city bikes, always in sufficient stock, we can provide everyone with a suitable bike. From panniers to sports nutrition, from child seats to bottle holders, all available from stock and ready for installation.\n\nFeel free to drop by. In our Giant Store, we aim to keep things professional, but above all, approachable. You are very welcome with questions big or small \u2014 for a chat, a question, or an introduction over a cup of coffee.",
+      stats: [
+        { label: "Established", value: "1972" },
+        { label: "Avg. review score", value: "4.8/5" },
+        { label: "Store surface", value: "853m\u00b2" }
+      ],
+      gallery: [
+        { src: window.__resources.gallery1, caption: "Store interior" },
+        { src: window.__resources.gallery2, caption: "Workshop" },
+        { src: window.__resources.gallery3, caption: "Showroom" },
+        { src: window.__resources.gallery4, caption: "Coffee corner" },
+        { src: window.__resources.gallery5, caption: "Test ride" }
+      ],
+      team: [
+        { avatar: window.__resources.avatar0, name: "Olaf Verhoeve", role: "Sales and service (owner)", bio: "Bicycle maker father Jan and grandfather Verhoeve already had an intensive collaboration with the \u201cvan Bakels\u201d in the 1930s, so cycling was instilled in him from a young age." },
+        { avatar: window.__resources.avatar1, name: "Josje Verhoeven", role: "Sales", bio: "Josje has been a cyclist since childhood and still prefers to cycle to work. Alongside sales and purchasing she teaches in primary education, inspiring a new generation to ride." },
+        { avatar: window.__resources.avatar2, name: "Ciska Verhoeve", role: "Bikefitter", bio: "Ciska is a physiotherapist and makes sure you sit perfectly on the bike, supported by Bikefitting.com software. Unstoppable on her road bike." },
+        { avatar: window.__resources.avatar3, name: "Marco de Goede", role: "Mechanic", bio: "Marco understands what service is after 25 years of his own entrepreneurship; he embodies our business philosophy as if it were his own company." }
+      ],
+      faq: [
+        { q: "Do I need to make an appointment for service?", a: "Walk-ins are welcome, but booking ahead guarantees a slot and shortens your wait." },
+        { q: "Can I test ride a bike?", a: "Yes \u2014 bring an ID and we will set you up with a test bike in your size." },
+        { q: "How long does a repair take?", a: "Standard service has an average turnaround of 48 hours. Minor jobs like a flat or a brake adjustment are often done while you wait. Express same-day service is available for an extra fee, subject to availability." },
+        { q: "Do you offer trade-ins?", a: "We accept trade-ins on most brands; bring your bike in for a free valuation." },
+        { q: "What payment methods do you accept?", a: "All major cards, iDEAL, and financing options for larger purchases." }
+      ]
+    }
+  };
+
+  set(key, value) {
+    this.setState(s => ({ dirty: true, d: Object.assign({}, s.d, { [key]: value }) }));
+  }
+
+  setIn(key, index, field, value) {
+    this.setState(s => {
+      const list = s.d[key].map((row, i) => (i === index ? Object.assign({}, row, { [field]: value }) : row));
+      return { dirty: true, d: Object.assign({}, s.d, { [key]: list }) };
+    });
+  }
+
+  removeIn(key, index) {
+    this.setState(s => ({ dirty: true, d: Object.assign({}, s.d, { [key]: s.d[key].filter((_, i) => i !== index) }) }));
+  }
+
+  addIn(key, row) {
+    this.setState(s => ({ dirty: true, d: Object.assign({}, s.d, { [key]: s.d[key].concat([row]) }) }));
+  }
+
+  field(key) {
+    return e => this.set(key, e.target.value);
+  }
+
+  renderVals() {
+    const d = this.state.d;
+    const active = this.state.active || this.props.defaultSection || "header";
+    const locked = LOCKED[active];
+    const showLockedGroup = this.props.showManagedSections !== false;
+
+    const nav = NAV.filter(g => showLockedGroup || g.title !== "Set by Giant").map(g => ({
+      title: g.title,
+      items: g.items.map(it => ({
+        label: it.label,
+        locked: !!it.locked,
+        onClick: () => this.setState({ active: it.id }),
+        style: NAV_BASE + (it.id === active
+          ? "background:#2350cf;color:#fff;"
+          : "background:transparent;color:#b6bbc4;")
+      }))
+    }));
+
+    const h = {};
+    ["storeName", "intro", "street", "city", "phone", "email", "hoursNote",
+     "promoTitle", "promoSub", "promoBtn", "promoUrl", "aboutHeading", "aboutBody"].forEach(k => { h[k] = this.field(k); });
+
+    const services = d.services.map((c, i) => ({
+      label: c.label,
+      onClick: () => this.setIn("services", i, "on", !c.on),
+      style: "font:500 14px/1 'Open Sans';padding:11px 15px;border-radius:99px;cursor:pointer;" + (c.on
+        ? "background:#14161a;color:#fff;border:1px solid #14161a;"
+        : "background:#fff;color:#8a9099;border:1px solid #d9dde4;")
+    }));
+
+    const hours = d.hours.map((r, i) => ({
+      day: r.day,
+      open: r.open,
+      close: r.close,
+      closed: r.closed,
+      onOpen: e => this.setIn("hours", i, "open", e.target.value),
+      onClose: e => this.setIn("hours", i, "close", e.target.value),
+      onToggle: () => this.setIn("hours", i, "closed", !r.closed),
+      inputStyle: INPUT + (r.closed ? "background:#f4f5f7;color:#a9aeb8;" : "background:#fff;"),
+      toggleStyle: "display:flex;align-items:center;gap:9px;padding:0;border:none;background:none;cursor:pointer;font:500 13px/1 'Open Sans';justify-self:end;" + (r.closed ? "color:#14161a;" : "color:#8a9099;"),
+      trackStyle: "display:inline-flex;align-items:center;width:38px;height:22px;border-radius:99px;padding:2px;box-sizing:border-box;transition:background .15s;" + (r.closed ? "background:#2350cf;justify-content:flex-end;" : "background:#d9dde4;justify-content:flex-start;"),
+      knobStyle: "display:block;width:18px;height:18px;border-radius:50%;background:#fff;"
+    }));
+
+    const stats = d.stats.map((s, i) => ({
+      label: s.label,
+      value: s.value,
+      onLabel: e => this.setIn("stats", i, "label", e.target.value),
+      onValue: e => this.setIn("stats", i, "value", e.target.value)
+    }));
+
+    const gallery = d.gallery.map((g, i) => ({
+      src: g.src,
+      caption: g.caption,
+      num: String(i + 1),
+      onCaption: e => this.setIn("gallery", i, "caption", e.target.value),
+      onRemove: () => this.removeIn("gallery", i)
+    }));
+
+    const team = d.team.map((m, i) => ({
+      avatar: m.avatar,
+      name: m.name,
+      role: m.role,
+      bio: m.bio,
+      onName: e => this.setIn("team", i, "name", e.target.value),
+      onRole: e => this.setIn("team", i, "role", e.target.value),
+      onBio: e => this.setIn("team", i, "bio", e.target.value),
+      onRemove: () => this.removeIn("team", i)
+    }));
+
+    const faq = d.faq.map((f, i) => {
+      const open = this.state.openFaq === i;
+      return {
+        q: f.q,
+        a: f.a,
+        open: open,
+        caret: open ? "\u2013" : "+",
+        wrapStyle: "display:flex;flex-direction:column;border-bottom:1px solid #eef0f3;" + (open ? "background:#fbfbfc;" : ""),
+        caretStyle: "width:34px;height:34px;border:1px solid #e4e7ec;border-radius:8px;background:#fff;color:#14161a;font:500 16px/1 'Open Sans';cursor:pointer;",
+        onQ: e => this.setIn("faq", i, "q", e.target.value),
+        onA: e => this.setIn("faq", i, "a", e.target.value),
+        onToggle: () => this.setState({ openFaq: open ? -1 : i }),
+        onRemove: () => this.removeIn("faq", i)
+      };
+    });
+
+    const introLimit = 220;
+    const aboutLimit = 1600;
+
+    return {
+      userAvatar: window.__resources.avatar0,
+      nav: nav,
+      pageTitle: locked ? LOCKED[active].title : (TITLES[active] || "Store page"),
+      isHeader: active === "header",
+      isHours: active === "hours",
+      isPromo: active === "promo",
+      isAbout: active === "about",
+      isGallery: active === "gallery",
+      isTeam: active === "team",
+      isFaq: active === "faq",
+      isLocked: !!locked,
+      locked: locked || { title: "", desc: "", rows: [] },
+      v: {
+        storeName: d.storeName,
+        hero: d.hero,
+        intro: d.intro,
+        introCount: d.intro.length + " / " + introLimit,
+        street: d.street,
+        city: d.city,
+        phone: d.phone,
+        email: d.email,
+        hoursNote: d.hoursNote,
+        promoImage: d.promoImage,
+        promoTitle: d.promoTitle,
+        promoSub: d.promoSub,
+        promoBtn: d.promoBtn,
+        promoUrl: d.promoUrl,
+        aboutHeading: d.aboutHeading,
+        aboutBody: d.aboutBody,
+        aboutCount: d.aboutBody.length + " / " + aboutLimit
+      },
+      h: h,
+      services: services,
+      hours: hours,
+      stats: stats,
+      gallery: gallery,
+      team: team,
+      faq: faq,
+      onAddPhoto: () => this.addIn("gallery", { src: window.__resources.gallery1, caption: "" }),
+      onAddMember: () => this.addIn("team", { avatar: window.__resources.avatar0, name: "", role: "", bio: "" }),
+      onAddFaq: () => {
+        this.addIn("faq", { q: "", a: "" });
+        this.setState(s => ({ openFaq: s.d.faq.length }));
+      },
+      onSave: () => this.setState({ dirty: false }),
+      saveLabel: this.state.dirty ? "Save changes" : "Saved",
+      saveStyle: "font:500 14px/1 'Open Sans';padding:13px 20px;border-radius:8px;border:none;cursor:pointer;" + (this.state.dirty
+        ? "background:#2350cf;color:#fff;"
+        : "background:#eef0f3;color:#a0a5ae;")
+    };
+  }
+}
+
+</script>
+</body>
+</html>

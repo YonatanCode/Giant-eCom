@@ -1,0 +1,335 @@
+.product-card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: var(--semantic-base-surface);
+  border: 1px solid var(--semantic-base-border);
+  border-radius: var(--radius-s);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .product-card:hover {
+    border-color: var(--semantic-action-border-subtle);
+  }
+}
+
+.product-card__link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.product-card__link:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+.product-card__badges {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.product-card__media {
+  display: flex;
+  padding: var(--foundation-spacing-ml) var(--foundation-spacing-xs);
+  justify-content: center;
+  overflow: hidden;
+  background: var(--semantic-base-surface);
+  border-radius: var(--radius-s) var(--radius-s) 0 0;
+}
+
+.product-card__media-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 936 / 624;
+}
+
+.product-card__image,
+.product-card__hover-image {
+  position: absolute;
+  inset: 0;
+  transform: translateZ(0);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  backface-visibility: hidden;
+  transition: opacity 180ms ease;
+  will-change: opacity;
+}
+
+.product-card__hover-image {
+  opacity: 0;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .product-card.has-hover-media:hover .product-card__hover-image {
+    opacity: 1;
+  }
+}
+
+.product-card__topline {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  padding: 0 var(--foundation-spacing-sm) var(--foundation-spacing-xs);
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--foundation-spacing-m);
+  min-height: var(--foundation-spacing-ml);
+}
+
+.product-card__copy {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  padding: var(--foundation-spacing-sm);
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: var(--foundation-spacing-sm);
+}
+
+.product-card__text-link {
+  display: block;
+  border-radius: var(--foundation-spacing-xxxs);
+  text-decoration: none;
+}
+
+.product-card__text-link:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+.product-card__pricing {
+  display: grid;
+  margin-top: auto;
+  gap: 0;
+}
+
+.selector-group {
+  display: flex;
+  /* Wrapping drops the row's min-content width to one swatch, so a long colour
+     list reflows instead of pushing the compare toggle out of the card. */
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--foundation-spacing-sm);
+  min-height: var(--foundation-spacing-ml);
+}
+
+.swatch {
+  display: inline-flex;
+  position: relative;
+  padding: 0;
+  width: 18px;
+  height: 18px;
+  background: var(--swatch-color-a);
+  background-image: linear-gradient(
+    111deg,
+    var(--swatch-color-a) 50%,
+    var(--swatch-color-b, var(--swatch-color-a)) 50%
+  );
+  border: 1px solid var(--semantic-base-border);
+  border-radius: var(--radius-round);
+  appearance: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.swatch:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+.swatch::before {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  inset: -4px;
+  border: 1.5px solid var(--semantic-base-border-dark);
+  border-radius: var(--radius-round);
+  transition: opacity var(--transition-fast);
+}
+
+.swatch.is-selected::before {
+  opacity: 1;
+}
+
+.swatch::after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  inset: -4px;
+  border: 1.5px solid var(--semantic-action-border-subtle);
+  border-radius: var(--radius-round);
+  transition: opacity var(--transition-fast);
+}
+
+.swatch.is-selected::after {
+  opacity: 0;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .swatch:hover::after {
+    opacity: 1;
+  }
+
+  .swatch.is-selected:hover::after {
+    opacity: 0;
+  }
+}
+
+/* The compare toggle shows this tooltip once three products are already selected. */
+.checkbox-wrapper.is-disabled:hover .compare-tooltip {
+  display: block;
+}
+
+.title-group {
+  display: grid;
+  gap: 0;
+}
+
+.product-title {
+  margin: 0;
+  color: var(--semantic-commerce-text-product);
+}
+
+.product-description {
+  display: -webkit-box;
+  /* display: none; */
+  margin: 0;
+  overflow: hidden;
+  color: var(--semantic-base-text-muted);
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.price-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: var(--foundation-spacing-xs);
+}
+
+.price-prefix {
+  color: var(--semantic-commerce-text-price);
+}
+
+.price-current {
+  color: var(--semantic-commerce-text-price);
+}
+
+.price-current--sale {
+  color: var(--semantic-commerce-text-discount);
+}
+
+.price-old {
+  color: var(--semantic-base-text-muted);
+  text-decoration: line-through;
+}
+
+.finance-copy {
+  margin: 0;
+  color: var(--semantic-base-text-muted);
+}
+
+.disclaimer {
+  margin: 0;
+  color: var(--semantic-base-text-muted);
+}
+
+.card-tag {
+  display: inline-flex;
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  padding: 0 var(--foundation-spacing-xs);
+  align-items: center;
+  justify-content: center;
+  height: var(--foundation-spacing-m);
+  background: var(--semantic-commerce-surface-new);
+  color: var(--semantic-commerce-text-new);
+  text-transform: uppercase;
+}
+
+.card-tag--sale {
+  background: var(--semantic-commerce-surface-discount);
+  color: var(--semantic-commerce-text-discount);
+}
+
+.card-tag--best-seller {
+  background: var(--semantic-base-surface-subtle);
+  color: var(--semantic-base-text-muted);
+}
+
+.award-badge-wrap {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  z-index: 3;
+  padding: var(--foundation-spacing-s);
+}
+
+.award-badge {
+  width: var(--foundation-spacing-l);
+  aspect-ratio: 1;
+  object-fit: cover;
+  mix-blend-mode: darken;
+}
+
+/* Availability rows, between the description and the price. */
+.stock-info {
+  display: grid;
+  /* Above the card’s full-bleed link overlay, so the stock lines stay selectable. */
+  position: relative;
+  z-index: 2;
+  gap: var(--foundation-spacing-xxs);
+  padding-top: var(--foundation-spacing-xs);
+  border-top: 1px solid var(--semantic-base-border);
+}
+
+.stock-row {
+  display: flex;
+  margin: 0;
+  align-items: flex-start;
+  gap: var(--foundation-spacing-xs);
+  color: var(--semantic-base-text);
+  text-wrap: balance;
+}
+
+.stock-row__dot {
+  flex: none;
+  margin-top: var(--foundation-spacing-xxs);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.stock-row--ok .stock-row__dot {
+  background: var(--semantic-feedback-icon-success);
+}
+
+/* Out of stock reads as an outline, not a filled warning — it is information, not an error. */
+.stock-row--none .stock-row__dot {
+  border: 1.5px solid var(--semantic-feedback-icon-error);
+}
+
+.stock-row__text {
+  min-width: 0;
+}
+
+/* A dealer name wraps to the next line whole, or ellipsises — never down the middle of the
+   company name. Inline-block so the truncation has a box to happen in. */
+.stock-row__store {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  vertical-align: bottom;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

@@ -1,0 +1,517 @@
+.search-page {
+  min-height: calc(100vh - 64px);
+}
+
+.search-page__hero {
+  display: flex;
+  margin: 0 auto;
+  padding: var(--foundation-spacing-ml) var(--layout-page-gutter) 0;
+  align-items: end;
+  justify-content: space-between;
+  gap: var(--foundation-spacing-m);
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .search-page__hero {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+@media (max-width: 640px) {
+  .search-page__hero {
+    display: grid;
+    padding: var(--foundation-spacing-s) var(--layout-page-gutter) 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    column-gap: var(--foundation-spacing-xs);
+    row-gap: var(--foundation-spacing-xs);
+  }
+}
+
+.search-page__content {
+  display: grid;
+  isolation: isolate;
+  margin: 0 auto;
+  padding: var(--foundation-spacing-s) var(--layout-page-gutter) var(--foundation-spacing-xxl);
+  grid-template-columns: 260px minmax(0, 1fr);
+  align-items: start;
+  gap: var(--foundation-spacing-m);
+  width: 100%;
+  min-height: 0;
+}
+
+@media (min-width: 1025px) {
+  .search-page__content {
+    min-height: var(--Search-Content-Height);
+    transition: grid-template-columns 0.3s ease, column-gap 0.3s ease;
+  }
+}
+
+@media (max-width: 1024px) {
+  .search-page__content {
+    isolation: auto;
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .search-page__content {
+    padding: var(--foundation-spacing-xs) var(--layout-page-gutter) var(--foundation-spacing-xl);
+    gap: var(--foundation-spacing-xs);
+  }
+}
+
+.search-page__content--filters-hidden {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (min-width: 1025px) {
+  .search-page__content--filters-hidden {
+    grid-template-columns: 0px minmax(0, 1fr);
+    column-gap: 0;
+  }
+}
+
+.results-heading {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  gap: 0;
+  min-width: 0;
+}
+
+@media (max-width: 640px) {
+  .results-heading {
+    display: contents;
+  }
+}
+
+.page-heading-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+@media (max-width: 640px) {
+  .page-heading-group {
+    order: 1;
+    grid-column: 1 / -1;
+    gap: var(--foundation-spacing-m);
+  }
+}
+
+.page-heading {
+  margin: var(--foundation-spacing-fluid-l) 0 var(--foundation-spacing-fluid-s);
+  color: var(--semantic-base-text-heading);
+}
+
+@media (max-width: 640px) {
+  .page-heading {
+    margin: 0;
+  }
+}
+
+.breadcrumb__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--foundation-spacing-xxs);
+  list-style: none;
+}
+
+.breadcrumb__item {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--foundation-spacing-xxs);
+  color: var(--semantic-base-text);
+  white-space: nowrap;
+}
+
+.breadcrumb__link {
+  text-decoration: none;
+}
+
+.breadcrumb__link:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.breadcrumb__separator {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  color: var(--semantic-base-icon-subtle);
+}
+
+.results-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: var(--foundation-spacing-xs);
+  row-gap: var(--foundation-spacing-s);
+  min-height: 32px;
+}
+
+@media (max-width: 640px) {
+  .results-toolbar {
+    display: contents;
+  }
+}
+
+.results-count {
+  display: inline-flex;
+  margin: 0;
+  align-items: center;
+  gap: var(--foundation-spacing-s);
+  min-height: 32px;
+  color: var(--semantic-base-text);
+}
+
+@media (max-width: 640px) {
+  .results-count {
+    order: 2;
+    grid-column: 1 / -1;
+    min-height: 0;
+  }
+}
+
+.results-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: var(--foundation-spacing-sm);
+  row-gap: var(--foundation-spacing-s);
+  min-width: 0;
+  min-height: 32px;
+}
+
+@media (max-width: 1024px) {
+  .results-meta {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .results-meta {
+    display: contents;
+  }
+}
+
+.results-meta__separator {
+  display: inline-flex;
+  align-self: center;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 1px;
+  height: 20px;
+  overflow: hidden;
+  color: var(--semantic-base-surface-transparent);
+  font-size: 0;
+}
+
+@media (max-width: 640px) {
+  .results-meta__separator {
+    display: none;
+  }
+}
+
+.results-meta__separator::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 20px;
+  background: var(--semantic-base-border);
+}
+
+.results-action {
+  display: inline-flex;
+  padding: 0;
+  align-items: center;
+  gap: var(--foundation-spacing-xxs);
+  min-height: 32px;
+  background: var(--semantic-base-surface-transparent);
+  border: 0;
+  color: var(--semantic-action-text-navigation);
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* On mobile both toolbar controls become full-width outline buttons. */
+@media (max-width: 640px) {
+  .results-action {
+    order: 4;
+    margin-top: var(--foundation-spacing-sm);
+    padding: var(--foundation-spacing-s) var(--foundation-spacing-sm);
+    justify-content: center;
+    gap: var(--foundation-spacing-xs);
+    width: 100%;
+    min-width: 0;
+    min-height: 40px;
+    background: var(--semantic-base-surface);
+    border: 2px solid var(--semantic-action-border);
+    border-radius: var(--radius-round);
+    color: var(--semantic-action-text);
+    text-transform: uppercase;
+  }
+}
+
+.results-action:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+.results-action__icon {
+  display: inline-flex;
+  flex: 0 0 16px;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  line-height: 1;
+  text-align: center;
+}
+
+/* The SVG is an <img> with a baked-in fill, so on mobile it is swapped for a mask that follows the label colour. */
+@media (max-width: 640px) {
+  .results-action__icon {
+    background: currentColor;
+    mask: url("/icons/filter-icon.svg") center / 12px 12px no-repeat;
+  }
+}
+
+.results-action__asset {
+  display: block;
+  flex: 0 0 auto;
+  width: 12px;
+  max-width: none;
+  height: 12px;
+  object-fit: contain;
+}
+
+@media (max-width: 640px) {
+  .results-action__asset {
+    display: none;
+  }
+}
+
+.mobile-results-toolbar {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .mobile-results-toolbar {
+    display: block;
+    position: sticky;
+    top: var(--Mobile-Sticky-Offset);
+    z-index: 180;
+    background: var(--semantic-base-surface);
+    border-bottom: 1px solid var(--semantic-base-surface-transparent);
+    transition: top 180ms ease, border-color 180ms ease;
+  }
+}
+
+.mobile-results-toolbar[hidden] {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .mobile-results-toolbar--stuck {
+    border-bottom-color: var(--semantic-base-border);
+  }
+
+  .mobile-results-toolbar__inner {
+    display: grid;
+    padding: var(--foundation-spacing-sm) var(--layout-page-gutter) var(--foundation-spacing-xs);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--foundation-spacing-xs);
+  }
+
+  /* Inside the sticky toolbar the two controls sit side by side, not stacked. */
+  .mobile-results-toolbar .results-action {
+    order: 0;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .mobile-results-toolbar .sort-control {
+    display: flex;
+    order: 0;
+    margin-top: 0;
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+.filters-panel__active-summary {
+  display: flex;
+  padding-left: var(--foundation-spacing-sm);
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: var(--foundation-spacing-xs);
+  row-gap: var(--foundation-spacing-s);
+  min-height: 32px;
+  border-left: 1px solid var(--semantic-base-border);
+}
+
+@media (max-width: 640px) {
+  .filters-panel__active-summary {
+    order: 3;
+    margin: 0;
+    grid-column: 1 / -1;
+    justify-content: flex-start;
+    column-gap: var(--foundation-spacing-s);
+    min-height: 0;
+  }
+}
+
+.filters-panel__active-summary[hidden] {
+  display: none;
+}
+
+.filters-panel__active-count {
+  display: inline-flex;
+  position: relative;
+  padding: 0 var(--foundation-spacing-xxs);
+  align-items: center;
+  justify-content: center;
+  min-width: 16px;
+  height: 16px;
+  background: var(--semantic-base-surface-on-light);
+  border-radius: var(--radius-round);
+  white-space: nowrap;
+}
+
+.filters-panel__active-count-value {
+  display: block;
+  transform: translateY(0.5px);
+  color: var(--semantic-base-text-heading-on-dark);
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.filters-panel__clear {
+  display: inline-flex;
+  padding: 0;
+  align-items: center;
+  min-height: 32px;
+  background: var(--semantic-base-surface-transparent);
+  border: 0;
+  color: var(--semantic-action-text-navigation);
+  text-align: left;
+  white-space: nowrap;
+  appearance: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.filters-panel__clear:hover {
+  opacity: var(--opacity-high);
+}
+
+.filters-panel__clear:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+.filters-drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 230;
+  background: var(--scrim);
+}
+
+.filters-drawer-backdrop[hidden] {
+  display: none;
+}
+
+.products-area {
+  /* The column count is driven by this box, not the viewport: the 260px filter
+     sidebar toggles off without the viewport moving. */
+  container-type: inline-size;
+  min-width: 0;
+  min-height: 0;
+}
+
+.products-grid {
+  display: grid;
+  /* Columns hold until the cards reach their 425px max, then one is added. auto-fill
+     can't express this — it packs maximally, adding a column the moment one fits at
+     the 280px min, which jumped 4x354 straight to 5x280. Each threshold is the
+     width at which the current count would exceed 425px (n * 425 + (n - 1) * gap),
+     floored by the width n columns need to stay above 280px (n * 280 + (n - 1) *
+     gap). The floor wins at 2 and 3 columns, the 425px ceiling from there up, which
+     is why cards only run past 425 on the one- and two-column bands: there the next
+     column would break the 280px floor, so the row stretches instead. */
+  grid-template-columns: 1fr;
+  align-content: start;
+  align-items: stretch;
+  gap: var(--foundation-spacing-sm);
+}
+
+@container (min-width: 576px) {
+  .products-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@container (min-width: 872px) {
+  .products-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@container (min-width: 1307px) {
+  .products-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@container (min-width: 1748px) {
+  .products-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+@container (min-width: 2189px) {
+  .products-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .products-grid {
+    gap: var(--foundation-spacing-xs);
+  }
+}
+
+.empty-state {
+  display: grid;
+  padding: var(--foundation-spacing-m);
+  align-items: start;
+  gap: var(--foundation-spacing-xs);
+  border: 1px solid var(--semantic-base-border);
+  border-radius: var(--radius-s);
+}
+
+.empty-state[hidden] {
+  display: none;
+}
+
+.empty-state h2 {
+  margin: 0;
+}
+
+.empty-state p {
+  margin: 0;
+  color: var(--semantic-base-text-muted);
+}

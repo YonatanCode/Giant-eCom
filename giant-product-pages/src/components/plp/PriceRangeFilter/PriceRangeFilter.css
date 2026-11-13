@@ -1,0 +1,109 @@
+.price-range-filter {
+  display: flex;
+  padding: var(--foundation-spacing-xs) var(--foundation-spacing-xs) 0;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.price-range-filter__values {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-range-filter__value {
+  color: var(--semantic-base-text);
+  font-variant-numeric: tabular-nums;
+}
+
+.price-range-filter__track-wrap {
+  position: relative;
+  padding: 0 var(--foundation-spacing-xs);
+  height: var(--foundation-spacing-m);
+}
+
+.price-range-filter__track {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  transform: translateY(-50%);
+  height: 6px;
+  background: var(--semantic-base-border);
+  border-radius: var(--radius-round);
+  pointer-events: none;
+}
+
+.price-range-filter__fill {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: var(--semantic-base-surface-on-light);
+  border-radius: inherit;
+}
+
+/* Two overlaid inputs, so the track and fill below stay visible: the inputs themselves
+   take no pointer events, only their thumbs do. */
+.price-range-filter__input {
+  --range-thumb-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--semantic-base-surface-transparent);
+  appearance: none;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.price-range-filter__input::-webkit-slider-runnable-track {
+  height: 6px;
+  background: var(--semantic-base-surface-transparent);
+  border-radius: var(--radius-round);
+}
+
+.price-range-filter__input::-moz-range-track {
+  height: 6px;
+  background: var(--semantic-base-surface-transparent);
+  border-radius: var(--radius-round);
+}
+
+.price-range-filter__input::-webkit-slider-thumb {
+  margin-top: calc((6px - var(--range-thumb-size)) / 2);
+  width: var(--range-thumb-size);
+  height: var(--range-thumb-size);
+  background: var(--semantic-base-surface-on-light);
+  border: 2px solid var(--semantic-base-surface);
+  border-radius: 50%;
+  appearance: none;
+  pointer-events: all;
+  transition:
+    height var(--transition-fast),
+    margin-top var(--transition-fast),
+    width var(--transition-fast);
+}
+
+.price-range-filter__input::-webkit-slider-thumb:hover,
+.price-range-filter__input::-webkit-slider-thumb:active,
+.price-range-filter__input:focus-visible::-webkit-slider-thumb {
+  margin-top: calc((6px - var(--foundation-spacing-m)) / 2);
+  width: var(--foundation-spacing-m);
+  height: var(--foundation-spacing-m);
+}
+
+.price-range-filter__input::-moz-range-thumb {
+  width: var(--range-thumb-size);
+  height: var(--range-thumb-size);
+  background: var(--semantic-base-surface-on-light);
+  border: 2px solid var(--semantic-base-surface);
+  border-radius: 50%;
+  pointer-events: all;
+  transition: height var(--transition-fast), width var(--transition-fast);
+}
+
+.price-range-filter__input::-moz-range-thumb:hover,
+.price-range-filter__input::-moz-range-thumb:active {
+  width: var(--foundation-spacing-m);
+  height: var(--foundation-spacing-m);
+}

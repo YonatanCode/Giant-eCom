@@ -1,0 +1,198 @@
+.filters-panel {
+  display: flex;
+  position: sticky;
+  top: var(--foundation-spacing-xxs);
+  z-index: 20;
+  flex-direction: column;
+  min-height: 0;
+  max-height: calc(100vh - var(--foundation-spacing-xxs));
+}
+
+@media (min-width: 1025px) {
+  .filters-panel {
+    position: relative;
+    top: auto;
+    min-width: 0;
+    max-height: none;
+    overflow: hidden;
+    transition: opacity 0.3s ease;
+  }
+}
+
+/* Below 1025 the panel is a bottom drawer. */
+@media (max-width: 1024px) {
+  .filters-panel {
+    position: fixed;
+    top: 48px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 240;
+    transform: translateY(calc(100% + var(--foundation-spacing-m)));
+    width: 100%;
+    max-height: calc(100dvh - 48px);
+    background: var(--semantic-base-surface);
+    border-radius: var(--foundation-spacing-m) var(--foundation-spacing-m) 0 0;
+    box-shadow: var(--elevation-drawer);
+    pointer-events: none;
+    transition: transform 220ms ease;
+  }
+
+  .filters-panel--drawer-open {
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+}
+
+/* Catalog hides the sidebar by collapsing its grid column; on desktop the panel stays
+   laid out and fades, so the transition has something to animate. */
+.search-page__content--filters-hidden .filters-panel {
+  display: none;
+}
+
+@media (min-width: 1025px) {
+  .search-page__content--filters-hidden .filters-panel {
+    display: flex;
+    opacity: 0;
+  }
+
+  .filters-panel--desktop-sticky {
+    position: sticky;
+    top: var(--foundation-spacing-xxs);
+  }
+}
+
+.filters-panel__drawer-header {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .filters-panel__drawer-header {
+    display: flex;
+    padding: var(--foundation-spacing-sm) var(--layout-page-gutter);
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 72px;
+    background: var(--semantic-base-surface);
+    border-bottom: 1px solid var(--semantic-base-border-divider);
+  }
+}
+
+.filters-panel__drawer-title {
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .filters-panel__drawer-title {
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 1024px) {
+  .filters-panel__drawer-close {
+    display: inline-flex;
+    padding: var(--foundation-spacing-s);
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    background: var(--semantic-base-surface-transparent);
+    border: 0;
+    border-radius: 50%;
+    color: var(--semantic-base-icon);
+    appearance: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.filters-panel__drawer-close:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+.filters-panel__drawer-footer {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .filters-panel__drawer-footer {
+    display: flex;
+    padding: var(--foundation-spacing-sm) var(--layout-page-gutter)
+      calc(var(--foundation-spacing-sm) + env(safe-area-inset-bottom, 0px));
+    flex: 0 0 auto;
+    align-items: center;
+    background: var(--semantic-base-surface);
+    border-top: 1px solid var(--semantic-base-border-divider);
+    box-shadow: var(--elevation-drawer-footer);
+  }
+
+  .filters-panel__apply {
+    padding: var(--foundation-spacing-sm) var(--foundation-spacing-m);
+    width: 100%;
+    min-height: 52px;
+    background: var(--semantic-action-surface);
+    border: 0;
+    border-radius: var(--radius-round);
+    color: var(--semantic-action-text-on-dark);
+    text-transform: uppercase;
+    appearance: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .filters-panel__apply:hover {
+    background: var(--semantic-action-surface-hover);
+  }
+}
+
+.filters-panel__apply:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+.filters-panel__groups {
+  padding-right: var(--foundation-spacing-xxs);
+  padding-bottom: 74px;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scroll-padding-bottom: 74px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+@media (min-width: 1025px) {
+  .filters-panel__groups {
+    min-width: 260px;
+    scrollbar-gutter: stable;
+  }
+}
+
+@media (max-width: 1024px) {
+  .filters-panel__groups {
+    padding-right: var(--layout-page-gutter);
+    padding-bottom: calc(var(--foundation-spacing-m) + env(safe-area-inset-bottom, 0px));
+    padding-left: var(--layout-page-gutter);
+    scroll-padding-bottom: calc(var(--foundation-spacing-xl) + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+.filters-panel__groups::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* use-split-scroll gives the groups their own scroll box once the page is tall enough. */
+@media (min-width: 1025px) {
+  .filters-panel--desktop-scroll .filters-panel__groups {
+    padding-right: var(--foundation-spacing-xxs);
+    height: var(--Filters-Viewport-Height, calc(100vh - var(--foundation-spacing-xxs)));
+    max-height: var(--Filters-Viewport-Height, calc(100vh - var(--foundation-spacing-xxs)));
+  }
+}

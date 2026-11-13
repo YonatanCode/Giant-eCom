@@ -1,0 +1,788 @@
+{
+  "slug": "fitness-and-city-bikes",
+  "title": "Fitness & city bikes",
+  "market": "GB",
+  "currency": "GBP",
+  "generatedAt": "2026-09-15T15:34:53.141Z",
+  "source": "https://www.giant-bicycles.com/gb/bikes/fitness-and-city-bikes",
+  "filterGroups": [
+    {
+      "id": "bestfor",
+      "label": "Best For",
+      "options": [
+        {
+          "id": "best-for-adventure",
+          "label": "Adventure",
+          "info": "For riders looking to explore new routes on a variety of terrain including roads, gravel and dirt."
+        },
+        {
+          "id": "best-for-city-hybrid",
+          "label": "City & Hybrid",
+          "info": "For commuters and urban dwellers who ride for transportation, mobility, fitness and fun."
+        },
+        {
+          "id": "best-for-fitness",
+          "label": "Fitness",
+          "info": "For sports-minded riders who enjoy outdoor activities to improve their health and mobility."
+        },
+        {
+          "id": "best-for-trekking",
+          "label": "Trekking",
+          "info": "For long-distance explorations that demand comfort, versatility, and an ability to carry extra accessories and gear."
+        }
+      ]
+    },
+    {
+      "id": "wheelsize",
+      "label": "Wheel Size",
+      "options": [
+        {
+          "id": "wheel-size-700c",
+          "label": "700c"
+        },
+        {
+          "id": "wheel-size-650b",
+          "label": "650b"
+        },
+        {
+          "id": "wheel-size-27-5",
+          "label": "27.5\""
+        }
+      ]
+    },
+    {
+      "id": "braketype",
+      "label": "Brake Type",
+      "options": [
+        {
+          "id": "brake-type-disc-brake",
+          "label": "Disc Brake"
+        },
+        {
+          "id": "brake-type-rim-brake",
+          "label": "Rim Brake"
+        }
+      ]
+    },
+    {
+      "id": "batterycapacity",
+      "label": "Battery Capacity",
+      "options": [
+        {
+          "id": "battery-capacity-500-wh",
+          "label": "500 Wh"
+        },
+        {
+          "id": "battery-capacity-600-wh",
+          "label": "600 Wh"
+        },
+        {
+          "id": "battery-capacity-625-wh",
+          "label": "625 Wh"
+        },
+        {
+          "id": "battery-capacity-800-wh",
+          "label": "800 Wh"
+        }
+      ]
+    },
+    {
+      "id": "batterytype",
+      "label": "Battery Type",
+      "options": [
+        {
+          "id": "battery-type-downtube",
+          "label": "Downtube"
+        },
+        {
+          "id": "battery-type-integrated",
+          "label": "Integrated"
+        }
+      ]
+    },
+    {
+      "id": "seatposttype",
+      "label": "Seatpost Type",
+      "options": [
+        {
+          "id": "seatpost-type-suspension",
+          "label": "Suspension"
+        },
+        {
+          "id": "seatpost-type-adjustable",
+          "label": "Adjustable"
+        },
+        {
+          "id": "seatpost-type-suspension-dropper",
+          "label": "Suspension Dropper"
+        }
+      ]
+    },
+    {
+      "id": "sale",
+      "label": "Sale",
+      "options": [
+        {
+          "id": "sale-product",
+          "label": "On Sale"
+        }
+      ]
+    }
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "M/L",
+    "L",
+    "XL"
+  ],
+  "products": [
+    {
+      "id": "anytour-x-eplus-2027",
+      "availabilityMiles": 109,
+      "stock": {
+        "skus": 3,
+        "inStock": 3,
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "title": "AnyTour X E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-anytour-x-eplus-2027",
+      "description": "Built for riders who don’t stop when the pavement ends, the AnyTour X E+ delivers premium comfort and confident control across changing terrain. It blends everyday ease with true trekking capability, making it feel steady and effortless to ride as surfaces shift from city streets to gravel and light trails.",
+      "price": {
+        "mode": "regular",
+        "amount": "£3,699"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-adventure",
+        "wheel-size-27-5",
+        "brake-type-disc-brake",
+        "battery-capacity-625-wh",
+        "battery-type-downtube",
+        "seatpost-type-suspension-dropper"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "default",
+          "label": "Default",
+          "colors": [
+            "#6b7280"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_333%2Cq_80%2Cw_500/x2jknub1ag7hspjlux5e/MY27AnyTourXE3_ColorBBlackCurrant.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "newtour-eplus-2027",
+      "availabilityMiles": 115,
+      "stock": {
+        "skus": 21,
+        "inStock": 20,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "NewTour E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-newtour-eplus-2027",
+      "description": "Exploration feels best when the ride is effortless and intuitive. The NewTour E+ pairs an upright, confidence-inspiring ride feel with thoughtful design, creating an E-bike that moves smoothly from city streets into parks, open routes and beyond.",
+      "price": {
+        "mode": "from",
+        "amount": "£2,399"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-city-hybrid",
+        "wheel-size-700c",
+        "brake-type-disc-brake",
+        "battery-capacity-625-wh",
+        "battery-type-integrated",
+        "seatpost-type-suspension-dropper",
+        "seatpost-type-suspension",
+        "battery-capacity-500-wh",
+        "battery-type-downtube"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "default",
+          "label": "Default",
+          "colors": [
+            "#6b7280"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_333%2Cq_80%2Cw_500/vpkcqhjszjlg4ltstkkq/newtour-0-lst.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anytour-eplus-2027",
+      "availabilityMiles": 77,
+      "stock": {
+        "skus": 15,
+        "inStock": 15,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "AnyTour E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-anytour-eplus-2027",
+      "description": "Long days in the saddle call for a ride that feels natural from start to finish. Designed with premium, dynamic comfort in mind, the AnyTour E+ prioritizes distance, confidence, and efficiency, supporting relaxed yet responsive riding that makes extended journeys feel easy and rewarding.",
+      "price": {
+        "mode": "from",
+        "amount": "£3,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-city-hybrid",
+        "wheel-size-700c",
+        "brake-type-disc-brake",
+        "battery-capacity-800-wh",
+        "battery-type-downtube",
+        "seatpost-type-suspension-dropper",
+        "battery-capacity-625-wh"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "panther",
+          "label": "Panther",
+          "colors": [
+            "#1a1a1c"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/bd0kgmvd5roi1f5wrft7/MY27AnytourE1LST_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/fo86dyzzrxitcdsviji1/MY27AnytourE1LST_ColorA-Front.jpg"
+          ]
+        },
+        {
+          "key": "stealth-chome",
+          "label": "Stealth Chome",
+          "colors": [
+            "#3a3d42"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/bawal6heclb9ya0l8dgo/MY27AnytourE3DD_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/q5kcr4albdptd9xv1884/MY27AnytourE3DD_ColorA-Rear.jpg"
+          ]
+        },
+        {
+          "key": "cold-night",
+          "label": "Cold Night",
+          "colors": [
+            "#1f2a3c"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/jxextzdb2j3peuexe0ky/MY27AnytourE4LST_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/qs0doalicq34ougdcnwg/MY27AnytourE4LST_ColorA-Rear.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore-eplus",
+      "availabilityMiles": 116,
+      "stock": {
+        "skus": 33,
+        "inStock": 32,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Explore E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-explore-eplus",
+      "description": "Built for adventure, the Explore E+ turns commutes and escapes into open horizons. With versatile design and seamless integration, it delivers smooth support, confidence, and freedom to ride farther, wherever the journey leads.",
+      "price": {
+        "mode": "from",
+        "amount": "£2,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-trekking",
+        "wheel-size-700c",
+        "brake-type-disc-brake",
+        "battery-capacity-800-wh",
+        "battery-type-integrated",
+        "seatpost-type-adjustable",
+        "battery-capacity-625-wh",
+        "battery-capacity-500-wh"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "S"
+      ],
+      "colors": [
+        {
+          "key": "snow-drift",
+          "label": "Snow Drift",
+          "colors": [
+            "#f0f4f6"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/nm1iybfcc8b1rnvtepvy/MY26ExploreE0DD_ColorASnowDrift.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/tnejjkiqp0qgeaacyitj/MY26ExploreE0DD_ColorASnowDrift-Front.jpg"
+          ]
+        },
+        {
+          "key": "metallic-navy",
+          "label": "Metallic Navy",
+          "colors": [
+            "#1d2b4a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/emmze8fb2lsw8lorc3rw/MY26ExploreE1DD_ColorAMetallicNavy.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/g14prczsjos7d6seyugv/MY26ExploreE1DD_ColorAMetallicNavy-Front.jpg"
+          ]
+        },
+        {
+          "key": "alpine-green",
+          "label": "Alpine Green",
+          "colors": [
+            "#2f6b3f"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wxuxn4qzuw8qk8hbft6i/MY26ExploreE2DD_ColorAAlpineGreen.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/pilhszkfqy9dd9keabm6/MY26ExploreE2DD_ColorAAlpineGreen-D4.jpg"
+          ]
+        },
+        {
+          "key": "pyrite-brown",
+          "label": "Pyrite Brown",
+          "colors": [
+            "#6b4a32"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kwvf72bu3wfpo9jjd6fg/MY26ExploreE3DD_ColorAPyriteBrown.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/duiorudydhrn5n5lo2sx/MY26ExploreE3DD_ColorAPyriteBrown-D5.jpg"
+          ]
+        },
+        {
+          "key": "stealth-chome",
+          "label": "Stealth Chome",
+          "colors": [
+            "#3a3d42"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/lwennmpxikc5dheprp3t/MY26ExploreE4DD_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/tfsqcfaxjobiei2dqgxf/MY26ExploreE4DD_ColorA-D5-6.jpg"
+          ]
+        },
+        {
+          "key": "mars-dust",
+          "label": "Mars Dust",
+          "colors": [
+            "#b9b2a6"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/eb2t8xggezuq9tqd3gvs/MY26ExploreE4DD_ColorB.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fastroad-ar-2025",
+      "availabilityMiles": 110,
+      "stock": {
+        "skus": 10,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "FastRoad AR",
+      "url": "https://www.giant-bicycles.com/gb/bikes-fastroad-ar-2025",
+      "description": "",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£799",
+        "oldAmount": "£999"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-fitness",
+        "wheel-size-700c",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "electron-blue",
+          "label": "Electron Blue",
+          "colors": [
+            "#1f4e9c"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/brhnqodnddoqyasunm0d/MY25FastRoadAR2_ElectronBlue-GUK.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/htbytwfzmfvj4r638t6q/MY25FastRoadAR1_ColorAElectronBlue-Front.jpg"
+          ]
+        },
+        {
+          "key": "glacier-silver",
+          "label": "Glacier Silver",
+          "colors": [
+            "#c2c6ca"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/tmbsfjhdfj1pmhjiqii5/MY25FastRoadAR2_ColorAGlacierSilver.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xdp8mxuhe9ids8jfjii6/MY25FastRoadAR2_ColorAGlacierSilver-Rear.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "escape-disc-2025",
+      "availabilityMiles": 24,
+      "stock": {
+        "skus": 16,
+        "inStock": 8,
+        "sizes": [
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Escape Disc",
+      "url": "https://www.giant-bicycles.com/gb/bikes-escape-disc-2025",
+      "description": "Commute to work, ride to class, find new adventures in your daily routine. This flat-bar all-rounder will get your legs spinning and inspire you to be active every day.",
+      "price": {
+        "mode": "from",
+        "amount": "£599"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-city-hybrid",
+        "wheel-size-700c",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "frost-silver",
+          "label": "Frost Silver",
+          "colors": [
+            "#c2c6ca"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/rhouk7tslngzs7fcri4t/MY25Escape1Disc_ColorAFrostSilver.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/mrwrcpzw954eiij1qtrp/MY25Escape1Disc_ColorAFrostSilver-Front.jpg"
+          ]
+        },
+        {
+          "key": "asphalt-green",
+          "label": "Asphalt Green",
+          "colors": [
+            "#004814"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/l4zb1gl3mrsmljrqitxs/MY25Escape2CityDisc_ColorAAsphaltGreen.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/fm00wp9qd5xtbfashylb/MY25Escape2CityDisc_ColorAAsphaltGreen-Rear.jpg"
+          ]
+        },
+        {
+          "key": "mineral-green",
+          "label": "Mineral Green",
+          "colors": [
+            "#2f6b3f"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xvdx0npmp6gvbhzbbq4p/MY25Escape3Disc_ColorAUltraNavy.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/bdu2fdp1dap5spiyj1i3/MY25Escape3Disc_ColorAUltraNavy-Front.jpg"
+          ]
+        },
+        {
+          "key": "ultra-navy",
+          "label": "Ultra Navy",
+          "colors": [
+            "#1d2b4a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xvdx0npmp6gvbhzbbq4p/MY25Escape3Disc_ColorAUltraNavy.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/bdu2fdp1dap5spiyj1i3/MY25Escape3Disc_ColorAUltraNavy-Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anytour-x-eplus-2024",
+      "availabilityMiles": 106,
+      "stock": {
+        "skus": 3,
+        "inStock": 1,
+        "sizes": [
+          "L"
+        ]
+      },
+      "title": "AnyTour X E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-anytour-x-eplus-2024",
+      "description": "Choose your destination, a quick ride across town or a long-distance adventure, and let the new AnyTour X E+ Pro take you there. With a low step-through frame, smooth suspension and large, grippy tyres for rough roads, gravel or dirt, this versatile E-bike helps you find joy in any journey.",
+      "price": {
+        "mode": "discount",
+        "amount": "£2,774",
+        "oldAmount": "£3,699"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-adventure",
+        "wheel-size-650b",
+        "brake-type-disc-brake",
+        "battery-capacity-625-wh",
+        "battery-type-integrated",
+        "seatpost-type-suspension-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "gloss-pyrite-brown-black",
+          "label": "Gloss Pyrite Brown / Black",
+          "colors": [
+            "#6b4a32",
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/hrbhfxleqxttj5sgwfms/MY24AnyTourXEplus3_ColorAPyriteBrown.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/shehb093rw8yk80h20bx/MY24AnyTourXEplus3_ColorAPyriteBrown_Rear.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anytour-eplus-2024",
+      "availabilityMiles": 74,
+      "stock": {
+        "skus": 3,
+        "inStock": 2,
+        "sizes": [
+          "S",
+          "M"
+        ]
+      },
+      "title": "AnyTour E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-anytour-eplus-2024",
+      "description": "This versatile and practical E-bike is ideal for daily commuting and other adventures. It has a full colour display with on-board navigation and all the built-in features you can think of including suspension, lights, fenders and racks.",
+      "price": {
+        "mode": "discount",
+        "amount": "£2,589",
+        "oldAmount": "£3,399"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-city-hybrid",
+        "wheel-size-700c",
+        "brake-type-disc-brake",
+        "battery-capacity-625-wh",
+        "battery-type-integrated",
+        "seatpost-type-suspension-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "gloss-eclipse-black",
+          "label": "Gloss Eclipse / Black",
+          "colors": [
+            "#1b1b22",
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xnaedvqle955lffbekkm/ANYTOUR_E_3.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xiv374qhjwopyjwv20os/MY24AnyTourEplus3_ColorAEclipse-D5.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "escape-2024",
+      "availabilityMiles": 16,
+      "stock": {
+        "skus": 4,
+        "inStock": 3,
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "title": "Escape",
+      "url": "https://www.giant-bicycles.com/gb/bikes-escape-2024",
+      "description": "Ride to work, ride for your health, or just unplug and experience some fun. With its comfortable positioning and smooth ride quality, here’s how to make your daily escape.",
+      "price": {
+        "mode": "regular",
+        "amount": "£499"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-city-hybrid",
+        "wheel-size-700c",
+        "brake-type-rim-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-cold-iron",
+          "label": "Gloss Cold Iron",
+          "colors": [
+            "#55606b"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/jnjd4psisnbukea2efwy/MY24Escape3_ColorAColdIron.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/d8gq861ldxzig8rqwm9q/MY24Escape3_ColorAColdIron_Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expression-eplus-2024",
+      "availabilityMiles": 81,
+      "stock": {
+        "skus": 15,
+        "inStock": 10,
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "title": "Expression E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-expression-eplus-2024",
+      "description": "Exhilarating yet relaxing. With smooth, powerful pedalling assistance and comfortable handling, the new Expression E+ is a motivating companion for commuting, fitness riding, or just pedalling for the fun of it.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£1,889",
+        "oldAmount": "£2,699"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-trekking",
+        "wheel-size-700c",
+        "brake-type-disc-brake",
+        "battery-capacity-600-wh",
+        "battery-type-downtube",
+        "seatpost-type-suspension",
+        "battery-capacity-500-wh",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "gloss-sangria",
+          "label": "Gloss Sangria",
+          "colors": [
+            "#7b1f33"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/dmu3amdikveqwdkvtqdj/MY24ExpressionEplus0_ColorASangria.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/bdtyjwnhfqvxkaqpynfs/MY24ExpressionEplus0_ColorASangria_Front.jpg"
+          ]
+        },
+        {
+          "key": "gloss-cosmos-navy-matte-copper-coin",
+          "label": "Gloss Cosmos Navy & Matte Copper Coin",
+          "colors": [
+            "#a35f38"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/sexi0ri25ibitx2yt5wp/MY24ExpressionEplus1_ColorACosmosNavy.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/f8ftrwyy8xezmqzsbtwu/MY24ExpressionEplus1_ColorACosmosNavy_Front.jpg"
+          ]
+        },
+        {
+          "key": "gloss-black-currant-matte-early-espresso",
+          "label": "Gloss Black Currant & Matte Early Espresso",
+          "colors": [
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/i3j7rcrnpqfrph5cxt85/MY24ExpressionEplus2_ColorABlackCurrant.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/aczgzftprvrxezyqdtmr/MY24ExpressionEplus2_ColorABlackCurrant_Front.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

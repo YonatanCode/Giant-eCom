@@ -1,0 +1,2431 @@
+{
+  "slug": "road-bikes",
+  "title": "Road bikes",
+  "market": "GB",
+  "currency": "GBP",
+  "generatedAt": "2026-09-15T15:34:52.951Z",
+  "source": "https://www.giant-bicycles.com/gb/bikes/road-bikes",
+  "filterGroups": [
+    {
+      "id": "bestfor",
+      "label": "Best For",
+      "options": [
+        {
+          "id": "best-for-aero-race",
+          "label": "Aero-Race",
+          "info": "For road racers, sprinters and triathletes in search of speed and aero efficiency."
+        },
+        {
+          "id": "best-for-all-rounder",
+          "label": "All-Rounder",
+          "info": "For road riders who like to mix it up, from the hills to the flats, on variable roads and bike paths."
+        },
+        {
+          "id": "best-for-endurance",
+          "label": "Endurance",
+          "info": "For road riders aiming to go farther and faster, in gran fondos, sportives and everyday rides."
+        },
+        {
+          "id": "best-for-race",
+          "label": "Race",
+          "info": "For competitive road racers who want to climb, corner and descend with greater speed and efficiency."
+        },
+        {
+          "id": "best-for-triathlon-tt",
+          "label": "Traithlon / TT",
+          "info": "For competitors who enjoy training and racing against the clock, Ironmans, sprint-distance triathlons, or time trials."
+        }
+      ]
+    },
+    {
+      "id": "framematerial",
+      "label": "Frame Material",
+      "options": [
+        {
+          "id": "frame-material-composite-carbon",
+          "label": "Carbon"
+        },
+        {
+          "id": "frame-material-aluminium",
+          "label": "Aluminium"
+        }
+      ]
+    },
+    {
+      "id": "braketype",
+      "label": "Brake Type",
+      "options": [
+        {
+          "id": "brake-type-disc-brake",
+          "label": "Disc Brake"
+        },
+        {
+          "id": "brake-type-rim-brake",
+          "label": "Rim Brake"
+        }
+      ]
+    },
+    {
+      "id": "seatposttype",
+      "label": "Seatpost Type",
+      "options": [
+        {
+          "id": "seatpost-type-adjustable",
+          "label": "Adjustable"
+        },
+        {
+          "id": "seatpost-type-integrated",
+          "label": "Integrated"
+        }
+      ]
+    },
+    {
+      "id": "sale",
+      "label": "Sale",
+      "options": [
+        {
+          "id": "sale-product",
+          "label": "On Sale"
+        }
+      ]
+    }
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "M/L",
+    "L",
+    "XL"
+  ],
+  "products": [
+    {
+      "id": "propel-advanced-sl-2027",
+      "availabilityMiles": 96,
+      "stock": {
+        "skus": 10,
+        "inStock": 6,
+        "sizes": [
+          "S",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Propel Advanced SL",
+      "url": "https://www.giant-bicycles.com/gb/propel-advanced-sl-0-da-2027",
+      "description": "From breakaways to the final sprint. On flat roads, climbs or descents.",
+      "price": {
+        "mode": "from",
+        "amount": "£9,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-aero-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-integrated"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "superspeed-blue",
+          "label": "Superspeed Blue",
+          "colors": [
+            "#1f4e9c"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/j2c5ehwjiwkxlxtxknee/MY27PropelAdvancedSL0-Red_ColorASuperspeedBlue.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/d9qaefxa7kcxkpxpwrxr/MY27PropelAdvancedSL0-Red_ColorASuperspeedBlue-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-sl-0-red-2027"
+        },
+        {
+          "key": "prism-pearl",
+          "label": "Prism Pearl",
+          "colors": [
+            "#cfd6e0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ooeoyqudeemy7y27vw84/MY27PropelAdvancedSL0-DA_ColorAPrismPearl1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/dfilr8jkklva1wassuqq/MY27PropelAdvancedSL0-DA_ColorAPrismPearl-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-sl-0-da-2027"
+        }
+      ]
+    },
+    {
+      "id": "propel-advanced-sl-frameset-2027",
+      "availabilityMiles": 17,
+      "stock": {
+        "skus": 6,
+        "inStock": 4,
+        "sizes": [
+          "XS",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Propel Advanced SL Frameset",
+      "url": "https://www.giant-bicycles.com/gb/propel-advanced-sl-ff-2027",
+      "description": "From breakaways to the final sprint. On flat roads, climbs or descents.",
+      "price": {
+        "mode": "regular",
+        "amount": "£3,799"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-aero-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-integrated"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "cyber-sunset",
+          "label": "Cyber Sunset",
+          "colors": [
+            "#e0783c"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/a17aegjwk9cwuilcybhk/MY27PropelAdvancedSL-FF_ColorACyberSunset.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/jlafthptejstywmmyzpd/MY27PropelAdvancedSL-FF_ColorACyberSunset-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-sl-ff-2027"
+        }
+      ]
+    },
+    {
+      "id": "propel-advanced-pro-2027",
+      "availabilityMiles": 66,
+      "stock": {
+        "skus": 20,
+        "inStock": 19,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Propel Advanced Pro",
+      "url": "https://www.giant-bicycles.com/gb/propel-advanced-pro-1-di2-2027",
+      "description": "Hang with the fast group, go for the sprint, cheat the wind on a solo ride. The new Propel Advanced Pro is now lighter, smoother and more efficient, delivering higher speeds to help you maximize every effort.",
+      "price": {
+        "mode": "from",
+        "amount": "£4,599"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-aero-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "supernova-grey",
+          "label": "Supernova Grey",
+          "colors": [
+            "#8f9296"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/r6mp77dp5uotb9rxjyh2/MY27PropelAdvancedPro-DA_ColorASupernovaGrey.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/mbuitabmnbn2apri7ipt/MY27PropelAdvancedPro-DA_ColorASupernovaGrey-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-pro-da-2027"
+        },
+        {
+          "key": "obsidian-pulse",
+          "label": "Obsidian Pulse",
+          "colors": [
+            "#1d1f24"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/u9r0a1uqpr0rustxbxbn/MY27PropelAdvancedPro0-AXS_ColorAObsidianPulse.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/t0x4jrfhx3rt1vr7dkts/MY27PropelAdvancedPro0-AXS_ColorAObsidianPulse-Rear.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-pro-0-axs-2027"
+        },
+        {
+          "key": "cryo-silver",
+          "label": "Cryo Silver",
+          "colors": [
+            "#c2c6ca"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/l3u1izj5fwc74bmi47rv/MY27PropelAdvancedPro1-Di2_ColorACryoSilver.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/knus5hh2x8xwbuvq0dq8/MY27PropelAdvancedPro1-Di2_ColorACryoSilver-Rear.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-pro-1-di2-2027"
+        }
+      ]
+    },
+    {
+      "id": "propel-advanced-pro-frameset-2027",
+      "availabilityMiles": 19,
+      "stock": {
+        "skus": 6,
+        "inStock": 4,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Propel Advanced Pro Frameset",
+      "url": "https://www.giant-bicycles.com/gb/propel-advanced-pro-ff-2027",
+      "description": "Hang with the fast group, go for the sprint, cheat the wind on a solo ride. The new Propel Advanced Pro is now lighter, smoother and more efficient, delivering higher speeds to help you maximize every effort.",
+      "price": {
+        "mode": "regular",
+        "amount": "£2,199"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-aero-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "glacier-teal",
+          "label": "Glacier Teal",
+          "colors": [
+            "#167f7f"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/qv9gqryhbmvyoxbi25d6/MY27PropelAdvancedPro-FF_ColorAGlacierTeal2.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/fo8v0yctybvtjxx1yzxl/MY27PropelAdvancedPro-FF_ColorAGlacierTeal-Front1.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-pro-ff-2027"
+        }
+      ]
+    },
+    {
+      "id": "propel-advanced-2027",
+      "availabilityMiles": 62,
+      "stock": {
+        "skus": 18,
+        "inStock": 17,
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Propel Advanced",
+      "url": "https://www.giant-bicycles.com/gb/propel-advanced-2-2027",
+      "description": "Get the most from your hard-earned pedaling power. Whether it’s squeezing out more speed on solo rides or taking bragging rights in the group, the new lighter, smoother Propel Advanced makes the thrill of road speed accessible to all.",
+      "price": {
+        "mode": "from",
+        "amount": "£2,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-aero-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "azurite-blue",
+          "label": "Azurite Blue",
+          "colors": [
+            "#1f4e9c"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/qhsbclijjamfdimm7isq/MY27PropelAdvanced0_ColorAAzuriteBlue.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/hyhsav4arjscdzulxep6/MY27PropelAdvanced0_ColorAAzuriteBlue-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-0-2027"
+        },
+        {
+          "key": "carbon-stealth-chrome",
+          "label": "Carbon/Stealth Chrome",
+          "colors": [
+            "#2b2b2d",
+            "#4a4d52"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/gnfkbuoldekzx6mzwsvw/MY27PropelAdvanced1_ColorACarbon.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/e6jff0lodvmpszaihnju/MY27PropelAdvanced1_ColorACarbon-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-1-2027"
+        },
+        {
+          "key": "white",
+          "label": "White",
+          "colors": [
+            "#f5f5f3"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/msnng8mraon1ugaxand9/MY27PropelAdvanced2_ColorAWhite.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/gs4z2leakgqilf0jhpxp/MY27PropelAdvanced2_ColorAWhite-Rear.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-2-2027"
+        }
+      ]
+    },
+    {
+      "id": "tcr-advanced-2027",
+      "availabilityMiles": 79,
+      "stock": {
+        "skus": 6,
+        "inStock": 5,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "TCR Advanced",
+      "url": "https://www.giant-bicycles.com/gb/tcr-advanced-2-pc-2027",
+      "description": "Winning race bikes have just the right balance of light weight, superior stiffness and smooth compliance on the road. TCR Advanced delivers on all three.",
+      "price": {
+        "mode": "regular",
+        "amount": "£3,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "satin-arctic-light",
+          "label": "Satin Arctic Light",
+          "colors": [
+            "#dfe7ec"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xdkdmtnpui1bxywg4ivs/MY27TCRAdvanced-Ui2_ColorAArcticLight.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ojsd9zed8fbme9dqnwga/MY27TCRAdvanced-Ui2_ColorAArcticLight-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-ui2-2027"
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced-2027",
+      "availabilityMiles": 58,
+      "stock": {
+        "skus": 6,
+        "inStock": 6,
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Defy Advanced",
+      "url": "https://www.giant-bicycles.com/gb/defy-advanced-4-2027",
+      "description": "With effortless efficiency and quiet compliance, this lightweight endurance road machine helps you ride stronger and longer. The composite frame and purpose-built components smooth out rough roads and minimize fatigue.",
+      "price": {
+        "mode": "regular",
+        "amount": "£3,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "satin-tempest-purple",
+          "label": "Satin Tempest Purple",
+          "colors": [
+            "#5b2f7a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/fybjbxenmmumgxynh3xu/MY27DefyAdvanced-Ui2_ColorATempestPurple.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/mgf7ihmokmxrjzj2puon/MY27DefyAdvanced-Ui2_ColorATempestPurple-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-ui2-2027"
+        }
+      ]
+    },
+    {
+      "id": "propel-advanced-sl",
+      "availabilityMiles": 11,
+      "stock": {
+        "skus": 8,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "Propel Advanced SL",
+      "url": "https://www.giant-bicycles.com/gb/propel-advanced-sl-1",
+      "description": "Unleash your sprint with 200 meters to go. Close a gap, chase back, launch a solo attack.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£5,199",
+        "oldAmount": "£6,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-aero-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-integrated",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "arctic-light-chrome",
+          "label": "Arctic Light/Chrome",
+          "colors": [
+            "#dfe7ec",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/lzxxtbtdf1rlgpmdmfve/MY26PropelAdvancedSL0-DA_ColorAArcticLight.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/o1zgridg6glzbzksrc3a/MY26PropelAdvancedSL0-DA_ColorAArcticLight-D6.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-sl-0--dura-ace-"
+        },
+        {
+          "key": "ultra-navy-azure-chrome",
+          "label": "Ultra Navy/Azure/Chrome",
+          "colors": [
+            "#1d2b4a",
+            "#2f6fb5",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/bxmhbmcrcvmecouc6x8g/MY26PropelAdvancedSL1_ColorAUltraNavy_Azure.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-sl-1"
+        }
+      ]
+    },
+    {
+      "id": "propel-advanced-pro",
+      "availabilityMiles": 102,
+      "stock": {
+        "skus": 19,
+        "inStock": 10,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "Propel Advanced Pro",
+      "url": "https://www.giant-bicycles.com/gb/propel-advanced-pro-1",
+      "description": "This aero rocketship is built for speed when it matters most. It’s lighter than the previous generation and engineered to slice through wind.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£3,499",
+        "oldAmount": "£4,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-aero-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "prismatic-haze-iris",
+          "label": "Prismatic Haze/Iris",
+          "colors": [
+            "#cfd6e0",
+            "#6b5bb5"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kz3bw2rszfizg4hna6aa/MY26PropelAdvancedPro0-Di2_ColorAPrismaticHaze.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/szfesi744zafydycttdd/MY26PropelAdvancedPro0-Di2_ColorAPrismaticHaze-D3.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-pro-0--di2-"
+        },
+        {
+          "key": "rosso-corsa",
+          "label": "Rosso Corsa",
+          "colors": [
+            "#c8102e"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xiaoqn6p8z01k4v6fsrc/MY26PropelAdvancedPro-DA_ColorARossoCorsa.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/in6xikc0lgmwyhus5b1c/MY26PropelAdvancedPro-DA_ColorARossoCorsa-D3.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-pro--dura-ace-"
+        },
+        {
+          "key": "midnight-moon",
+          "label": "Midnight Moon",
+          "colors": [
+            "#757673"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/zxmky5hhfb0mqifmjs2a/MY26PropelAdvancedPro1_ColorAMidnightMoon.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wyx9mfkrkui53rmm5nt3/MY26PropelAdvancedPro1_ColorAMidnightMoon-D1.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-pro-1"
+        }
+      ]
+    },
+    {
+      "id": "tcr-advanced-sl",
+      "availabilityMiles": 113,
+      "stock": {
+        "skus": 12,
+        "inStock": 4,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "TCR Advanced SL",
+      "url": "https://www.giant-bicycles.com/gb/tcr-advanced-sl-1",
+      "description": "From hors categorie climbs to rollers and flats, this WorldTour level race bike is the pro’s choice for all-rounder performance. The all-new flagship TCR uses system integration and innovative construction methods to deliver a clear advantage on the road.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£5,599",
+        "oldAmount": "£6,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-integrated",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "turbo-teal",
+          "label": "Turbo Teal",
+          "colors": [
+            "#167f7f"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ublvsbczxtoqy1yroux5/MY26TCRAdvancedSL0-Red_ColorATurboTeal.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-sl-0--red-"
+        },
+        {
+          "key": "mariana-blue-iris",
+          "label": "Mariana Blue/Iris",
+          "colors": [
+            "#1c3f6e",
+            "#6b5bb5"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/cjxkfwkc9fkl3obuoyi4/MY26TCRAdvancedSL0-DA_ColorAMarianaBlue.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-sl-0--dura-ace-"
+        },
+        {
+          "key": "dark-chrome-iris",
+          "label": "Dark Chrome/Iris",
+          "colors": [
+            "#7d8083",
+            "#6b5bb5"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/twjm0nxmlus85bxhhy5v/MY26TCRAdvancedSL1_ColorADarkChrome.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-sl-1"
+        }
+      ]
+    },
+    {
+      "id": "tcr-advanced-sl-frameset",
+      "availabilityMiles": 53,
+      "stock": {
+        "skus": 9,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "TCR Advanced SL Frameset",
+      "url": "https://www.giant-bicycles.com/gb/tcr-advanced-sl-frameset",
+      "description": "From hors categorie climbs to rollers and flats, this WorldTour level race bike is the pro’s choice for all-rounder performance. The all-new flagship TCR uses system integration and innovative construction methods to deliver a clear advantage on the road.",
+      "price": {
+        "mode": "discount",
+        "amount": "£2,625",
+        "oldAmount": "£3,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-integrated",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-polar-tide",
+          "label": "Gloss Polar Tide",
+          "colors": [
+            "#a8c8d8"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/tfju0k7x1erq8hlfxo5a/MY26TCRAdvancedSL-FF_ColorAPolarTide.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/tr0fk4jfuwdi4ifuujs8/MY26TCRAdvancedSL-FF_ColorAPolarTide-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-sl-frameset"
+        },
+        {
+          "key": "purple-storm",
+          "label": "Purple Storm",
+          "colors": [
+            "#4b2e6b"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ynfk30hljctfay3w6ren/MY26TCRAdvancedSL-FF_ColorCPurpleStorm.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/h8zgo2ruvongvxliwkfo/MY26TCRAdvancedSL-FF_ColorCPurpleStorm-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-sl-team-frameset"
+        }
+      ]
+    },
+    {
+      "id": "tcr-advanced-pro",
+      "availabilityMiles": 17,
+      "stock": {
+        "skus": 25,
+        "inStock": 25,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "TCR Advanced Pro",
+      "url": "https://www.giant-bicycles.com/gb/tcr-advanced-pro-2",
+      "description": "Superlight, ultra-efficient and rides like a dream. This well-rounded race bike blends industry-leading composite frame engineering with fully integrated components to help you climb, corner and descend with astonishing speed and sublime road handling.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£2,799",
+        "oldAmount": "£3,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "black-rosso-corsa",
+          "label": "Black/Rosso Corsa",
+          "colors": [
+            "#151515",
+            "#c8102e"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/jcjwlhfddjnrflu6fhu6/MY26TCRAdvancedPro-DA_ColorACarbon_RossoCorsa.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-pro--dura-ace-"
+        },
+        {
+          "key": "carbon",
+          "label": "Carbon",
+          "colors": [
+            "#2b2b2d"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/jtismbbz7rrw6bsjelem/MY26TCRAdvancedPro0-AXS_ColorACarbon.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kyrq9x1g1hjrpdq08ws8/MY26TCRAdvancedPro0-AXS_ColorACarbon-D3.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-pro-0--axs-"
+        },
+        {
+          "key": "midnight-moon",
+          "label": "Midnight Moon",
+          "colors": [
+            "#757673"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/zyd9irdeyfkv7mlhsj5u/MY26TCRAdvancedPro0-Di2_ColorBMidnightMoon.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-pro-0--di2-"
+        },
+        {
+          "key": "tech-silver",
+          "label": "Tech Silver",
+          "colors": [
+            "#c2c6ca"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ejchxpm4rov8pinuvmgj/MY26TCRAdvancedPro1-Di2_ColorATechSilver1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/x34sqj44rabsterqme4w/MY26TCRAdvancedPro1-Di2_ColorATechSilver-D5.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-pro-1--di2-"
+        },
+        {
+          "key": "black-orion-nebula",
+          "label": "Black/Orion Nebula",
+          "colors": [
+            "#151515",
+            "#2a2a5a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/grggyxenhb794h2toemv/MY26TCRAdvancedPro2_ColorACarbon_OrionNebula.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-pro-2"
+        }
+      ]
+    },
+    {
+      "id": "tcr-advanced-pro-frameset",
+      "availabilityMiles": 86,
+      "stock": {
+        "skus": 6,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "TCR Advanced Pro Frameset",
+      "url": "https://www.giant-bicycles.com/gb/tcr-advanced-pro-frameset",
+      "description": "Superlight, ultra-efficient and rides like a dream. This well-rounded race bike blends industry-leading composite frame engineering with fully integrated components to help you climb, corner and descend with astonishing speed and sublime road handling.",
+      "price": {
+        "mode": "discount",
+        "amount": "£1,499",
+        "oldAmount": "£1,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-ice-age-chrome",
+          "label": "Gloss Ice Age/Chrome",
+          "colors": [
+            "#dce8ee",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/dbezt6ttdhxwochm3reg/MY26TCRAdvancedPro-FF_ColorAIceAge.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/iix3oya0gurv3mpnrx4d/MY26TCRAdvancedPro-FF_ColorAIceAge-F.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-pro-frameset"
+        }
+      ]
+    },
+    {
+      "id": "tcr-advanced",
+      "availabilityMiles": 36,
+      "stock": {
+        "skus": 21,
+        "inStock": 21,
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "TCR Advanced",
+      "url": "https://www.giant-bicycles.com/gb/tcr-advanced-2",
+      "description": "Winning race bikes have just the right balance of light weight, superior stiffness and smooth compliance on the road. TCR Advanced delivers on all three.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£1,839",
+        "oldAmount": "£2,299"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL",
+        "XS"
+      ],
+      "colors": [
+        {
+          "key": "alpine-green",
+          "label": "Alpine Green",
+          "colors": [
+            "#2f6b3f"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/qpdtxyedf8alz3qnjhl5/MY26TCRAdvanced0-AXS_ColorAAlpineGreen.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/isfpyvvcm4ly5lo7qy93/MY26TCRAdvanced0-AXS_ColorAAlpineGreen-D4.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-0--axs-"
+        },
+        {
+          "key": "purple-haze-ultra-violet",
+          "label": "Purple Haze/Ultra Violet",
+          "colors": [
+            "#5b2f7a",
+            "#6b3a9c"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/pn2hpmr1xcgijcbspwpl/MY26TCRAdvanced1-PC_ColorADreamyBlue.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-1"
+        },
+        {
+          "key": "dreamy-blue",
+          "label": "Dreamy Blue",
+          "colors": [
+            "#1f4e9c"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/pn2hpmr1xcgijcbspwpl/MY26TCRAdvanced1-PC_ColorADreamyBlue.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-1"
+        },
+        {
+          "key": "stealth-chrome",
+          "label": "Stealth Chrome",
+          "colors": [
+            "#4a4d52"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/urlfaixx9sdk3bii6q1p/MY26TCRAdvanced2-PC_ColorAStealthChrome.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-2"
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced-sl",
+      "availabilityMiles": 28,
+      "stock": {
+        "skus": 9,
+        "inStock": 5,
+        "sizes": [
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "Defy Advanced SL",
+      "url": "https://www.giant-bicycles.com/gb/defy-advanced-sl-1",
+      "description": "Go long. Go fast.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£5,749",
+        "oldAmount": "£7,199"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "arctic-light-chrome",
+          "label": "Arctic Light/Chrome",
+          "colors": [
+            "#dfe7ec",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kjkladfnrormhvl7w4sw/MY26DefyAdvancedSL0_ColorAArcticLight.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/e0vd8mjeucyc9a1lrcpw/MY26DefyAdvancedSL0_ColorAArcticLight-D6.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-sl-0"
+        },
+        {
+          "key": "dark-green",
+          "label": "Dark Green",
+          "colors": [
+            "#20492b"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/iklxmah85fcuayknfyes/MY26DefyAdvancedSL1_ColorADarkGreen.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/uzuhiiusgylwyo4l0jdd/MY26DefyAdvancedSL1_ColorADarkGreen-D5.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-sl-1"
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced-sl-frameset",
+      "availabilityMiles": 56,
+      "stock": {
+        "skus": 5,
+        "inStock": 4,
+        "sizes": [
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Defy Advanced SL Frameset",
+      "url": "https://www.giant-bicycles.com/gb/defy-advanced-sl-frameset",
+      "description": "Go long. Go fast.",
+      "price": {
+        "mode": "regular",
+        "amount": "£3,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "raw-carbon-airglow",
+          "label": "Raw Carbon/Airglow",
+          "colors": [
+            "#2b2b2d",
+            "#5f8f8a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/qmu9emsess3mxhr1mkgk/MY26DefyAdvancedSL-FF_ColorASapphire.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/cztipy6jke54hy2vdd5i/MY26DefyAdvancedSL-FF_ColorASapphire-F.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-sl-frameset"
+        },
+        {
+          "key": "artic-blast-iris",
+          "label": "Artic Blast/Iris",
+          "colors": [
+            "#dfe7ec",
+            "#6b5bb5"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/qmu9emsess3mxhr1mkgk/MY26DefyAdvancedSL-FF_ColorASapphire.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/cztipy6jke54hy2vdd5i/MY26DefyAdvancedSL-FF_ColorASapphire-F.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-sl-frameset"
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced-pro",
+      "availabilityMiles": 6,
+      "stock": {
+        "skus": 15,
+        "inStock": 13,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Defy Advanced Pro",
+      "url": "https://www.giant-bicycles.com/gb/defy-advanced-pro-2",
+      "description": "Here’s to long rides. Climb higher mountains, skip the shortcuts.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£2,549",
+        "oldAmount": "£3,199"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "mariana-blue",
+          "label": "Mariana Blue",
+          "colors": [
+            "#1c3f6e"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xz7r4i4nawx74eitahic/MY26DefyAdvancedPro0_ColorAMarianaBlue.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kca5jwbp7tn0ncv45bfd/MY26DefyAdvancedPro0_ColorAMarianaBlue-D4.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-pro-0"
+        },
+        {
+          "key": "white-iris",
+          "label": "White/Iris",
+          "colors": [
+            "#f5f5f3",
+            "#6b5bb5"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/pthiw0w6zjoellvqajdb/MY26DefyAdvancedPro1_ColorAWhite.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/u5qigln4rlpopcdjakq8/MY26DefyAdvancedPro1_ColorAWhite-D3.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-pro-1"
+        },
+        {
+          "key": "stealth-chrome",
+          "label": "Stealth Chrome",
+          "colors": [
+            "#4a4d52"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/riokmpq3girplsgnhzxb/MY26DefyAdvancedPro2_ColorAStealthChrome.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/sobxrkvbksesoqng9cdi/MY26DefyAdvancedPro2_ColorAStealthChrome-Rear.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-pro-2"
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced-pro-frameset",
+      "availabilityMiles": 19,
+      "stock": {
+        "skus": 5,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "Defy Advanced Pro Frameset",
+      "url": "https://www.giant-bicycles.com/gb/defy-advanced-pro-frameset",
+      "description": "Here’s to long rides. Climb higher mountains, skip the shortcuts.",
+      "price": {
+        "mode": "discount",
+        "amount": "£1,499",
+        "oldAmount": "£1,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "dark-chameleon",
+          "label": "Dark Chameleon",
+          "colors": [
+            "#334153"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/iknqvryxh3nncihhkeuf/MY26DefyAdvancedPro-FF_ColorADarkChameleon.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/x4vtskl8cmvdzk1oaps3/MY26DefyAdvancedPro-FF_ColorADarkChameleon-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-pro-frameset"
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced",
+      "availabilityMiles": 94,
+      "stock": {
+        "skus": 26,
+        "inStock": 18,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Defy Advanced",
+      "url": "https://www.giant-bicycles.com/gb/defy-advanced-3",
+      "description": "With effortless efficiency and quiet compliance, this lightweight endurance road machine helps you ride stronger and longer. The composite frame and purpose-built components smooth out rough roads and minimize fatigue.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£1,599",
+        "oldAmount": "£1,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL",
+        "XS"
+      ],
+      "colors": [
+        {
+          "key": "meteorite-mist",
+          "label": "Meteorite Mist",
+          "colors": [
+            "#6b7280"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/yypf0icr35ateckhoud4/MY26DefyAdvanced0_ColorAMeteoriteMist.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/lly96lhizd9yrxryvuuo/MY26DefyAdvanced0_ColorAMeteoriteMist_Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-0"
+        },
+        {
+          "key": "thundercloud-chrome",
+          "label": "Thundercloud/Chrome",
+          "colors": [
+            "#6b7076",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/olstudqxfkzvqhio8jjv/MY26DefyAdvanced1_ColorAThundercloud.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/irxhowid3oczj1a6f1ka/MY26DefyAdvanced1_ColorAThundercloud-D3.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-1"
+        },
+        {
+          "key": "cyber-lime",
+          "label": "Cyber Lime",
+          "colors": [
+            "#8bc34a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/olstudqxfkzvqhio8jjv/MY26DefyAdvanced1_ColorAThundercloud.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/irxhowid3oczj1a6f1ka/MY26DefyAdvanced1_ColorAThundercloud-D3.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-1"
+        },
+        {
+          "key": "abyss-black-chrome",
+          "label": "Abyss Black/Chrome",
+          "colors": [
+            "#121316",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ln09xatfxrvyqelva1lt/MY26DefyAdvanced2_ColorAAbyssBlack.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/fuexsarnttb9lx8v6nhd/MY26DefyAdvanced2_ColorAAbyssBlack-D31.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-2"
+        },
+        {
+          "key": "good-gray",
+          "label": "Good Gray",
+          "colors": [
+            "#8b9095"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/bqkomqr1lbbm5ncqhkvt/original-defy-advaned-my26-new.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-3"
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced-eplus-elite",
+      "availabilityMiles": 85,
+      "stock": {
+        "skus": 14,
+        "inStock": 14,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Defy Advanced E+ Elite",
+      "url": "https://www.giant-bicycles.com/gb/defy-advanced-eplus-elite-2",
+      "description": "With its smooth-riding composite frame, lightweight battery, and new SyncDrive Move Plus integrated rear hub motor, the Defy Advanced E+ is the ideal choice for performance-minded road riders who want to tackle steep hills, maintain higher speeds, and experience road riding with no limitations.",
+      "price": {
+        "mode": "from",
+        "amount": "£5,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "midnight-moon",
+          "label": "Midnight Moon",
+          "colors": [
+            "#757673"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/myl9irvvrpeafw4ltlrp/MY26DefyAdvancedEElite0_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/s3xxzwoohi2hmg81oaj2/MY26DefyAdvancedEElite0_ColorA-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-eplus-elite-0"
+        },
+        {
+          "key": "mariana-blue",
+          "label": "Mariana Blue",
+          "colors": [
+            "#1c3f6e"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/sc6suv0fyyjjzxihrdlh/MY26DefyAdvancedEElite1_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wba7ul58u1oacw4sazud/MY26DefyAdvancedEElite1_ColorA-Rear.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-eplus-elite-1"
+        },
+        {
+          "key": "meteor-storm",
+          "label": "Meteor Storm",
+          "colors": [
+            "#6a7078"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ft1cmscm13q7vsvrv4ft/MY26DefyAdvancedEElite2_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ruo0rjmwznphrlwzycia/MY26DefyAdvancedEElite2_ColorA-D3.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-eplus-elite-2"
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced-eplus-elite-ar",
+      "availabilityMiles": 27,
+      "stock": {
+        "skus": 5,
+        "inStock": 5,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "Defy Advanced E+ Elite AR",
+      "url": "https://www.giant-bicycles.com/gb/defy-advanced-eplus-elite-ar",
+      "description": "With its smooth-riding composite frame, lightweight battery, new SyncDrive Move Plus integrated rear hub motor and all-road ready 38mm tires, the Defy Advanced E+ AR is the ideal choice for performance-minded road riders who want to tackle steep hills, maintain higher speeds, and experience road riding with no limitations.",
+      "price": {
+        "mode": "regular",
+        "amount": "£5,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "mercury",
+          "label": "Mercury",
+          "colors": [
+            "#b4b8bc"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ehmrm9zjcw1itkwsarbm/MY26DefyAdvancedEEliteAR_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/byqkdwgu0zztqnzahupb/MY26DefyAdvancedEEliteAR_ColorA-D4.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-eplus-elite-ar"
+        }
+      ]
+    },
+    {
+      "id": "contend-ar",
+      "availabilityMiles": 64,
+      "stock": {
+        "skus": 10,
+        "inStock": 8,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Contend AR",
+      "url": "https://www.giant-bicycles.com/gb/contend-ar-3",
+      "description": "Break out of the box and expand your road riding adventures. From smooth pavement to bumpy backroads, this ultra-capable road bike has built-in compliance and high-volume tires, so you can ride any road with confidence and control.",
+      "price": {
+        "mode": "from",
+        "amount": "£1,099"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-all-rounder",
+        "frame-material-aluminium",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "thundercloud",
+          "label": "Thundercloud",
+          "colors": [
+            "#6b7076"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/jdcm3zqsj1q1l3eltr3w/Contend-AR.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/contend-ar-2"
+        },
+        {
+          "key": "icicle-white",
+          "label": "Icicle White",
+          "colors": [
+            "#eef2f4"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/afx3fju5cz0p9d84bzy1/MY26ContendAR3_ColorAIcicleWhite.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/contend-ar-3"
+        }
+      ]
+    },
+    {
+      "id": "propel-advanced-sl-frameset-2025",
+      "availabilityMiles": 15,
+      "stock": {
+        "skus": 4,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "Propel Advanced SL Frameset",
+      "url": "https://www.giant-bicycles.com/gb/propel-advanced-sl-frameset-2025",
+      "description": "Unleash your sprint with 200 meters to go. Close a gap, chase back, launch a solo attack.",
+      "price": {
+        "mode": "regular",
+        "amount": "£3,799"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-aero-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-integrated"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "gloss-cosmic-dust-carbon-smoke",
+          "label": "Gloss Cosmic Dust/Carbon Smoke",
+          "colors": [
+            "#a9a4a0",
+            "#3a3b3d"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/gdn3qrofqwaayc64zp7e/MY25-Propel-Advanced-SL-FF_Color-A-Cosmic-Dust-1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/cdcjpkdeoihfl2pgewfm/MY25PropelAdvancedSL-FF_ColorACosmicDust-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-sl-frameset-2025"
+        }
+      ]
+    },
+    {
+      "id": "propel-advanced-pro-2025",
+      "availabilityMiles": 64,
+      "stock": {
+        "skus": 15,
+        "inStock": 8,
+        "sizes": [
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Propel Advanced Pro",
+      "url": "https://www.giant-bicycles.com/gb/propel-advanced-pro-1-2025",
+      "description": "This aero rocketship is built for speed when it matters most. It’s lighter than the previous generation and engineered to slice through wind.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£4,399",
+        "oldAmount": "£6,299"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-aero-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-ocean-twilight-chrome",
+          "label": "Gloss Ocean Twilight/Chrome",
+          "colors": [
+            "#3c4a6b",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/chyjj7nonvuufbevfra5/MY25PropelAdvancedPro0-AXS_ColorAOceanTwilight.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/gz9mu81biounbuoi2tu0/MY25PropelAdvancedPro0-AXS_ColorAOceanTwilight-D7.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-pro-0-axs-2025"
+        },
+        {
+          "key": "gloss-frost-silver",
+          "label": "Gloss Frost Silver",
+          "colors": [
+            "#c2c6ca"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/dydeblaotqu3drhq87eq/MY25PropelAdvancedPro1_ColorAFrostSilver(1).jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-pro-1-2025"
+        },
+        {
+          "key": "gloss-mercury",
+          "label": "Gloss Mercury",
+          "colors": [
+            "#b4b8bc"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/mdal7d8xl57dtawbfpwp/MY25PropelAdvancedPro0-Di2_ColorBMercury.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kx6nywvzudq7mqvcvgk9/MY25PropelAdvancedPro0-Di2_ColorBMercury-Rear.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/propel-advanced-pro-0-di2-2025"
+        }
+      ]
+    },
+    {
+      "id": "tcr-advanced-sl-2025",
+      "availabilityMiles": 84,
+      "stock": {
+        "skus": 13,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "TCR Advanced SL",
+      "url": "https://www.giant-bicycles.com/gb/tcr-advanced-sl-1-2025",
+      "description": "From hors categorie climbs to rollers and flats, this WorldTour level race bike is the pro’s choice for all-rounder performance. The all-new flagship TCR uses system integration and innovative construction methods to deliver a clear advantage on the road.",
+      "price": {
+        "mode": "from",
+        "amount": "£8,799"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-integrated"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-black-lava-iris",
+          "label": "Gloss Black Lava/Iris",
+          "colors": [
+            "#151515",
+            "#6b5bb5"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/mzwsfgaeea8aetjgylmt/MY25TCRAdvancedSL0-DA_ColorABlackLava2.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ayhgi1veoxle2keqd1k0/MY25TCRAdvancedSL0-DA_ColorABlackLava_Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-sl-0-da-2025"
+        },
+        {
+          "key": "gloss-blue-dragonfly-laser-foil",
+          "label": "Gloss Blue Dragonfly/Laser Foil",
+          "colors": [
+            "#2e5f8a",
+            "#c6cacd"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/zzgqf9xwbjkjdjmev8ix/MY25TCRAdvancedSL1_ColorABlueDragonfly_Iris.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/g1m2ug0jtrwqryp5is7x/MY25TCRAdvancedSL1_ColorABlueDragonfly_Iris-D8.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-sl-1-2025"
+        }
+      ]
+    },
+    {
+      "id": "tcr-advanced-pro-2025",
+      "availabilityMiles": 7,
+      "stock": {
+        "skus": 10,
+        "inStock": 5,
+        "sizes": [
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "TCR Advanced Pro",
+      "url": "https://www.giant-bicycles.com/gb/tcr-advanced-pro-1-di2-2025",
+      "description": "Superlight, ultra-efficient and rides like a dream. This well-rounded race bike blends industry-leading composite frame engineering with fully integrated components to help you climb, corner and descend with astonishing speed and sublime road handling.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£2,939",
+        "oldAmount": "£4,899"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-carbon-polished-foil",
+          "label": "Gloss Carbon/Polished Foil",
+          "colors": [
+            "#2b2b2d",
+            "#c6cacd"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/bq5gmtsde04xxthlzzvn/MY25TCRAdvancedPro1-AXS_ColorACarbon_Chrome.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/uahgjyb54aqmycyuojrw/MY25TCRAdvancedPro1-AXS_ColorACarbon_Chrome_Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-pro-1-axs-2025"
+        }
+      ]
+    },
+    {
+      "id": "tcr-advanced-2025",
+      "availabilityMiles": 77,
+      "stock": {
+        "skus": 16,
+        "inStock": 9,
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "TCR Advanced",
+      "url": "https://www.giant-bicycles.com/gb/tcr-advanced-2-2025",
+      "description": "Built to go faster. Whether you’re climbing, cornering or launching an attack, this all-new composite road racer is made for that moment.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£2,469",
+        "oldAmount": "£3,799"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-race",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL",
+        "XS"
+      ],
+      "colors": [
+        {
+          "key": "gloss-asphalt-green-mercury",
+          "label": "Gloss Asphalt Green/Mercury",
+          "colors": [
+            "#004814",
+            "#b4b8bc"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/qmnnykzsjcz4p2mcxk4e/MY25TCRAdvanced1-KOM_ColorAAsphaltGreen.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/qe0xv9cudr1o3rajai7k/MY25TCRAdvanced1-KOM_ColorAAsphaltGreen_Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-1-2025"
+        },
+        {
+          "key": "gloss-carbon-electron-blue",
+          "label": "Gloss Carbon/Electron Blue",
+          "colors": [
+            "#2b2b2d",
+            "#1f4e9c"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/hoj48nkss0ojvdha2uve/MY25TCRAdvanced2-KOM_ColorACarbon.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/zeekjhen5nwugrmpltus/MY25TCRAdvanced2-KOM_ColorACarbon_Rear.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-2-2025"
+        },
+        {
+          "key": "gloss-frost-silver-cold-iron",
+          "label": "Gloss Frost Silver/Cold Iron",
+          "colors": [
+            "#c2c6ca",
+            "#55606b"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/m9ahovvx5fotq56f9kk3/MY25TCRAdvanced0-AXS_ColorAFrostSilver.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/u7zpkvsi1vmhrh7kpy8y/MY25TCRAdvanced0-AXS_ColorAFrostSilver_Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/tcr-advanced-0-axs-2025"
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced-sl-2025",
+      "availabilityMiles": 33,
+      "stock": {
+        "skus": 4,
+        "inStock": 4,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "Defy Advanced SL",
+      "url": "https://www.giant-bicycles.com/gb/defy-advanced-sl-1-2025",
+      "description": "Go long. Go fast.",
+      "price": {
+        "mode": "regular",
+        "amount": "£8,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "gloss-moonstone-matte-black",
+          "label": "Gloss Moonstone/Matte Black",
+          "colors": [
+            "#dcdce4",
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ld31fwsrpz8cwodp6qzc/MY25DefyAdvancedSL1_ColorAMoonstone.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-sl-1-2025"
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced-eplus-elite-2025",
+      "availabilityMiles": 97,
+      "stock": {
+        "skus": 9,
+        "inStock": 6,
+        "sizes": [
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "Defy Advanced E+ Elite",
+      "url": "https://www.giant-bicycles.com/gb/defy-advanced-eplus-elite-2-2025",
+      "description": "With its smooth-riding composite frame, lightweight battery, and new SyncDrive Move Plus integrated rear hub motor, the Defy Advanced E+ is the ideal choice for performance-minded road riders who want to tackle steep hills, maintain higher speeds, and experience road riding with no limitations.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£4,224",
+        "oldAmount": "£6,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-raw-carbon-black",
+          "label": "Gloss Raw carbon / Black",
+          "colors": [
+            "#2b2b2d",
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/stsrgo251b0lt6ltkniv/MY24DefyAdvancedEplusEL1_ColorARawcarbon.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/pcdfzn0dr2pfvpv9nrbi/MY24DefyAdvancedEplusEL1_ColorARawcarbon-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-eplus-elite-1-2025"
+        },
+        {
+          "key": "gloss-sea-sparkle-black",
+          "label": "Gloss Sea Sparkle / Black",
+          "colors": [
+            "#2b8fa8",
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ydelvy7so4znwgtqznas/MY24DefyAdvancedEplusEL2_ColorASeaSparkle.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/idgrmurfdttvq7r3nq28/MY24DefyAdvancedEplusEL2_ColorASeaSparkle-Rear.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-eplus-elite-2-2025"
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced-eplus-elite-ar-2025",
+      "availabilityMiles": 17,
+      "stock": {
+        "skus": 5,
+        "inStock": 3,
+        "sizes": [
+          "S",
+          "M",
+          "M/L"
+        ]
+      },
+      "title": "Defy Advanced E+ Elite AR",
+      "url": "https://www.giant-bicycles.com/gb/defy-advanced-eplus-elite-ar-2025",
+      "description": "With its smooth-riding composite frame, lightweight battery, new SyncDrive Move Plus integrated rear hub motor and all-road ready 38mm tyres, the Defy Advanced E+ AR is the ideal choice for performance-minded road riders who want to tackle steep hills, maintain higher speeds, and experience road riding with no limitations.",
+      "price": {
+        "mode": "discount",
+        "amount": "£3,899",
+        "oldAmount": "£5,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "matte-kelp-forest-black",
+          "label": "Matte Kelp Forest / Black",
+          "colors": [
+            "#2c4a3a",
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/hu1jq9fev5zih1rs5ctz/MY24DefyAdvancedEplusELAR_ColorAKelpForest(1).jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/uixa2gg8dxwhowtoyozq/MY24DefyAdvancedEplusELAR_ColorAKelpForest-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-eplus-elite-ar-2025"
+        }
+      ]
+    },
+    {
+      "id": "contend-sl-disc-2025",
+      "availabilityMiles": 104,
+      "stock": {
+        "skus": 5,
+        "inStock": 4,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "Contend SL Disc",
+      "url": "https://www.giant-bicycles.com/gb/contend-sl-disc-1-2025",
+      "description": "Elevate your road riding experience with confidence and control. This aluminum all-rounder blends smooth, quick handling with lightweight efficiency for a sublime ride quality.",
+      "price": {
+        "mode": "regular",
+        "amount": "£1,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-all-rounder",
+        "frame-material-aluminium",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "asphalt-green",
+          "label": "Asphalt Green",
+          "colors": [
+            "#004814"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ldvurbxuhhcmcoeaeamh/MY25ContendSL1Disc_ColorAAsphaltGreen.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/u8r6qqtk2c6y4e73bhti/MY25ContendSL1Disc_ColorAAsphaltGreen-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/contend-sl-disc-1-2025"
+        }
+      ]
+    },
+    {
+      "id": "contend-2025",
+      "availabilityMiles": 52,
+      "stock": {
+        "skus": 6,
+        "inStock": 4,
+        "sizes": [
+          "XS",
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "Contend",
+      "url": "https://www.giant-bicycles.com/gb/contend-2-2025",
+      "description": "Smooth, fast and fun. This versatile aluminum road bike helps you push the pace, ride more miles, and expand your road riding experience.",
+      "price": {
+        "mode": "regular",
+        "amount": "£750"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-all-rounder",
+        "frame-material-aluminium",
+        "brake-type-rim-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "knight-shield",
+          "label": "Knight Shield",
+          "colors": [
+            "#5a646e"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/p67wqkx6cqtdz27pratu/MY25Contend2_ColorBKnightShield.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/contend-2-2025"
+        }
+      ]
+    },
+    {
+      "id": "trinity-advanced-sl-2025",
+      "availabilityMiles": 22,
+      "stock": {
+        "skus": 10,
+        "inStock": 4,
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "title": "Trinity Advanced SL",
+      "url": "https://www.giant-bicycles.com/gb/trinity-advanced-sl-2-2025",
+      "description": "",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£5,199",
+        "oldAmount": "£6,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-triathlon-tt",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XS"
+      ],
+      "colors": [
+        {
+          "key": "gloss-carbon-prismatic-haze",
+          "label": "Gloss Carbon/Prismatic Haze",
+          "colors": [
+            "#2b2b2d",
+            "#cfd6e0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/gz4mv2jk1pqw3qh1kehz/MY25TrinityAdvancedSL0_ColorACarbon_Chrome-2.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/osxc8nplwk0jfusyuemw/MY25TrinityAdvancedSL0_ColorACarbon_Chrome-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/trinity-advanced-sl-0-2025"
+        },
+        {
+          "key": "carbon-matte-carbon",
+          "label": "Carbon/Matte Carbon",
+          "colors": [
+            "#2b2b2d",
+            "#2b2b2d"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/d7f6d9zghpyto81mk8wo/MY25TrinityAdvancedSL1_Carbon_PrismaticHaze.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/rx1fk1xgu9grvdmnvpqr/MY25TrinityAdvancedSL1_Carbon_PrismaticHaze-D10.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/trinity-advanced-sl-1-2025"
+        },
+        {
+          "key": "carbon-blue-dragonfly",
+          "label": "Carbon/Blue Dragonfly",
+          "colors": [
+            "#2b2b2d",
+            "#2e5f8a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ibgwfgtue6z29e52zozw/MY25TrinityAdvancedSL2_Carbon_BlueDragonfly.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ypsrq35msxhjv9quuytn/MY25TrinityAdvancedSL2_Carbon_BlueDragonfly-D10.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/trinity-advanced-sl-2-2025"
+        }
+      ]
+    },
+    {
+      "id": "trinity-advanced-sl-frameset-2025",
+      "availabilityMiles": 53,
+      "stock": {
+        "skus": 8,
+        "inStock": 6,
+        "sizes": [
+          "XS",
+          "S",
+          "M"
+        ]
+      },
+      "title": "Trinity Advanced SL Frameset",
+      "url": "https://www.giant-bicycles.com/gb/trinity-advanced-sl-time-trial-frameset-2025",
+      "description": "",
+      "price": {
+        "mode": "discount",
+        "amount": "£2,799",
+        "oldAmount": "£3,750"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-triathlon-tt",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "gloss-carbon-chrome",
+          "label": "Gloss Carbon/Chrome",
+          "colors": [
+            "#2b2b2d",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kkhspfjdiywzjx6nvwos/MY25TrinityAdvancedSLTT-FF_ColorACarbon_Chrome.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/jcucogzpltwofnc592xz/MY25TrinityAdvancedSLTT-FF_ColorACarbon_Chrome-Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/trinity-advanced-sl-time-trial-frameset-2025"
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced-2024",
+      "availabilityMiles": 55,
+      "stock": {
+        "skus": 6,
+        "inStock": 3,
+        "sizes": [
+          "XS",
+          "M",
+          "L"
+        ]
+      },
+      "title": "Defy Advanced",
+      "url": "https://www.giant-bicycles.com/gb/defy-advanced-2-2024",
+      "description": "Endurance road bikes deserve to be fast & ultra lightweight. The Giant Defy Advanced delivers all of this plus premium comfort for long epic days in the saddle.",
+      "price": {
+        "mode": "regular",
+        "amount": "£2,699"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "tiger-red-dried-chili",
+          "label": "Tiger Red/Dried Chili",
+          "colors": [
+            "#c8321c",
+            "#a8332a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/twb198ib6r5peqoanbmp/MY24DefyAdvanced2_ColorATigerRed.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ujhoistf3jcxulkwewfz/MY24DefyAdvanced2_ColorATigerRed_Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/defy-advanced-2-2024"
+        }
+      ]
+    },
+    {
+      "id": "contend-ar-2024",
+      "availabilityMiles": 103,
+      "stock": {
+        "skus": 10,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "Contend AR",
+      "url": "https://www.giant-bicycles.com/gb/contend-ar-3-2024",
+      "description": "Break out of the box and expand your road riding adventures. From smooth pavement to bumpy backroads, this ultra-capable road bike has built-in compliance and high-volume tires, so you can ride any road with confidence and control.",
+      "price": {
+        "mode": "regular",
+        "amount": "£1,199"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-all-rounder",
+        "frame-material-aluminium",
+        "brake-type-disc-brake",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-charcoal-cold-iron",
+          "label": "Gloss Charcoal/Cold Iron",
+          "colors": [
+            "#3c3f41",
+            "#55606b"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/t3diez2flxcxyz0j4mvm/MY24ContendAR3_ColorACharcoal.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/coo97270bqf3xn8yw8ey/MY24ContendAR3_ColorACharcoal_Front.jpg"
+          ],
+          "url": "https://www.giant-bicycles.com/gb/contend-ar-3-2024"
+        }
+      ]
+    }
+  ]
+}

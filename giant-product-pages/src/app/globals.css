@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+/* The design system is the single source of truth for colour and type.
+   tokens.css      — foundation / brand / semantic / breakpoint variables
+   text-styles.css — the .text-* classes markup uses for every piece of type.
+   Both are generated; never hand-edit them, and never reach past --semantic-*
+   for a colour. */
+@import "../design-system/tokens.css";
+@import "../design-system/text-styles.css";
+
+/* This file is globals only: fonts, root primitives and element defaults.
+   Everything that styles a component lives next to that component's view. */
+
+/* Self-hosted (public/fonts). Overpass = Giant, Gotham = Liv, Poppins = Momentum.
+   Overpass and Open Sans are variable fonts: one file covers the whole weight
+   range, so .text-* can ask for any weight. Gotham ships as static cuts. */
+
+@font-face {
+  font-family: "Overpass";
+  src: url("/fonts/overpass/overpass-variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/gotham/gotham-book.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/gotham/gotham-book-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/gotham/gotham-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/gotham/gotham-medium-italic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/gotham/gotham-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/open-sans/open-sans-variable.woff2") format("woff2");
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ── Primitives the design system does not tokenise yet ────────────────────
+   Radius, motion, focus, scrim and elevation have no token in tokens.css. Each
+   is derived from a semantic token where a colour is involved, so brand and
+   theme still flow through. Delete these the day the tokens land.
+   ponytail: local constants, not a parallel token system — nothing else here. */
+:root {
+  --radius-s: 8px;
+  --radius-m: 16px;
+  --radius-round: 999px;
+
+  --transition-fast: 140ms ease;
+  --focus-outline: 2px solid var(--semantic-base-text-heading);
+  --focus-outline-offset: 2px;
+
+  /* Modal/drawer scrims stay keyed to the "on light" surface so they darken the
+     page in either theme. */
+  --scrim: color-mix(
+    in srgb,
+    var(--semantic-base-surface-on-light) 48%,
+    transparent
+  );
+  --scrim-strong: color-mix(
+    in srgb,
+    var(--semantic-base-surface-on-light) 55%,
+    transparent
+  );
+
+  --elevation-dropdown: 0 4px 12px
+    color-mix(in srgb, var(--semantic-base-surface-on-light) 12%, transparent);
+  --elevation-tooltip:
+    0 0 4px
+      color-mix(in srgb, var(--semantic-base-surface-on-light) 4%, transparent),
+    0 4px 8px
+      color-mix(in srgb, var(--semantic-base-surface-on-light) 6%, transparent);
+  --elevation-drawer: 0 -18px 36px
+    color-mix(in srgb, var(--semantic-base-surface-on-light) 18%, transparent);
+  --elevation-drawer-footer: 0 -8px 18px
+    color-mix(in srgb, var(--semantic-base-surface-on-light) 6%, transparent);
+
+  /* Fluid gutters. The design system steps page padding 24 -> 64 -> 112px across
+     its 640 and 1024 breakpoints; these ramp through the same range instead, so
+     the padding never jumps. 10vw - 40px passes through both switch points the
+     design system defines: exactly 24px at 640, 62.4px at 1024. Endpoints are
+     foundation spacing tokens (that scale is constant across breakpoints); the
+     slopes are literals because a media-free ramp can't be expressed as a token. */
+  --layout-page-gutter: clamp(
+    var(--foundation-spacing-m),
+    7vw - 40px,
+    var(--foundation-spacing-xxxl)
+  );
+  --layout-header-gutter: clamp(
+    var(--foundation-spacing-sm),
+    1vw + 10px,
+    var(--foundation-spacing-m)
+  );
+
+  /* Written by JS at runtime (SiteHeader, use-split-scroll), not design values. */
+  --Search-Content-Height: auto;
+  --Site-Header-Height: 64px;
+  --Mobile-Sticky-Offset: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--semantic-base-surface);
+  color: var(--semantic-base-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+body.body--scroll-locked {
+  overflow: hidden;
+}
+
+/* Every element that carries copy also carries a .text-* class, so body and the
+   headings only set colour — the type comes from text-styles.css. */
+h1,
+h2,
+h3,
+h4 {
+  color: var(--semantic-base-text-heading);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+input,
+button,
+select {
+  color: inherit;
+  font: inherit;
+}

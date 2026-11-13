@@ -1,0 +1,384 @@
+.filter-group {
+  width: 100%;
+  min-width: 0;
+  border-top: 1px solid var(--semantic-base-border-divider);
+}
+
+.filter-group:first-child {
+  border-top: none;
+}
+
+.filter-group:last-child {
+  border-bottom: 1px solid var(--semantic-base-border-divider);
+}
+
+.filter-group__header {
+  display: flex;
+  padding: var(--foundation-spacing-m) 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--foundation-spacing-m);
+  width: 100%;
+  min-width: 0;
+  background: var(--semantic-base-surface-transparent);
+  border: 0;
+  text-align: left;
+  appearance: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.filter-group:first-child .filter-group__header {
+  padding-top: var(--foundation-spacing-s);
+}
+
+.filter-group--open .filter-group__header {
+  padding-bottom: var(--foundation-spacing-s);
+}
+
+.filter-group__title {
+  margin: 0;
+  min-width: 0;
+  color: var(--semantic-base-text-heading);
+  text-transform: none;
+}
+
+.filter-group__symbol {
+  display: inline-flex;
+  position: relative;
+  flex: 0 0 1.25rem;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--semantic-base-icon);
+  font-size: 0;
+  line-height: 1;
+  text-align: center;
+}
+
+.filter-group__symbol::before,
+.filter-group__symbol::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: currentColor;
+  border-radius: var(--radius-round);
+}
+
+.filter-group__symbol::before {
+  width: 14px;
+  height: 2px;
+}
+
+.filter-group__symbol::after {
+  width: 2px;
+  height: 14px;
+  transition: opacity var(--transition-fast);
+}
+
+/* Open turns the plus into a minus. */
+.filter-group--open .filter-group__symbol::after {
+  opacity: 0;
+}
+
+.filter-group__body {
+  display: flex;
+  padding: 0 0 var(--foundation-spacing-m);
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+  min-width: 0;
+}
+
+.filter-group:not(.filter-group--open) .filter-group__body {
+  display: none;
+}
+
+.filter-group__body--color {
+  padding: var(--foundation-spacing-xxs) var(--foundation-spacing-sm)
+    var(--foundation-spacing-m) var(--foundation-spacing-xxs);
+}
+
+.filter-group__body-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+  min-width: 0;
+}
+
+.filter-group__body-inner > * {
+  min-width: 0;
+}
+
+.filter-group--size .filter-group__body-inner {
+  gap: var(--foundation-spacing-xs);
+}
+
+.filter-group__body--color .filter-group__body-inner {
+  gap: var(--foundation-spacing-s);
+}
+
+.size-filter__help {
+  display: inline-flex;
+  align-self: flex-start;
+  margin: 0;
+  align-items: center;
+  gap: var(--foundation-spacing-xxs);
+  color: var(--semantic-base-text-muted);
+  text-align: left;
+}
+
+.size-filter__help-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+  color: inherit;
+}
+
+.size-filter__help-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.size-filter__chip-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--foundation-spacing-xs);
+  width: 100%;
+}
+
+.size-chip {
+  display: flex;
+  position: relative;
+  min-width: 0;
+}
+
+.size-chip__input {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  margin: 0;
+  appearance: none;
+  cursor: pointer;
+}
+
+.size-chip__label {
+  display: flex;
+  padding: var(--foundation-spacing-xs) var(--foundation-spacing-s);
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  background: var(--semantic-base-surface);
+  border: 2px solid var(--semantic-base-border);
+  border-radius: var(--foundation-spacing-xxs);
+  color: var(--semantic-action-text-navigation);
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: border-color var(--transition-fast);
+}
+
+.size-chip__input:checked + .size-chip__label {
+  border-color: var(--semantic-action-border);
+  color: var(--semantic-action-text-active);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .size-chip__input:hover + .size-chip__label {
+    border-color: var(--semantic-action-border-subtle);
+  }
+
+  .size-chip__input:checked:hover + .size-chip__label {
+    border-color: var(--semantic-action-border);
+  }
+}
+
+.size-chip__input:focus-visible + .size-chip__label {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+/* An option no remaining product carries. Dimmed rather than removed, so the group keeps
+   its shape as you tick around it. */
+.filter-option--disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.filter-option--disabled :is(input, .size-chip__input) {
+  cursor: not-allowed;
+}
+
+.filter-checkbox {
+  display: flex;
+  position: relative;
+  padding: var(--foundation-spacing-xxs) 0;
+  align-items: flex-start;
+  gap: var(--foundation-spacing-xs);
+  width: 100%;
+  min-width: 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.filter-checkbox--with-info {
+  padding-right: var(--foundation-spacing-m);
+}
+
+.filter-checkbox__label {
+  flex: 1;
+  min-width: 0;
+  color: var(--semantic-base-text);
+}
+
+.filter-checkbox__info-btn {
+  display: flex;
+  position: absolute;
+  /* Centred on the label's first line, not the row top. */
+  top: calc(
+    var(--foundation-spacing-xxs) + (var(--breakpoint-typography-body-body-m-line-height) - 16px) / 2
+  );
+  right: 0;
+  padding: 0;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  background: none;
+  border: none;
+  border-radius: var(--radius-round);
+  color: var(--semantic-base-icon-subtle);
+  cursor: pointer;
+}
+
+/* Widens the hover/tap target to 28px without moving the 16px icon. */
+.filter-checkbox__info-btn::before {
+  content: "";
+  position: absolute;
+  inset: -6px;
+}
+
+.filter-checkbox__info-btn:focus-visible {
+  outline: 2px solid var(--semantic-action-border-focus);
+  outline-offset: var(--foundation-spacing-xxs);
+}
+
+/* Fixed, so the scrolling panel can't clip it — FilterGroup measures the icon and writes
+   --tooltip-left/--tooltip-top on hover or focus. */
+.filter-checkbox__info-btn .compare-tooltip {
+  position: fixed;
+  top: var(--tooltip-top, 0px);
+  bottom: auto;
+  left: var(--tooltip-left, 50%);
+  z-index: 195;
+  transform: translate(-50%, -100%);
+}
+
+.filter-checkbox__info-btn:hover .compare-tooltip,
+.filter-checkbox__info-btn:focus-visible .compare-tooltip {
+  display: block;
+}
+
+.filter-color-option {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  gap: var(--foundation-spacing-s);
+  width: 100%;
+  min-width: 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.filter-color-option__input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  appearance: none;
+  cursor: pointer;
+}
+
+.filter-color-option__swatch {
+  display: inline-flex;
+  position: relative;
+  flex: 0 0 auto;
+  width: var(--foundation-spacing-m);
+  height: var(--foundation-spacing-m);
+  background: var(--filter-color-a);
+  background-image: linear-gradient(
+    111deg,
+    var(--filter-color-a) 50%,
+    var(--filter-color-b, var(--filter-color-a)) 50%
+  );
+  border: 1px solid var(--semantic-base-border);
+  border-radius: var(--radius-round);
+}
+
+.filter-color-option__swatch::before {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  inset: -5px;
+  border: 2px solid var(--semantic-base-border-dark);
+  border-radius: var(--radius-round);
+  transition: opacity var(--transition-fast);
+}
+
+.filter-color-option__input:checked + .filter-color-option__swatch::before,
+.filter-color-option__input:focus-visible + .filter-color-option__swatch::before {
+  opacity: 1;
+}
+
+.filter-color-option__swatch::after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  inset: -4px;
+  border: 1.5px solid var(--semantic-action-border-subtle);
+  border-radius: var(--radius-round);
+  transition: opacity var(--transition-fast);
+}
+
+.filter-color-option__input:checked + .filter-color-option__swatch::after,
+.filter-color-option__input:focus-visible + .filter-color-option__swatch::after {
+  opacity: 0;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .filter-color-option:hover .filter-color-option__swatch::after {
+    opacity: 1;
+  }
+
+  .filter-color-option:hover
+    .filter-color-option__input:checked
+    + .filter-color-option__swatch::after,
+  .filter-color-option:hover
+    .filter-color-option__input:focus-visible
+    + .filter-color-option__swatch::after {
+    opacity: 0;
+  }
+}
+
+.filter-color-option__text {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.filter-color-option__name {
+  color: var(--semantic-base-text);
+}
+
+.filter-color-option__count {
+  color: var(--semantic-base-text-muted);
+}

@@ -1,0 +1,171 @@
+.sort-control {
+  display: inline-flex;
+  position: relative;
+  min-height: 32px;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .sort-control {
+    display: flex;
+    order: 5;
+    margin-top: var(--foundation-spacing-sm);
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+.sort-control__trigger {
+  display: inline-flex;
+  padding: 0;
+  align-items: center;
+  gap: var(--foundation-spacing-xxs);
+  min-height: 32px;
+  background: var(--semantic-base-surface-transparent);
+  border: 0;
+  color: var(--semantic-action-text-navigation);
+  white-space: nowrap;
+  appearance: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* On mobile both toolbar controls become full-width outline buttons. */
+@media (max-width: 640px) {
+  .sort-control__trigger {
+    padding: var(--foundation-spacing-s) var(--foundation-spacing-sm);
+    align-items: center;
+    justify-content: center;
+    gap: var(--foundation-spacing-xs);
+    width: 100%;
+    min-height: 40px;
+    background: var(--semantic-base-surface);
+    border: 2px solid var(--semantic-action-border);
+    border-radius: var(--radius-round);
+    color: var(--semantic-action-text);
+    text-transform: uppercase;
+  }
+}
+
+.sort-control__trigger:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+.sort-control__label {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 640px) {
+  .sort-control__label {
+    display: none;
+  }
+}
+
+.sort-control__mobile-label {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .sort-control__mobile-label {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 640px) {
+  .sort-control__value {
+    display: none;
+  }
+}
+
+.sort-control__icon {
+  display: inline-flex;
+  align-items: center;
+  width: 11.249px;
+  height: 6.061px;
+  pointer-events: none;
+  transition: transform var(--transition-fast);
+}
+
+@media (max-width: 640px) {
+  .sort-control__icon--desktop {
+    display: none;
+  }
+}
+
+.sort-control__trigger[aria-expanded="true"] .sort-control__icon--desktop {
+  transform: rotate(180deg);
+}
+
+.sort-control__icon--mobile {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .sort-control__icon--mobile {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    background: currentColor;
+    mask: url("/icons/sort-icon.svg") center / 14px 10px no-repeat;
+  }
+}
+
+.sort-control__asset {
+  display: block;
+  flex: 0 0 auto;
+  width: 11.249px;
+  max-width: none;
+  height: 6.061px;
+  object-fit: contain;
+}
+
+.sort-control__asset--mobile {
+  display: none;
+  width: 14px;
+  height: 10px;
+}
+
+.sort-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 100;
+  margin: var(--foundation-spacing-xxs) 0 0;
+  padding: var(--foundation-spacing-xs) 0;
+  min-width: 100%;
+  overflow-y: auto;
+  background: var(--semantic-base-surface);
+  border: 1.5px solid var(--semantic-base-border);
+  border-radius: var(--radius-s);
+  box-shadow: var(--elevation-dropdown);
+  list-style: none;
+}
+
+@media (max-width: 640px) {
+  .sort-dropdown {
+    right: auto;
+    left: 0;
+    margin-top: var(--foundation-spacing-xs);
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+.sort-dropdown[hidden] {
+  display: none;
+}
+
+.sort-dropdown__item {
+  padding: 10px var(--foundation-spacing-sm);
+  color: var(--semantic-base-text);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.sort-dropdown__item:hover,
+.sort-dropdown__item[aria-selected="true"] {
+  background: var(--semantic-base-surface-subtle);
+}

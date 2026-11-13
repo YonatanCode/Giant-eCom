@@ -1,0 +1,985 @@
+{
+  "slug": "cross-and-gravel-bikes",
+  "title": "Cross & gravel bikes",
+  "market": "GB",
+  "currency": "GBP",
+  "generatedAt": "2026-09-15T15:34:53.089Z",
+  "source": "https://www.giant-bicycles.com/gb/bikes/cross-and-gravel-bikes",
+  "filterGroups": [
+    {
+      "id": "bestfor",
+      "label": "Best For",
+      "options": [
+        {
+          "id": "best-for-adventure",
+          "label": "Adventure",
+          "info": "For riders looking to explore new routes on a variety of terrain including roads, gravel and dirt."
+        },
+        {
+          "id": "best-for-cyclocross",
+          "label": "Cyclocross",
+          "info": "For riders who want the versatility, quickness and agile performance needed for racing cyclocross or riding variable terrain."
+        },
+        {
+          "id": "best-for-gravel",
+          "label": "Gravel",
+          "info": "For adventurers who enjoy riding or racing on rougher roads, gravel or dirt with efficiency and control."
+        },
+        {
+          "id": "best-for-trekking",
+          "label": "Trekking",
+          "info": "For long-distance explorations that demand comfort, versatility, and an ability to carry extra accessories and gear."
+        }
+      ]
+    },
+    {
+      "id": "suspension",
+      "label": "Suspension",
+      "options": [
+        {
+          "id": "suspension-front-suspension",
+          "label": "Front Suspension"
+        },
+        {
+          "id": "suspension-rigid",
+          "label": "Rigid"
+        }
+      ]
+    },
+    {
+      "id": "framematerial",
+      "label": "Frame Material",
+      "options": [
+        {
+          "id": "frame-material-composite-carbon",
+          "label": "Carbon"
+        },
+        {
+          "id": "frame-material-aluminium",
+          "label": "Aluminium"
+        }
+      ]
+    },
+    {
+      "id": "batterycapacity",
+      "label": "Battery Capacity",
+      "options": [
+        {
+          "id": "battery-capacity-500-wh",
+          "label": "500 Wh"
+        },
+        {
+          "id": "battery-capacity-625-wh",
+          "label": "625 Wh"
+        },
+        {
+          "id": "battery-capacity-800-wh",
+          "label": "800 Wh"
+        }
+      ]
+    },
+    {
+      "id": "seatposttype",
+      "label": "Seatpost Type",
+      "options": [
+        {
+          "id": "seatpost-type-dropper",
+          "label": "Dropper"
+        },
+        {
+          "id": "seatpost-type-adjustable",
+          "label": "Adjustable"
+        }
+      ]
+    },
+    {
+      "id": "sale",
+      "label": "Sale",
+      "options": [
+        {
+          "id": "sale-product",
+          "label": "On Sale"
+        }
+      ]
+    }
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "M/L",
+    "L",
+    "XL"
+  ],
+  "products": [
+    {
+      "id": "revolt-advanced-sl-frameset-2027",
+      "availabilityMiles": 88,
+      "stock": {
+        "skus": 6,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "Revolt Advanced SL Frameset",
+      "url": "https://www.giant-bicycles.com/gb/bikes-revolt-advanced-sl-frameset-2027",
+      "description": "",
+      "price": {
+        "mode": "regular",
+        "amount": "£3,899"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-gravel",
+        "frame-material-composite-carbon",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "superspeed-teal",
+          "label": "Superspeed Teal",
+          "colors": [
+            "#167f7f"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/b3ifruzfaylzopej2hhs/MY27RevoltAdvancedSL-FF_ColorASuperspeedTeal.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ro0vspvlapxp2womyebv/MY27RevoltAdvancedSL-FF_ColorASuperspeedTeal-Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revolt-advanced-sl-2027",
+      "availabilityMiles": 46,
+      "stock": {
+        "skus": 15,
+        "inStock": 13,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Revolt Advanced SL",
+      "url": "https://www.giant-bicycles.com/gb/bikes-revolt-advanced-sl-2027",
+      "description": "The lightest, fastest gravel race bike ever built by Giant. Engineered as a system to deliver a competitive edge over long, demanding gravel efforts, the new Revolt Advanced SL combines aero efficiency with smooth, precise handling, helping you hold speed when others fade.",
+      "price": {
+        "mode": "from",
+        "amount": "£5,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-gravel",
+        "frame-material-composite-carbon",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "raw-carbon-prism-mist",
+          "label": "Raw Carbon / Prism Mist",
+          "colors": [
+            "#2b2b2d",
+            "#cfd6e0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xtncwu04bza2x4zgnfc5/MY27RevoltAdvancedSL0_ColorARawCarbon1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/e8k4xs2hkspg9ay5rhgf/MY27RevoltAdvancedSL0_ColorARawCarbon-Front.jpg"
+          ]
+        },
+        {
+          "key": "tempest-purple",
+          "label": "Tempest Purple",
+          "colors": [
+            "#5b2f7a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xr0m0ispgbqre5vg0ctp/MY27RevoltAdvancedSL1_ColorATempestPurple.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/gue4ust3jy3kpxiowmad/MY27RevoltAdvancedSL1_ColorATempestPurple-Front.jpg"
+          ]
+        },
+        {
+          "key": "deep-lagoon",
+          "label": "Deep Lagoon",
+          "colors": [
+            "#165865"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ji0cdrr44ko5f4agzhk1/MY27RevoltAdvancedSL2_ColorADeepLagoon1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wvvo6pt8k01krysguzf0/MY27RevoltAdvancedSL2_ColorADeepLagoon-Rear.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revolt-x-advanced-pro",
+      "availabilityMiles": 116,
+      "stock": {
+        "skus": 4,
+        "inStock": 4,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "Revolt X Advanced Pro",
+      "url": "https://www.giant-bicycles.com/gb/bikes-revolt-x-advanced-pro",
+      "description": "",
+      "price": {
+        "mode": "discount",
+        "amount": "£3,999",
+        "oldAmount": "£4,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-gravel",
+        "suspension-front-suspension",
+        "frame-material-composite-carbon",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "pale-olive-shale-green",
+          "label": "Pale Olive/Shale Green",
+          "colors": [
+            "#a3a385",
+            "#2f6b3f"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/hmtdtsez0au5cybjbntb/MY26RevoltXAdvancedPro1_ColorAPaleOlive.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/plek6heqcy9l15usnrrj/MY26RevoltXAdvancedPro1_ColorAPaleOlive-Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revolt-advanced-pro",
+      "availabilityMiles": 69,
+      "stock": {
+        "skus": 10,
+        "inStock": 9,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Revolt Advanced Pro",
+      "url": "https://www.giant-bicycles.com/gb/bikes-revolt-advanced-pro",
+      "description": "GRAVEL CRUSHER",
+      "price": {
+        "mode": "from",
+        "amount": "£3,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-gravel",
+        "frame-material-composite-carbon",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "cyber-lime",
+          "label": "Cyber Lime",
+          "colors": [
+            "#8bc34a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kairpcniftfft4yaxy4h/MY26RevoltAdvancedPro0_ColorACyberLime.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/vs7zwii0vtazr4nbowm9/MY26RevoltAdvancedPro0_ColorACyberLime-D3.jpg"
+          ]
+        },
+        {
+          "key": "ocean-twilight-chrome",
+          "label": "Ocean Twilight/Chrome",
+          "colors": [
+            "#3c4a6b",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/zqpdwszujczee8ihu91i/MY26RevoltAdvancedPro1_ColorAOceanTwilight.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/v4mt5yjdhgxrvuvwn9zp/MY26RevoltAdvancedPro1_ColorAOceanTwilight-D3.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revolt-advanced",
+      "availabilityMiles": 38,
+      "stock": {
+        "skus": 21,
+        "inStock": 21,
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Revolt Advanced",
+      "url": "https://www.giant-bicycles.com/gb/bikes-revolt-advanced",
+      "description": "Rough roads, gravel or dirt. However you choose to roll, this bike does it all.",
+      "price": {
+        "mode": "from",
+        "amount": "£1,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-gravel",
+        "frame-material-composite-carbon",
+        "seatpost-type-adjustable",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL",
+        "XS"
+      ],
+      "colors": [
+        {
+          "key": "snow-drift",
+          "label": "Snow Drift",
+          "colors": [
+            "#f0f4f6"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/hrfcu983yxzz5afvckdz/MY26RevoltAdvanced0_ColorASnowDrift1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/vmlilyjnodvmgscjsith/MY26RevoltAdvanced0_ColorASnowDrift-Rear1.jpg"
+          ]
+        },
+        {
+          "key": "carbon-smoke",
+          "label": "Carbon Smoke",
+          "colors": [
+            "#3a3b3d"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xoxkocpsbkg3hetpomcl/MY26RevoltAdvanced2_ColorACarbonSmoke1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/reakr8fmx3jai6cewnfl/MY26RevoltAdvanced2_ColorACarbonSmoke-D3.jpg"
+          ]
+        },
+        {
+          "key": "midnight-moon",
+          "label": "Midnight Moon",
+          "colors": [
+            "#757673"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/z5miospretv3qt1ogbsw/MY26RevoltAdvanced1_ColorAMidnightMoon.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/lkhffqfaqe2zgpnxnyqk/MY26RevoltAdvanced1_ColorAMidnightMoon-D4.jpg"
+          ]
+        },
+        {
+          "key": "aquarium",
+          "label": "Aquarium",
+          "colors": [
+            "#2e7f9e"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ingsprcoxwn7clbi90xn/MY26RevoltAdvanced3_ColorAAquarium.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ea8qk8nrd8pplu72ttny/MY26RevoltAdvanced3_ColorAAquarium-D3.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revolt",
+      "availabilityMiles": 66,
+      "stock": {
+        "skus": 15,
+        "inStock": 15,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Revolt",
+      "url": "https://www.giant-bicycles.com/gb/bikes-revolt",
+      "description": "Ride roads, gravel or dirt with this versatile aluminum all-rounder. A composite fork gives it a smooth ride, and a flip chip lets you adjust wheelbase and tire clearance.",
+      "price": {
+        "mode": "from",
+        "amount": "£1,199"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-gravel",
+        "frame-material-aluminium",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "stealth-chrome",
+          "label": "Stealth / Chrome",
+          "colors": [
+            "#3a3d42",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ptvvmnpybh5mchsftxsm/MY26Revolt0_ColorAStealthChrome.jpg"
+          ]
+        },
+        {
+          "key": "alpine-green",
+          "label": "Alpine Green",
+          "colors": [
+            "#2f6b3f"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/fiesndmthkvstarsjgf3/MY26Revolt1_ColorAAlpineGreen.jpg"
+          ]
+        },
+        {
+          "key": "ocean-storm",
+          "label": "Ocean Storm",
+          "colors": [
+            "#6a7078"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/w20wzevii4wgcypt2wqt/MY26Revolt2_ColorAOceanStorm.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roam",
+      "availabilityMiles": 61,
+      "stock": {
+        "skus": 4,
+        "inStock": 1,
+        "sizes": [
+          "M"
+        ]
+      },
+      "title": "Roam",
+      "url": "https://www.giant-bicycles.com/gb/bikes-roam",
+      "description": "With its flat handlebar, comfortable upright positioning and smooth, powerful disc brakes, Roam combines the best qualities of a road bike and a mountain bike. Now you can follow your own route wherever it goes.",
+      "price": {
+        "mode": "regular",
+        "amount": "£550"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-gravel",
+        "suspension-front-suspension",
+        "frame-material-aluminium",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "stealth-chrome",
+          "label": "Stealth Chrome",
+          "colors": [
+            "#4a4d52"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/prw5obpofmsdwtyxtuyc/K-018MY26Roam4_ColorAStealthChrome.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore-eplus",
+      "availabilityMiles": 116,
+      "stock": {
+        "skus": 33,
+        "inStock": 32,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Explore E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-explore-eplus",
+      "description": "Built for adventure, the Explore E+ turns commutes and escapes into open horizons. With versatile design and seamless integration, it delivers smooth support, confidence, and freedom to ride farther, wherever the journey leads.",
+      "price": {
+        "mode": "from",
+        "amount": "£2,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-trekking",
+        "suspension-front-suspension",
+        "frame-material-aluminium",
+        "battery-capacity-800-wh",
+        "seatpost-type-adjustable",
+        "battery-capacity-625-wh",
+        "battery-capacity-500-wh"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "S"
+      ],
+      "colors": [
+        {
+          "key": "snow-drift",
+          "label": "Snow Drift",
+          "colors": [
+            "#f0f4f6"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/nm1iybfcc8b1rnvtepvy/MY26ExploreE0DD_ColorASnowDrift.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/tnejjkiqp0qgeaacyitj/MY26ExploreE0DD_ColorASnowDrift-Front.jpg"
+          ]
+        },
+        {
+          "key": "metallic-navy",
+          "label": "Metallic Navy",
+          "colors": [
+            "#1d2b4a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/emmze8fb2lsw8lorc3rw/MY26ExploreE1DD_ColorAMetallicNavy.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/g14prczsjos7d6seyugv/MY26ExploreE1DD_ColorAMetallicNavy-Front.jpg"
+          ]
+        },
+        {
+          "key": "alpine-green",
+          "label": "Alpine Green",
+          "colors": [
+            "#2f6b3f"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wxuxn4qzuw8qk8hbft6i/MY26ExploreE2DD_ColorAAlpineGreen.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/pilhszkfqy9dd9keabm6/MY26ExploreE2DD_ColorAAlpineGreen-D4.jpg"
+          ]
+        },
+        {
+          "key": "pyrite-brown",
+          "label": "Pyrite Brown",
+          "colors": [
+            "#6b4a32"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kwvf72bu3wfpo9jjd6fg/MY26ExploreE3DD_ColorAPyriteBrown.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/duiorudydhrn5n5lo2sx/MY26ExploreE3DD_ColorAPyriteBrown-D5.jpg"
+          ]
+        },
+        {
+          "key": "stealth-chome",
+          "label": "Stealth Chome",
+          "colors": [
+            "#3a3d42"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/lwennmpxikc5dheprp3t/MY26ExploreE4DD_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/tfsqcfaxjobiei2dqgxf/MY26ExploreE4DD_ColorA-D5-6.jpg"
+          ]
+        },
+        {
+          "key": "mars-dust",
+          "label": "Mars Dust",
+          "colors": [
+            "#b9b2a6"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/eb2t8xggezuq9tqd3gvs/MY26ExploreE4DD_ColorB.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roam-2025",
+      "availabilityMiles": 82,
+      "stock": {
+        "skus": 12,
+        "inStock": 10,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Roam",
+      "url": "https://www.giant-bicycles.com/gb/bikes-roam-2025",
+      "description": "With its flat handlebar, comfortable upright positioning and smooth, powerful disc brakes, Roam combines the best qualities of a road bike and a mountain bike. Now you can follow your own route wherever it goes.",
+      "price": {
+        "mode": "from",
+        "amount": "£699"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-adventure",
+        "suspension-front-suspension",
+        "frame-material-aluminium",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "electron-blue",
+          "label": "Electron Blue",
+          "colors": [
+            "#1f4e9c"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/qvkexkpyxrxdayusitfl/MY25Roam1_ColorAElectronBlue.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/e851n0ea1djcvdlza80e/MY25Roam1_ColorAElectronBlue-Front.jpg"
+          ]
+        },
+        {
+          "key": "asphalt-green",
+          "label": "Asphalt Green",
+          "colors": [
+            "#004814"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/r2pfp7rheh5juibawrmc/MY25Roam2_ColorAAsphaltGreen.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ii1rbob5xrczxlnyicsu/MY25Roam2_ColorAAsphaltGreen-Rear.jpg"
+          ]
+        },
+        {
+          "key": "ultra-navy",
+          "label": "Ultra Navy",
+          "colors": [
+            "#1d2b4a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/tkg7asxjj2zetmadcrrm/MY25Roam3_ColorAUltraNavy.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/mv7f6wdiyq8yujltnkub/MY25Roam3_ColorAUltraNavy-Front.jpg"
+          ]
+        },
+        {
+          "key": "shell-white",
+          "label": "Shell White",
+          "colors": [
+            "#f5f5f3"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/tkg7asxjj2zetmadcrrm/MY25Roam3_ColorAUltraNavy.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/mv7f6wdiyq8yujltnkub/MY25Roam3_ColorAUltraNavy-Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tcx-advanced-pro-2024",
+      "availabilityMiles": 10,
+      "stock": {
+        "skus": 5,
+        "inStock": 2,
+        "sizes": [
+          "M",
+          "M/L"
+        ]
+      },
+      "title": "TCX Advanced Pro",
+      "url": "https://www.giant-bicycles.com/gb/bikes-tcx-advanced-pro-2024",
+      "description": "Proven through countless pro wins, this lightweight composite cyclocross bike delivers quick acceleration, smooth handling and total control on dry pavement, loose dirt, deep sand or slick mud, everything you need to aim for the podium.",
+      "price": {
+        "mode": "regular",
+        "amount": "£2,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-cyclocross",
+        "frame-material-composite-carbon",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "M/L",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "gloss-kelp-forest-iris",
+          "label": "Gloss Kelp Forest/Iris",
+          "colors": [
+            "#2c4a3a",
+            "#6b5bb5"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xtzpzjx5dkelburijmzy/MY24TCXAdvancedPro2_ColorAKelpForest.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tcx-advanced-pro-frameset-2024",
+      "availabilityMiles": 76,
+      "stock": {
+        "skus": 5,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "TCX Advanced Pro Frameset",
+      "url": "https://www.giant-bicycles.com/gb/bikes-tcx-advanced-pro-frameset-2024",
+      "description": "",
+      "price": {
+        "mode": "regular",
+        "amount": "£1,799"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-cyclocross",
+        "frame-material-composite-carbon",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "M/L",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "gloss-carbon-smoke-pyrite-brown",
+          "label": "Gloss Carbon Smoke /Pyrite Brown",
+          "colors": [
+            "#3a3b3d",
+            "#6b4a32"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/fbnprjr4kkzk52dvjqaj/MY24-TCX-Advanced-Pro-FF_Color-A-Carbon_Pyrite-Brown.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/a8h5hgqee8lf8bxyqj1j/MY24TCXAdvancedPro-FF_ColorACarbon_PyriteBrown_Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revolt-x-advanced-pro-2024",
+      "availabilityMiles": 5,
+      "stock": {
+        "skus": 10,
+        "inStock": 4,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "Revolt X Advanced Pro",
+      "url": "https://www.giant-bicycles.com/gb/bikes-revolt-x-advanced-pro-2024",
+      "description": "Washboard descents, sketchy dirt, gravel and rocks of all shapes and sizes. You never know what you’ll get on a gravel ride.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£2,699",
+        "oldAmount": "£4,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-gravel",
+        "suspension-front-suspension",
+        "frame-material-composite-carbon",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-kelp-forest-charcoal-chrome",
+          "label": "Gloss Kelp Forest/Charcoal/Chrome",
+          "colors": [
+            "#2c4a3a",
+            "#3c3f41",
+            "#b8bcc0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/neo58vnw944duajdacmp/MY24RevoltXAdvancedPro0_ColorAKelpForest.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/iyuyjo7fahubmzijfm5m/MY24RevoltXAdvancedPro0_ColorAKelpForest_Charcoal_Front.jpg"
+          ]
+        },
+        {
+          "key": "gloss-black-sea-sparkle",
+          "label": "Gloss Black/Sea Sparkle",
+          "colors": [
+            "#151515",
+            "#2b8fa8"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/peeapkthjc1tuasop2io/MY24RevoltXAdvancedPro2_ColorABlack_SeaSparkle.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/imqvyu8vqoct8s8wbfok/MY24RevoltXAdvancedPro2_ColorABlack_SeaSparkle_Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revolt-advanced-2024",
+      "availabilityMiles": 80,
+      "stock": {
+        "skus": 5,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "Revolt Advanced",
+      "url": "https://www.giant-bicycles.com/gb/bikes-revolt-advanced-2024",
+      "description": "Rough roads, gravel or dirt. However you choose to roll, this bike does it all.",
+      "price": {
+        "mode": "regular",
+        "amount": "£2,399"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-gravel",
+        "suspension-rigid",
+        "frame-material-composite-carbon",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-metallic-black",
+          "label": "Gloss Metallic Black",
+          "colors": [
+            "#1b1c1e"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ea9dik3mapqh6uqtyfct/MY24RevoltAdvanced3_ColorAMetallicBlack.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revolt-eplus-2024",
+      "availabilityMiles": 79,
+      "stock": {
+        "skus": 5,
+        "inStock": 3,
+        "sizes": [
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "Revolt E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-revolt-eplus-2024",
+      "description": "From rough roads to gravel, dirt and mixed terrain adventures, this versatile drop bar E-bike gives you the power to ride farther and faster on any route you can dream up.",
+      "price": {
+        "mode": "regular",
+        "amount": "£4,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-gravel",
+        "frame-material-aluminium",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-phantom-green",
+          "label": "Gloss Phantom Green",
+          "colors": [
+            "#2f6b3f"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ln4ezzfmpayehe6k1vvw/MY24-Revolt-Eplus-1_Color-A-Shell-White.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/g8iuquqz1idnkxg5esr3/MY24-Revolt-Eplus-1_Color-A-Shell-White_Front.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

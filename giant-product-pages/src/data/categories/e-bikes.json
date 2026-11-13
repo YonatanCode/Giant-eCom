@@ -1,0 +1,1430 @@
+{
+  "slug": "e-bikes",
+  "title": "E-bikes",
+  "market": "GB",
+  "currency": "GBP",
+  "generatedAt": "2026-09-15T15:34:53.181Z",
+  "source": "https://www.giant-bicycles.com/gb/bikes/e-bikes",
+  "filterGroups": [
+    {
+      "id": "bestfor",
+      "label": "Best For",
+      "options": [
+        {
+          "id": "best-for-adventure",
+          "label": "Adventure",
+          "info": "For riders looking to explore new routes on a variety of terrain including roads, gravel and dirt."
+        },
+        {
+          "id": "best-for-city-hybrid",
+          "label": "City & Hybrid",
+          "info": "For commuters and urban dwellers who ride for transportation, mobility, fitness and fun."
+        },
+        {
+          "id": "best-for-endurance",
+          "label": "Endurance",
+          "info": "For road riders aiming to go farther and faster, in gran fondos, sportives and everyday rides."
+        },
+        {
+          "id": "best-for-enduro",
+          "label": "Enduro",
+          "info": "For riders who enjoy aggressive descents, technical trails, and the dynamic nature of enduro racing."
+        },
+        {
+          "id": "best-for-gravel",
+          "label": "Gravel",
+          "info": "For adventurers who enjoy riding or racing on rougher roads, gravel or dirt with efficiency and control."
+        },
+        {
+          "id": "best-for-trail",
+          "label": "Trail",
+          "info": "For mountain bikers who enjoy a mix of climbs and descents on flow trails, singletrack and technical terrain."
+        },
+        {
+          "id": "best-for-trekking",
+          "label": "Trekking",
+          "info": "For long-distance explorations that demand comfort, versatility, and an ability to carry extra accessories and gear."
+        }
+      ]
+    },
+    {
+      "id": "suspension",
+      "label": "Suspension",
+      "options": [
+        {
+          "id": "suspension-full-suspension",
+          "label": "Full Suspension"
+        },
+        {
+          "id": "suspension-front-suspension",
+          "label": "Front Suspension"
+        },
+        {
+          "id": "suspension-hardtail",
+          "label": "Hardtail"
+        }
+      ]
+    },
+    {
+      "id": "framematerial",
+      "label": "Frame Material",
+      "options": [
+        {
+          "id": "frame-material-composite-carbon",
+          "label": "Carbon"
+        },
+        {
+          "id": "frame-material-aluminium",
+          "label": "Aluminium"
+        }
+      ]
+    },
+    {
+      "id": "wheelsize",
+      "label": "Wheel Size",
+      "options": [
+        {
+          "id": "wheel-size-700c",
+          "label": "700c"
+        },
+        {
+          "id": "wheel-size-650b",
+          "label": "650b"
+        },
+        {
+          "id": "wheel-size-29",
+          "label": "29\""
+        },
+        {
+          "id": "wheel-size-27-5",
+          "label": "27.5\""
+        },
+        {
+          "id": "wheel-size-mixed-27-5-29",
+          "label": "Mixed 27.5/29\""
+        }
+      ]
+    },
+    {
+      "id": "batterycapacity",
+      "label": "Battery Capacity",
+      "options": [
+        {
+          "id": "battery-capacity-400-wh",
+          "label": "400 Wh"
+        },
+        {
+          "id": "battery-capacity-500-wh",
+          "label": "500 Wh"
+        },
+        {
+          "id": "battery-capacity-560-wh",
+          "label": "560 Wh"
+        },
+        {
+          "id": "battery-capacity-600-wh",
+          "label": "600 Wh"
+        },
+        {
+          "id": "battery-capacity-625-wh",
+          "label": "625 Wh"
+        },
+        {
+          "id": "battery-capacity-750-wh",
+          "label": "750 Wh"
+        },
+        {
+          "id": "battery-capacity-800-wh",
+          "label": "800 Wh"
+        }
+      ]
+    },
+    {
+      "id": "batterytype",
+      "label": "Battery Type",
+      "options": [
+        {
+          "id": "battery-type-downtube",
+          "label": "Downtube"
+        },
+        {
+          "id": "battery-type-integrated",
+          "label": "Integrated"
+        },
+        {
+          "id": "battery-type-side-release",
+          "label": "Side Release"
+        }
+      ]
+    },
+    {
+      "id": "seatposttype",
+      "label": "Seatpost Type",
+      "options": [
+        {
+          "id": "seatpost-type-dropper",
+          "label": "Dropper"
+        },
+        {
+          "id": "seatpost-type-suspension",
+          "label": "Suspension"
+        },
+        {
+          "id": "seatpost-type-adjustable",
+          "label": "Adjustable"
+        },
+        {
+          "id": "seatpost-type-suspension-dropper",
+          "label": "Suspension Dropper"
+        }
+      ]
+    },
+    {
+      "id": "sale",
+      "label": "Sale",
+      "options": [
+        {
+          "id": "sale-product",
+          "label": "On Sale"
+        }
+      ]
+    }
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "M/L",
+    "L",
+    "XL"
+  ],
+  "products": [
+    {
+      "id": "reign-advanced-eplus",
+      "availabilityMiles": 86,
+      "stock": {
+        "skus": 12,
+        "inStock": 10,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Reign Advanced E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-reign-advanced-eplus",
+      "description": "Everything about the new Reign Advanced E+ is designed to make it the best descending E-MTB ever. From the bottomless feeling Maestro suspension with 170mm of rear travel (and a 180mm fork) to the punchy new SyncDrive Pro 3 motor and its lightweight, stiff and ultra-adjustable composite frame.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£4,549",
+        "oldAmount": "£6,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-enduro",
+        "suspension-full-suspension",
+        "frame-material-composite-carbon",
+        "wheel-size-mixed-27-5-29",
+        "battery-capacity-560-wh",
+        "battery-type-downtube",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "purple-haze-metallic-navy",
+          "label": "Purple Haze/Metallic Navy",
+          "colors": [
+            "#5b2f7a",
+            "#1d2b4a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/parohl5a3hwdgkl3fevq/MY26ReignAdvancedE0_ColorA_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ygi8j5sgtc9msuesatqa/MY26ReignAdvancedE0_ColorAwithrangeextender.jpg"
+          ]
+        },
+        {
+          "key": "mercury-carbon-smoke",
+          "label": "Mercury/Carbon Smoke",
+          "colors": [
+            "#b4b8bc",
+            "#3a3b3d"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/mlwzd7xrll2clxrcjen2/MY26ReignAdvancedE1_ColorAMercury_CarbonSmoke1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ku6dt4kvzmrprljzuyyj/MY26ReignAdvancedE1_ColorAMercury_CarbonSmoke-Rear.jpg"
+          ]
+        },
+        {
+          "key": "moon-dust",
+          "label": "Moon Dust",
+          "colors": [
+            "#b9b2a6"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/mfcoaeynetzwqc2a9cf0/MY26ReignAdvancedE2_ColorAMoonDust.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kispv8ampwkevtmov3wr/MY26ReignAdvancedE2_ColorAMoonDust_Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anytour-x-eplus-2027",
+      "availabilityMiles": 109,
+      "stock": {
+        "skus": 3,
+        "inStock": 3,
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "title": "AnyTour X E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-anytour-x-eplus-2027",
+      "description": "Built for riders who don’t stop when the pavement ends, the AnyTour X E+ delivers premium comfort and confident control across changing terrain. It blends everyday ease with true trekking capability, making it feel steady and effortless to ride as surfaces shift from city streets to gravel and light trails.",
+      "price": {
+        "mode": "regular",
+        "amount": "£3,699"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-adventure",
+        "suspension-front-suspension",
+        "frame-material-aluminium",
+        "wheel-size-27-5",
+        "battery-capacity-625-wh",
+        "battery-type-downtube",
+        "seatpost-type-suspension-dropper"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "default",
+          "label": "Default",
+          "colors": [
+            "#6b7280"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_333%2Cq_80%2Cw_500/x2jknub1ag7hspjlux5e/MY27AnyTourXE3_ColorBBlackCurrant.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "newtour-eplus-2027",
+      "availabilityMiles": 115,
+      "stock": {
+        "skus": 21,
+        "inStock": 20,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "NewTour E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-newtour-eplus-2027",
+      "description": "Exploration feels best when the ride is effortless and intuitive. The NewTour E+ pairs an upright, confidence-inspiring ride feel with thoughtful design, creating an E-bike that moves smoothly from city streets into parks, open routes and beyond.",
+      "price": {
+        "mode": "from",
+        "amount": "£2,399"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-city-hybrid",
+        "suspension-front-suspension",
+        "frame-material-aluminium",
+        "wheel-size-700c",
+        "battery-capacity-625-wh",
+        "battery-type-integrated",
+        "seatpost-type-suspension-dropper",
+        "seatpost-type-suspension",
+        "battery-capacity-500-wh",
+        "battery-type-downtube"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "default",
+          "label": "Default",
+          "colors": [
+            "#6b7280"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_333%2Cq_80%2Cw_500/vpkcqhjszjlg4ltstkkq/newtour-0-lst.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anytour-eplus-2027",
+      "availabilityMiles": 77,
+      "stock": {
+        "skus": 15,
+        "inStock": 15,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "AnyTour E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-anytour-eplus-2027",
+      "description": "Long days in the saddle call for a ride that feels natural from start to finish. Designed with premium, dynamic comfort in mind, the AnyTour E+ prioritizes distance, confidence, and efficiency, supporting relaxed yet responsive riding that makes extended journeys feel easy and rewarding.",
+      "price": {
+        "mode": "from",
+        "amount": "£3,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-city-hybrid",
+        "suspension-front-suspension",
+        "frame-material-aluminium",
+        "wheel-size-700c",
+        "battery-capacity-800-wh",
+        "battery-type-downtube",
+        "seatpost-type-suspension-dropper",
+        "battery-capacity-625-wh"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "panther",
+          "label": "Panther",
+          "colors": [
+            "#1a1a1c"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/bd0kgmvd5roi1f5wrft7/MY27AnytourE1LST_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/fo86dyzzrxitcdsviji1/MY27AnytourE1LST_ColorA-Front.jpg"
+          ]
+        },
+        {
+          "key": "stealth-chome",
+          "label": "Stealth Chome",
+          "colors": [
+            "#3a3d42"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/bawal6heclb9ya0l8dgo/MY27AnytourE3DD_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/q5kcr4albdptd9xv1884/MY27AnytourE3DD_ColorA-Rear.jpg"
+          ]
+        },
+        {
+          "key": "cold-night",
+          "label": "Cold Night",
+          "colors": [
+            "#1f2a3c"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/jxextzdb2j3peuexe0ky/MY27AnytourE4LST_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/qs0doalicq34ougdcnwg/MY27AnytourE4LST_ColorA-Rear.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stance-eplus-2027",
+      "availabilityMiles": 46,
+      "stock": {
+        "skus": 12,
+        "inStock": 12,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Stance E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-stance-eplus-2027",
+      "description": "More power. More confidence.",
+      "price": {
+        "mode": "from",
+        "amount": "£3,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-trail",
+        "suspension-full-suspension",
+        "frame-material-aluminium",
+        "wheel-size-29",
+        "battery-capacity-800-wh",
+        "battery-type-integrated",
+        "seatpost-type-dropper",
+        "battery-capacity-625-wh"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "default",
+          "label": "Default",
+          "colors": [
+            "#6b7280"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_333%2Cq_80%2Cw_500/ypsujudna4ll1jopacih/MY27StanceE0_ColorADeepLake_Black_ColorA.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced-eplus-elite",
+      "availabilityMiles": 85,
+      "stock": {
+        "skus": 14,
+        "inStock": 14,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Defy Advanced E+ Elite",
+      "url": "https://www.giant-bicycles.com/gb/bikes-defy-advanced-eplus-elite",
+      "description": "With its smooth-riding composite frame, lightweight battery, and new SyncDrive Move Plus integrated rear hub motor, the Defy Advanced E+ is the ideal choice for performance-minded road riders who want to tackle steep hills, maintain higher speeds, and experience road riding with no limitations.",
+      "price": {
+        "mode": "from",
+        "amount": "£5,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "wheel-size-700c",
+        "battery-capacity-400-wh",
+        "battery-type-integrated",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "midnight-moon",
+          "label": "Midnight Moon",
+          "colors": [
+            "#757673"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/myl9irvvrpeafw4ltlrp/MY26DefyAdvancedEElite0_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/s3xxzwoohi2hmg81oaj2/MY26DefyAdvancedEElite0_ColorA-Front.jpg"
+          ]
+        },
+        {
+          "key": "mariana-blue",
+          "label": "Mariana Blue",
+          "colors": [
+            "#1c3f6e"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/sc6suv0fyyjjzxihrdlh/MY26DefyAdvancedEElite1_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wba7ul58u1oacw4sazud/MY26DefyAdvancedEElite1_ColorA-Rear.jpg"
+          ]
+        },
+        {
+          "key": "meteor-storm",
+          "label": "Meteor Storm",
+          "colors": [
+            "#6a7078"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ft1cmscm13q7vsvrv4ft/MY26DefyAdvancedEElite2_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ruo0rjmwznphrlwzycia/MY26DefyAdvancedEElite2_ColorA-D3.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced-eplus-elite-ar",
+      "availabilityMiles": 27,
+      "stock": {
+        "skus": 5,
+        "inStock": 5,
+        "sizes": [
+          "S",
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "Defy Advanced E+ Elite AR",
+      "url": "https://www.giant-bicycles.com/gb/bikes-defy-advanced-eplus-elite-ar",
+      "description": "With its smooth-riding composite frame, lightweight battery, new SyncDrive Move Plus integrated rear hub motor and all-road ready 38mm tires, the Defy Advanced E+ AR is the ideal choice for performance-minded road riders who want to tackle steep hills, maintain higher speeds, and experience road riding with no limitations.",
+      "price": {
+        "mode": "regular",
+        "amount": "£5,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "wheel-size-700c",
+        "battery-capacity-400-wh",
+        "battery-type-integrated",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "mercury",
+          "label": "Mercury",
+          "colors": [
+            "#b4b8bc"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ehmrm9zjcw1itkwsarbm/MY26DefyAdvancedEEliteAR_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/byqkdwgu0zztqnzahupb/MY26DefyAdvancedEEliteAR_ColorA-D4.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore-eplus",
+      "availabilityMiles": 116,
+      "stock": {
+        "skus": 33,
+        "inStock": 32,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Explore E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-explore-eplus",
+      "description": "Built for adventure, the Explore E+ turns commutes and escapes into open horizons. With versatile design and seamless integration, it delivers smooth support, confidence, and freedom to ride farther, wherever the journey leads.",
+      "price": {
+        "mode": "from",
+        "amount": "£2,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-trekking",
+        "suspension-front-suspension",
+        "frame-material-aluminium",
+        "wheel-size-700c",
+        "battery-capacity-800-wh",
+        "battery-type-integrated",
+        "seatpost-type-adjustable",
+        "battery-capacity-625-wh",
+        "battery-capacity-500-wh"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "S"
+      ],
+      "colors": [
+        {
+          "key": "snow-drift",
+          "label": "Snow Drift",
+          "colors": [
+            "#f0f4f6"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/nm1iybfcc8b1rnvtepvy/MY26ExploreE0DD_ColorASnowDrift.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/tnejjkiqp0qgeaacyitj/MY26ExploreE0DD_ColorASnowDrift-Front.jpg"
+          ]
+        },
+        {
+          "key": "metallic-navy",
+          "label": "Metallic Navy",
+          "colors": [
+            "#1d2b4a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/emmze8fb2lsw8lorc3rw/MY26ExploreE1DD_ColorAMetallicNavy.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/g14prczsjos7d6seyugv/MY26ExploreE1DD_ColorAMetallicNavy-Front.jpg"
+          ]
+        },
+        {
+          "key": "alpine-green",
+          "label": "Alpine Green",
+          "colors": [
+            "#2f6b3f"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wxuxn4qzuw8qk8hbft6i/MY26ExploreE2DD_ColorAAlpineGreen.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/pilhszkfqy9dd9keabm6/MY26ExploreE2DD_ColorAAlpineGreen-D4.jpg"
+          ]
+        },
+        {
+          "key": "pyrite-brown",
+          "label": "Pyrite Brown",
+          "colors": [
+            "#6b4a32"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/kwvf72bu3wfpo9jjd6fg/MY26ExploreE3DD_ColorAPyriteBrown.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/duiorudydhrn5n5lo2sx/MY26ExploreE3DD_ColorAPyriteBrown-D5.jpg"
+          ]
+        },
+        {
+          "key": "stealth-chome",
+          "label": "Stealth Chome",
+          "colors": [
+            "#3a3d42"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/lwennmpxikc5dheprp3t/MY26ExploreE4DD_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/tfsqcfaxjobiei2dqgxf/MY26ExploreE4DD_ColorA-D5-6.jpg"
+          ]
+        },
+        {
+          "key": "mars-dust",
+          "label": "Mars Dust",
+          "colors": [
+            "#b9b2a6"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/eb2t8xggezuq9tqd3gvs/MY26ExploreE4DD_ColorB.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "talon-eplus",
+      "availabilityMiles": 79,
+      "stock": {
+        "skus": 12,
+        "inStock": 12,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Talon E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-talon-eplus",
+      "description": "Whether you’re riding trails, exploring dirt roads, or putting some zip in your daily commute, riding an E-bike doesn’t have to be complicated. The all-new Talon E+ range lets you do it all, combining the exhilarating sensation of pedal-assist power with light and agile off-road handling.",
+      "price": {
+        "mode": "regular",
+        "amount": "£2,299"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-trail",
+        "suspension-hardtail",
+        "frame-material-aluminium",
+        "wheel-size-29",
+        "battery-capacity-500-wh",
+        "battery-type-side-release",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "asphalt-green",
+          "label": "Asphalt Green",
+          "colors": [
+            "#004814"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/swqogbgs0mm6zjmu0pbw/MY26TalonE_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/amo1b3k9g427cnohvtcj/MY26TalonE_ColorA-Front.jpg"
+          ]
+        },
+        {
+          "key": "electric-blue",
+          "label": "Electric Blue",
+          "colors": [
+            "#4c71b0"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/eml79ayh59tjigetk1iu/MY26TalonE_ColorB.jpg"
+          ]
+        },
+        {
+          "key": "meteor-storm",
+          "label": "Meteor Storm",
+          "colors": [
+            "#6a7078"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/swqogbgs0mm6zjmu0pbw/MY26TalonE_ColorA.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/amo1b3k9g427cnohvtcj/MY26TalonE_ColorA-Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fathom-eplus",
+      "availabilityMiles": 21,
+      "stock": {
+        "skus": 4,
+        "inStock": 4,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Fathom E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-fathom-eplus",
+      "description": "Take control of the trail with this fun new hardtail E-bike. Now you can climb with greater ease and ride farther, the perfect formula for a great day on the trail.",
+      "price": {
+        "mode": "discount",
+        "amount": "£2,399",
+        "oldAmount": "£2,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-trail",
+        "suspension-hardtail",
+        "frame-material-aluminium",
+        "wheel-size-29",
+        "battery-capacity-750-wh",
+        "battery-type-integrated",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "deep-lake",
+          "label": "Deep Lake",
+          "colors": [
+            "#1e4d67"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/j7pxmcxk75e9inzgvbku/MY26_Fathom_E_black_tires.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/sykybb3qxi9f5myvdonr/MY26FathomE_ColorA-D1.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "talon-eplus-ex",
+      "availabilityMiles": 13,
+      "stock": {
+        "skus": 4,
+        "inStock": 4,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "title": "Talon E+ EX",
+      "url": "https://www.giant-bicycles.com/gb/bikes-talon-eplus-ex",
+      "description": "Whether you’re riding trails, exploring dirt roads, or putting some zip in your daily commute, riding an E-bike doesn’t have to be complicated. The all-new Talon E+ range lets you do it all, combining the exhilarating sensation of pedal-assist power with light and agile off-road handling.",
+      "price": {
+        "mode": "regular",
+        "amount": "£2,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-trail",
+        "suspension-hardtail",
+        "frame-material-aluminium",
+        "wheel-size-29",
+        "battery-capacity-500-wh",
+        "battery-type-side-release",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "metallic-navy",
+          "label": "Metallic Navy",
+          "colors": [
+            "#1d2b4a"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/narqlbnul83ksaqvbbew/MY26TalonEEX_ColorAMetallicNavy.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/rbr7pvrwwayhze1z8wpi/MY26TalonEEX_ColorAMetallicNavy-D2.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced-eplus-elite-2025",
+      "availabilityMiles": 97,
+      "stock": {
+        "skus": 9,
+        "inStock": 6,
+        "sizes": [
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "Defy Advanced E+ Elite",
+      "url": "https://www.giant-bicycles.com/gb/bikes-defy-advanced-eplus-elite-2025",
+      "description": "With its smooth-riding composite frame, lightweight battery, and new SyncDrive Move Plus integrated rear hub motor, the Defy Advanced E+ is the ideal choice for performance-minded road riders who want to tackle steep hills, maintain higher speeds, and experience road riding with no limitations.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£4,224",
+        "oldAmount": "£6,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "wheel-size-700c",
+        "battery-capacity-400-wh",
+        "battery-type-integrated",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-raw-carbon-black",
+          "label": "Gloss Raw carbon / Black",
+          "colors": [
+            "#2b2b2d",
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/stsrgo251b0lt6ltkniv/MY24DefyAdvancedEplusEL1_ColorARawcarbon.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/pcdfzn0dr2pfvpv9nrbi/MY24DefyAdvancedEplusEL1_ColorARawcarbon-Front.jpg"
+          ]
+        },
+        {
+          "key": "gloss-sea-sparkle-black",
+          "label": "Gloss Sea Sparkle / Black",
+          "colors": [
+            "#2b8fa8",
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ydelvy7so4znwgtqznas/MY24DefyAdvancedEplusEL2_ColorASeaSparkle.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/idgrmurfdttvq7r3nq28/MY24DefyAdvancedEplusEL2_ColorASeaSparkle-Rear.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "defy-advanced-eplus-elite-ar-2025",
+      "availabilityMiles": 17,
+      "stock": {
+        "skus": 5,
+        "inStock": 3,
+        "sizes": [
+          "S",
+          "M",
+          "M/L"
+        ]
+      },
+      "title": "Defy Advanced E+ Elite AR",
+      "url": "https://www.giant-bicycles.com/gb/bikes-defy-advanced-eplus-elite-ar-2025",
+      "description": "With its smooth-riding composite frame, lightweight battery, new SyncDrive Move Plus integrated rear hub motor and all-road ready 38mm tyres, the Defy Advanced E+ AR is the ideal choice for performance-minded road riders who want to tackle steep hills, maintain higher speeds, and experience road riding with no limitations.",
+      "price": {
+        "mode": "discount",
+        "amount": "£3,899",
+        "oldAmount": "£5,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-endurance",
+        "frame-material-composite-carbon",
+        "wheel-size-700c",
+        "battery-capacity-400-wh",
+        "battery-type-integrated",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "matte-kelp-forest-black",
+          "label": "Matte Kelp Forest / Black",
+          "colors": [
+            "#2c4a3a",
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/hu1jq9fev5zih1rs5ctz/MY24DefyAdvancedEplusELAR_ColorAKelpForest(1).jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/uixa2gg8dxwhowtoyozq/MY24DefyAdvancedEplusELAR_ColorAKelpForest-Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anytour-x-eplus-2024",
+      "availabilityMiles": 106,
+      "stock": {
+        "skus": 3,
+        "inStock": 1,
+        "sizes": [
+          "L"
+        ]
+      },
+      "title": "AnyTour X E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-anytour-x-eplus-2024",
+      "description": "Choose your destination, a quick ride across town or a long-distance adventure, and let the new AnyTour X E+ Pro take you there. With a low step-through frame, smooth suspension and large, grippy tyres for rough roads, gravel or dirt, this versatile E-bike helps you find joy in any journey.",
+      "price": {
+        "mode": "discount",
+        "amount": "£2,774",
+        "oldAmount": "£3,699"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-adventure",
+        "suspension-front-suspension",
+        "frame-material-aluminium",
+        "wheel-size-650b",
+        "battery-capacity-625-wh",
+        "battery-type-integrated",
+        "seatpost-type-suspension-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "gloss-pyrite-brown-black",
+          "label": "Gloss Pyrite Brown / Black",
+          "colors": [
+            "#6b4a32",
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/hrbhfxleqxttj5sgwfms/MY24AnyTourXEplus3_ColorAPyriteBrown.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/shehb093rw8yk80h20bx/MY24AnyTourXEplus3_ColorAPyriteBrown_Rear.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anytour-eplus-2024",
+      "availabilityMiles": 74,
+      "stock": {
+        "skus": 3,
+        "inStock": 2,
+        "sizes": [
+          "S",
+          "M"
+        ]
+      },
+      "title": "AnyTour E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-anytour-eplus-2024",
+      "description": "This versatile and practical E-bike is ideal for daily commuting and other adventures. It has a full colour display with on-board navigation and all the built-in features you can think of including suspension, lights, fenders and racks.",
+      "price": {
+        "mode": "discount",
+        "amount": "£2,589",
+        "oldAmount": "£3,399"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-city-hybrid",
+        "suspension-front-suspension",
+        "frame-material-aluminium",
+        "wheel-size-700c",
+        "battery-capacity-625-wh",
+        "battery-type-integrated",
+        "seatpost-type-suspension-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "gloss-eclipse-black",
+          "label": "Gloss Eclipse / Black",
+          "colors": [
+            "#1b1b22",
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xnaedvqle955lffbekkm/ANYTOUR_E_3.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/xiv374qhjwopyjwv20os/MY24AnyTourEplus3_ColorAEclipse-D5.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revolt-eplus-2024",
+      "availabilityMiles": 79,
+      "stock": {
+        "skus": 5,
+        "inStock": 3,
+        "sizes": [
+          "M",
+          "M/L",
+          "L"
+        ]
+      },
+      "title": "Revolt E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-revolt-eplus-2024",
+      "description": "From rough roads to gravel, dirt and mixed terrain adventures, this versatile drop bar E-bike gives you the power to ride farther and faster on any route you can dream up.",
+      "price": {
+        "mode": "regular",
+        "amount": "£4,499"
+      },
+      "secondary": "0% APR Finance",
+      "tag": null,
+      "facets": [
+        "best-for-gravel",
+        "frame-material-aluminium",
+        "wheel-size-700c",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gloss-phantom-green",
+          "label": "Gloss Phantom Green",
+          "colors": [
+            "#2f6b3f"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ln4ezzfmpayehe6k1vvw/MY24-Revolt-Eplus-1_Color-A-Shell-White.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/g8iuquqz1idnkxg5esr3/MY24-Revolt-Eplus-1_Color-A-Shell-White_Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expression-eplus-2024",
+      "availabilityMiles": 81,
+      "stock": {
+        "skus": 15,
+        "inStock": 10,
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "title": "Expression E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-expression-eplus-2024",
+      "description": "Exhilarating yet relaxing. With smooth, powerful pedalling assistance and comfortable handling, the new Expression E+ is a motivating companion for commuting, fitness riding, or just pedalling for the fun of it.",
+      "price": {
+        "mode": "from-discount",
+        "amount": "£1,889",
+        "oldAmount": "£2,699"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-trekking",
+        "suspension-front-suspension",
+        "frame-material-aluminium",
+        "wheel-size-700c",
+        "battery-capacity-600-wh",
+        "battery-type-downtube",
+        "seatpost-type-suspension",
+        "battery-capacity-500-wh",
+        "seatpost-type-adjustable",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "key": "gloss-sangria",
+          "label": "Gloss Sangria",
+          "colors": [
+            "#7b1f33"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/dmu3amdikveqwdkvtqdj/MY24ExpressionEplus0_ColorASangria.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/bdtyjwnhfqvxkaqpynfs/MY24ExpressionEplus0_ColorASangria_Front.jpg"
+          ]
+        },
+        {
+          "key": "gloss-cosmos-navy-matte-copper-coin",
+          "label": "Gloss Cosmos Navy & Matte Copper Coin",
+          "colors": [
+            "#a35f38"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/sexi0ri25ibitx2yt5wp/MY24ExpressionEplus1_ColorACosmosNavy.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/f8ftrwyy8xezmqzsbtwu/MY24ExpressionEplus1_ColorACosmosNavy_Front.jpg"
+          ]
+        },
+        {
+          "key": "gloss-black-currant-matte-early-espresso",
+          "label": "Gloss Black Currant & Matte Early Espresso",
+          "colors": [
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/i3j7rcrnpqfrph5cxt85/MY24ExpressionEplus2_ColorABlackCurrant.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/aczgzftprvrxezyqdtmr/MY24ExpressionEplus2_ColorABlackCurrant_Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fathom-eplus-2024",
+      "availabilityMiles": 85,
+      "stock": {
+        "skus": 4,
+        "inStock": 0,
+        "sizes": []
+      },
+      "title": "Fathom E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-fathom-eplus-2024",
+      "description": "Take control of the trail with this fun new hardtail E-bike. Now you can climb with greater ease and ride farther, the perfect formula for a great day on the trail.",
+      "price": {
+        "mode": "regular",
+        "amount": "£2,999"
+      },
+      "secondary": "MSRP excluding sales tax and dealer fees",
+      "tag": null,
+      "facets": [
+        "best-for-trail",
+        "suspension-hardtail",
+        "frame-material-aluminium",
+        "wheel-size-29",
+        "battery-capacity-500-wh",
+        "battery-type-integrated",
+        "seatpost-type-adjustable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "sangria",
+          "label": "Sangria",
+          "colors": [
+            "#7b1f33"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/w1rhoxx9celbnyvbmz1b/MY24FathomEplus3_ColorASangria.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wzi0hypd8jvazo54t3gg/MY24FathomEplus3_ColorASangria_Rear.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trance-x-advanced-eplus-elite-2023",
+      "availabilityMiles": 19,
+      "stock": {
+        "skus": 4,
+        "inStock": 2,
+        "sizes": [
+          "M",
+          "L"
+        ]
+      },
+      "title": "Trance X Advanced E+ Elite",
+      "url": "https://www.giant-bicycles.com/gb/bikes-trance-x-advanced-eplus-elite-2023",
+      "description": "Accelerate up climbs, float through rock gardens, experience more power, agility and control with this lightweight, full-suspension E-MTB. A new ultra-slim battery minimises weight so you can ride technical trails the way you always dreamed of.",
+      "price": {
+        "mode": "discount",
+        "amount": "£5,399",
+        "oldAmount": "£8,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-trail",
+        "suspension-full-suspension",
+        "frame-material-composite-carbon",
+        "wheel-size-mixed-27-5-29",
+        "battery-capacity-400-wh",
+        "battery-type-integrated",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "gunmetal-black-black",
+          "label": "Gunmetal Black/Black",
+          "colors": [
+            "#151515",
+            "#151515"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/yue3j1ifhbvfqdps16dg/TranceXAdvancedEplusElite1.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/ehcbhov4aoszuht870oz/MY23TranceXAdvancedEplusEL1_ColorAGunmetalBlack_Front.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trance-x-advanced-eplus-2023",
+      "availabilityMiles": 42,
+      "stock": {
+        "skus": 4,
+        "inStock": 1,
+        "sizes": [
+          "XL"
+        ]
+      },
+      "title": "Trance X Advanced E+",
+      "url": "https://www.giant-bicycles.com/gb/bikes-trance-x-advanced-eplus-2023",
+      "description": "A new breed of trail bike that blends power, performance and flat-out fun. With its lightweight composite frame, plush suspension and new motor technology, you’ll never want the ride to end.",
+      "price": {
+        "mode": "discount",
+        "amount": "£5,599",
+        "oldAmount": "£7,999"
+      },
+      "secondary": "0% APR Finance",
+      "tag": {
+        "type": "sale",
+        "label": "Sale"
+      },
+      "facets": [
+        "best-for-trail",
+        "suspension-full-suspension",
+        "frame-material-composite-carbon",
+        "wheel-size-29",
+        "battery-capacity-800-wh",
+        "battery-type-integrated",
+        "seatpost-type-dropper",
+        "sale-product"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "key": "airglow-carbon-smoke",
+          "label": "Airglow/Carbon Smoke",
+          "colors": [
+            "#5f8f8a",
+            "#3a3b3d"
+          ],
+          "images": [
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/zrcltb5xkbzhoqiostsk/MY23TranceXAdvancedEplus1_ColorAAirglow.jpg",
+            "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/wqwpryjm7zh3jzvcmrwl/MY23TranceXAdvancedEplus1_ColorAAirglow_Front.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}
